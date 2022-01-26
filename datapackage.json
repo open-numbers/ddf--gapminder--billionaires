@@ -1,0 +1,14 @@
+{
+    "name": "ddf--gapminder--forbes_billionaires",
+    "author": "Gapminder",
+    "description": "Forbes billionaires dataset",
+    "language": {
+        "name": "English",
+        "id": "en"
+    },
+    "translations": [],
+    "license": "CC-BY-4.0",
+    "title": "Forbes Billionaires",
+    "version": "0.0.1",
+    "resources": []
+}
