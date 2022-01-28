@@ -1,14 +1,176 @@
 {
     "name": "ddf--gapminder--forbes_billionaires",
-    "author": "Gapminder",
-    "description": "Forbes billionaires dataset",
     "language": {
         "name": "English",
         "id": "en"
     },
-    "translations": [],
-    "license": "CC-BY-4.0",
     "title": "Forbes Billionaires",
+    "description": "Forbes billionaires dataset",
+    "author": "Gapminder",
+    "license": "CC-BY-4.0",
+    "translations": [],
     "version": "0.0.1",
-    "resources": []
+    "created": "2022-01-28T08:13:28.515498+00:00",
+    "resources": [
+        {
+            "name": "ddf--concepts",
+            "path": "ddf--concepts.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "concept_type"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "domain"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        },
+        {
+            "name": "ddf--datapoints--worth--by--person--year",
+            "path": "ddf--datapoints--worth--by--person--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "person"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "worth"
+                    }
+                ],
+                "primaryKey": [
+                    "person",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--person",
+            "path": "ddf--entities--person.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "person"
+                    },
+                    {
+                        "name": "age"
+                    },
+                    {
+                        "name": "gender"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "industry"
+                    }
+                ],
+                "primaryKey": "person"
+            }
+        }
+    ],
+    "ddfSchema": {
+        "concepts": [
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "concept_type",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "domain",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            }
+        ],
+        "entities": [
+            {
+                "primaryKey": [
+                    "person"
+                ],
+                "value": "age",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
+                "value": "country",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
+                "value": "gender",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
+                "value": "industry",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            }
+        ],
+        "datapoints": [
+            {
+                "primaryKey": [
+                    "person",
+                    "year"
+                ],
+                "value": "worth",
+                "resources": [
+                    "ddf--datapoints--worth--by--person--year"
+                ]
+            }
+        ],
+        "synonyms": []
+    }
 }
