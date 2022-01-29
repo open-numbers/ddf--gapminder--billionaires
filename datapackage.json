@@ -8,9 +8,9 @@
     "description": "Forbes billionaires dataset",
     "author": "Gapminder",
     "license": "CC-BY-4.0",
+    "created": "2022-01-29T04:53:36.842060+00:00",
     "translations": [],
     "version": "0.0.1",
-    "created": "2022-01-28T08:13:28.515498+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -63,16 +63,19 @@
                         "name": "person"
                     },
                     {
+                        "name": "name"
+                    },
+                    {
                         "name": "age"
                     },
                     {
                         "name": "gender"
                     },
                     {
-                        "name": "name"
+                        "name": "country"
                     },
                     {
-                        "name": "country"
+                        "name": "source"
                     },
                     {
                         "name": "industry"
@@ -154,6 +157,15 @@
                     "person"
                 ],
                 "value": "name",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
+                "value": "source",
                 "resources": [
                     "ddf--entities--person"
                 ]
