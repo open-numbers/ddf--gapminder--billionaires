@@ -8,7 +8,7 @@
     "description": "Forbes billionaires dataset",
     "author": "Gapminder",
     "license": "CC-BY-4.0",
-    "created": "2022-01-29T04:53:36.842060+00:00",
+    "created": "2022-02-11T16:19:39.772395+00:00",
     "translations": [],
     "version": "0.0.1",
     "resources": [
@@ -31,6 +31,27 @@
                     }
                 ],
                 "primaryKey": "concept"
+            }
+        },
+        {
+            "name": "ddf--datapoints--annual_income--by--person--year",
+            "path": "ddf--datapoints--annual_income--by--person--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "person"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "annual_income"
+                    }
+                ],
+                "primaryKey": [
+                    "person",
+                    "year"
+                ]
             }
         },
         {
@@ -172,6 +193,16 @@
             }
         ],
         "datapoints": [
+            {
+                "primaryKey": [
+                    "person",
+                    "year"
+                ],
+                "value": "annual_income",
+                "resources": [
+                    "ddf--datapoints--annual_income--by--person--year"
+                ]
+            },
             {
                 "primaryKey": [
                     "person",
