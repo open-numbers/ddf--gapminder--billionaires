@@ -1,0 +1,2258 @@
+ID,Ranking,NameEn,Wealth,Birthday,CNameEn,IndustryEn,year
+2057,1,Bill Gates,81,1956,Microsoft ,Investments,2017
+2058,2,Warren Buffett,78,1931,Berkshire Hathaway,Investments,2017
+2059,3,Jeff Bezos,72,1964,Amazon,Online Retail,2017
+2060,4,Amancio Ortega,69,1937,Inditex,Single Brand Retailing,2017
+2061,5,Mark Zuckerberg,58,1985,Facebook ,Technology,2017
+2062,6,Larry Ellison,48,1945,Oracle,Technology,2017
+2063,7,Carlos Slim Helu & family,46,1941,America Movil,Investments,2017
+2064,8,Charles Koch,43,1936,Koch Industries,Energy,2017
+2065,8,David Koch,43,1941,Koch Industries,Energy,2017
+2066,10,Michael Bloomberg,42,1943,Bloomberg,Media,2017
+2067,11,Bernard Arnault,38,1950,LVMH,Single Brand Retailing,2017
+2068,12,Larry Page,37,1974,Google ,Technology,2017
+2069,12,Liliane Bettencourt,37,1923,L'Oreal,Cosmetics,2017
+2070,14,Sergey Brin,36,1974,Google ,Technology,2017
+2071,15,Ingvar Kamprad & family,34,1927,Ikea,Single Brand Retailing,2017
+2072,16,Alice Walton,31,1950,Walmart,Multi Brand Retailing,2017
+2073,16,Jim Walton,31,1949,Walmart,Multi Brand Retailing,2017
+2074,16,Robson Walton,31,1947,Walmart,Multi Brand Retailing,2017
+2075,19,Wang Jianlin & family,30,1954,Wanda,Real Estate,2017
+2076,20,Bertrand Puech & family,29,1937,Hermes,Single Brand Retailing,2017
+2077,20,Jack Ma Yun & family,29,1964,"Alibaba, Ant Financial",TMT,2017
+2078,20,Phil Knight,29,1945,Nike,Footwear Retail,2017
+2079,23,Jacqueline Mars,28,1940,Mars ,Food & Beverages,2017
+2080,23,John Mars,28,1936,Mars ,Food & Beverages,2017
+2081,25,Dieter Schwarz,27,1940,Schwarz Group,Multi Brand Retailing,2017
+2082,25,George Soros,27,1931,Soros Fund Management,Hedge Funds,2017
+2083,25,Steve Ballmer,27,1957,Microsoft,Technology,2017
+2084,25,Wang Wei,27,1971,SF Express,Express delivery,2017
+2085,29,Jorge Paulo Lemann,26,1940,AbInbev,Food & Beverages,2017
+2086,29,Karl Albrecht Jr & family,26,1949,Aldi Sud,Multi Brand Retailing,2017
+2087,29,Mukesh Ambani,26,1958,Reliance ,Oil & Gas,2017
+2088,32,Li Ka-shing,25,1928,Cheung Kong,Real Estate、Energy、Investments,2017
+2089,32,Masayoshi Son,25,1958,Softbank,Telecom,2017
+2090,34,James & Arthur Irving,24,1930,Irving Group,Energy,2017
+2091,34,Lee Shau Kee,24,1928,Henderson Land,Real Estate、Investments,2017
+2092,34,Sheldon Adelson,24,1934,Las Vegas Sands ,Casinos,2017
+2093,37,Gérard Mulliez & family,23,1932,Auchan,Multi Brand Retailing,2017
+2094,38,Maria Franca Fissolo,22,1942,Ferrero Rocher,Food & Beverages,2017
+2095,38,Pony Ma,22,1971,Tencent,IT,2017
+2096,40,Paul Allen,21,1953,Vulcan,Investments,2017
+2097,41,Carl Icahn,20,1937,Icahn Enterprises,Investments,2017
+2098,41,Stefan Persson,20,1948,Hennes & Mauritz,Single Brand Retailing,2017
+2099,41,Susanne Klatten,20,1963,BMW,Automobiles & Auto Components,2017
+2100,44,David Thomson & family,19,1958,Thomson Reuters,Media,2017
+2101,44,Galen Weston & family,19,1941,George Weston  ,Food & Beverages,2017
+2102,44,Leonard Blavatnik,19,1958,Lyondellbasell,Energy,2017
+2103,47,Ding Lei,18,1971,Netease,IT、 Entertainment,2017
+2104,47,Donald Bren,18,1933,Irvine Company,Real Estate,2017
+2105,47,Elaine Marshall & family,18,1946,Koch Industries,Investments,2017
+2106,47,Leonardo Del Vecchio,18,1936,Luxottica,Luxury Goods,2017
+2107,47,Stefan Quandt,18,1967,BMW,Automobiles & Auto Components,2017
+2108,52,Dhanin Chearavanont & family,17,1940,Charoen Pokphand Foods,Food & Beverages,2017
+2109,52,Georg Schaeffler ,17,1965,Schaeffler Group,Manufacturing,2017
+2110,52,Iris Fontbona & family,17,1943,Quinenco,Mining,2017
+2111,52,Khalifa bin Zayed Al Nahyan & family,17,1949,SBK Holdings,Energy,2017
+2112,56,Alwaleed Bin Talal Alsaud,16,1956,Kingdom Holding,Investments,2017
+2113,56,Charles Ergen,16,1954,Dish Networks ,Entertainment,2017
+2114,56,Michael Dell,16,1966,Dell ,Technology,2017
+2115,56,Ray Dalio,16,1950,Bridgewater Associates,Hedge Funds,2017
+2116,56,Serge Dassault & family,16,1926,Dassault System,Aviation,2017
+2117,56,Zong Qinghou & family,16,1945,Wahaha,Food & Beverages,2017
+2118,62,Charoen Sirivadhanabhakdi,15,1945,Thai Beverage,Food & Beverages,2017
+2119,62,Francois Pinault & family,15,1937,Kering,Multi Brand Retailing,2017
+2120,62,Harold Hamm,15,1946,Continental Resources,Energy,2017
+2121,62,Hassanal Bolkiah & family,15,1947,Brunei Investment Agency,Energy,2017
+2122,62,Henry Cheng & family,15,1948,"New World, Chow Tai Fook",Real Estate、Jewellery、Investments,2017
+2123,62,Hugh Grosvenor,15,1991,Grosvenor,Real Estate,2017
+2124,62,James Simons,15,1939,Renaissance Technologies,Hedge Funds,2017
+2125,62,Laurene Powell Jobs & family,15,1964,Walt Disney,Technology,2017
+2126,62,Leonid Mikhelson,15,1956,Novatek,Energy,2017
+2127,62,Ronald Perelman,15,1943,Scientific Game ,Investments,2017
+2128,62,Thomas Peterffy,15,1945,Interactive Brokers,Financial Services,2017
+2129,62,Vladimir Potanin,15,1961,Interros,Steel,2017
+2130,62,Yao Zhenhua,15,1970,Baoneng ,Investments、  Real estate,2017
+2131,75,Alexey Mordashov,14,1966,Severstal,Steel,2017
+2132,75,Dilip Shanghvi,14,1957,Sun Pharma,Pharmaceuticals,2017
+2133,75,Elon Musk,14,1972,Tesla Motors,Automobiles & Auto Components,2017
+2134,75,Emilio Alves Odebrecht & family,14,/,Odebrecht,Petrochemical,2017
+2135,75,Lee Kun Hee,14,1942,Samsung,Electronics,2017
+2136,75,Li Yanhong & Ma Dongmin,14,1968、1970,Baidu,TMT,2017
+2137,75,SP Hinduja & family,14,/,Hinduja Group,Manufacturing,2017
+2138,75,Stephen Schwarzman,14,1948,Blackstone ,Investments,2017
+2139,75,Steve Cohen,14,1957,Sac Capital,Hedge Funds,2017
+2140,75,Viktor Vekselberg,14,1958,Renova ,Energy,2017
+2141,75,Yan Hao & family,14,1986,China Pacific Construction ,Construction,2017
+2142,86,Abigail Johnson,13,1962,Fidelity ,Investments,2017
+2143,86,Alain Wertheimer,13,1949,Chanel,Single Brand Retailing,2017
+2144,86,Gennady Timchenko,13,1953,Gunvor,Energy,2017
+2145,86,Gerard Wertheimer,13,1951,Chanel,Single Brand Retailing,2017
+2146,86,Joseph Lau,13,1951,Chinese Estates,Real Estate、Art Collection,2017
+2147,86,Joseph Safra,13,1939,Safra,Banking,2017
+2148,86,Majid Al Futtaim,13,/,Majid Al Futtaim,Real Estate,2017
+2149,86,Robert Kuok,13,1924,Kuok Group,Diversified,2017
+2150,86,Stefano Pessina,13,1942,Walgreen,Pharmaceuticals,2017
+2151,86,Tadashi Yanai,13,1950,Fast Retailing,Multi Brand Retailing,2017
+2152,86,Takemitsu Takizaki,13,1946,Keyence ,Technology,2017
+2153,86,Vladimir Lisin,13,1957,Novolipetsk Steel,Steel,2017
+2154,98,Dietrich Mateschitz,12,1945,Red Bull,Food & Beverages,2017
+2155,98,Eric Schmidt,12,1956,Google,Technology,2017
+2156,98,Hans Rausing,12,1927,Tetra Pak,Packaging,2017
+2157,98,Lakshmi N Mittal,12,1953,ArcelorMittal,Steel,2017
+2158,98,Lu Zhiqiang & family,12,1952,Oceanwide,Real Estate,2017
+2159,98,Pallonji Mistry,12,1931,Shapoorji Pallonji,Construction & Engineering,2017
+2160,98,Rupert Murdoch,12,1932,News Corp,Media,2017
+2161,98,Shiv Nadar,12,1946,HCL,Software & Services,2017
+2162,98,Xu Jiayin,12,1958,Evergrande,Real Estate、 Investments,2017
+2163,107,Andrew Beal,11,1953,Beal Bank,Investments,2017
+2164,107,Charlene Carvalho ,11,1955,Heineken,Food & Beverages,2017
+2165,107,Charles Butt & family,11,1939,Heb Store,Multi Brand Retailing,2017
+2166,107,Cyrus Poonawalla,11,1942,Serum,Pharmaceuticals,2017
+2167,107,David Tepper,11,1958,Appaloosa Management,Hedge Funds,2017
+2168,107,Donald Newhouse,11,1931,Discovery Communication,Media,2017
+2169,107,Emmanuel Besnier,11,1971,Lactalis,Food & Beverages,2017
+2170,107,Gina Rinehart,11,1955,Roy Hill Iron Ore Mine,Mining,2017
+2171,107,He Xiangjian & He Jianfeng,11,1942、1967,Midea ,Home appliances,2017
+2172,107,John Fredriksen,11,1945,Frontline ,Energy,2017
+2173,107,Marcel Herrmann Telles,11,1951,AbInbev,Food & Beverages,2017
+2174,107,Massimiliana Landini Aleotti & family,11,1944,Menarini,Pharmaceuticals,2017
+2175,107,Michael Otto & family,11,1944,Otto Group,Multi Brand Retailing,2017
+2176,107,Philip Anschutz,11,1940,Anschutz Entertainment ,Entertainment,2017
+2177,107,Samuel Newhouse Jr,11,1928,Discovery Communication,Media,2017
+2178,107,Vagit Alekperov,11,1951,Lukoil,Energy,2017
+2179,107,Yan Bin,11,1954,Reignwood,Food & Beverages,2017
+2180,107,Zhang Jindong,11,1963,Suning,Retail,2017
+2181,125,Alberto Bailleres Gonzalez & family,10,1932,Industrias Penoles,Mining,2017
+2182,125,Blair Parry-Okeden,10,1951,Cox Enterprise,Media,2017
+2183,125,Klaus-Michael Kuhne,10,1938,Kuehne & Nagel ,Shipping,2017
+2184,125,Kwong Siu Hing,10,1929,Sun Hung Kai,Real Estate,2017
+2185,125,Lui Che Woo,10,1929,Galaxy Entertainment,Gaming,2017
+2186,125,Peter Woo & Pao Pui Yung,10,1946,Wheelock,Real Estate,2017
+2187,125,Petr Kellner,10,1965,Ppf Group ,Banking,2017
+2188,132,Charles Schwab,9.9,1938,Charles Schwab ,Investments,2017
+2189,132,Dustin Moskovitz,9.9,1985,Facebook,Technology,2017
+2190,134,Patrick Drahi,9.8,1964,Altice,Telecom,2017
+2191,135,Azim Premji,9.7,1946,Wipro,Software & Services,2017
+2192,135,Henry Sy & family,9.7,1925,Sm Prime Holding,Multi Brand Retailing,2017
+2193,135,Jim Kennedy,9.7,1947,Cox Enterprise,Media,2017
+2194,135,John Paulson,9.7,1956,Paulson,Hedge Funds,2017
+2195,135,Wang Wenyin & Liu Jiehong,9.7,1968,Amer,Cable and copper products,2017
+2196,140,Aliko Dangote,9.6,1958,Dangote Cement,Cement,2017
+2197,140,Hasso Plattner,9.6,1945,SAP,Software,2017
+2198,142,Dmitry Rybolovlev,9.5,1967,Uralkali,Chemicals & Petrochemicals,2017
+2199,143,Lucas Walton,9.4,1987,Walmart,Multi Brand Retailing,2017
+2200,143,Patrick Soon-Shiong,9.4,1953,Nant Works,Pharmaceuticals,2017
+2201,145,Chalerm Yoovidhya & family,9.3,/,Red Bull,Food & Beverages,2017
+2202,145,Lei Jun,9.3,1969,Xiaomi,Manufacturing,2017
+2203,145,Pierre Castel,9.3,1927,Castel Freres,Food & Beverages,2017
+2204,145,Zhang Shiping & family,9.3,1946,Weiqiao Pioneering,Textiles、 aluminum,2017
+2205,149,Ernesto Bertarelli & family,9.1,1966,Serono ,Pharmaceuticals,2017
+2206,150,James Dyson,9,1948,Dyson,Technology,2017
+2207,151,Lorenzo Mendoza,8.8,1966,Empresas Polar,Food & Beverages,2017
+2208,152,Yang Huiyan,8.7,1981,Country Garden,Real Estate,2017
+2209,153,James Goodnight,8.6,1943,Sas Institute ,Technology,2017
+2210,153,Mikhail Fridman,8.6,1965,Alfa ,Energy,2017
+2211,153,Shi Yuzhu & family,8.6,1962,Giant ,Financial Services,2017
+2212,153,Zhang Zhidong,8.6,1972,Tencent,IT、 Entertainment,2017
+2213,157,Carlos Alberto Sicupira,8.4,1948,AbInbev,Food & Beverages,2017
+2214,157,Jan Koum,8.4,1975,WhatsApp,Technology,2017
+2215,157,Sumner Redstone,8.4,1924,CBS,Telecom,2017
+2216,160,Tos Chirathivat & family,8.3,1966,Central Group,Real Estate,2017
+2217,161,Dietmar Hopp,8.2,1941,SAP,Software,2017
+2218,162,John Menard Jr,8.1,1941,Menards,Multi Brand Retailing,2017
+2219,162,Mohammed Al Amoudi,8.1,1947,Corral Petroleum,Energy,2017
+2220,164,Herbert Kohler Jr & family,8,1940,Kohler,Manufacturing,2017
+2221,165,Ananda Krishnan,7.9,1939,Maxis Communication ,Telecom,2017
+2222,165,Micky Arison,7.9,1950,Carnival Cruises,Entertainment,2017
+2223,165,Mohammed bin Rashid Al Maktoum,7.9,1950,Dubai Holdings,Investments,2017
+2224,165,Reinhold Wurth & family,7.9,1936,Wurth Group,Automobiles & Auto Components,2017
+2225,165,Roman Abramovich,7.9,1967,Millhouse,Investments,2017
+2226,170,Babetta Albrecht & family,7.8,1960,Aldi Nord & Trader's Joe,Multi Brand Retailing,2017
+2227,170,Stephen Ross,7.8,1941,Related Companies,Real Estate,2017
+2228,172,August von Finck,7.7,1931,Allianz,Banking,2017
+2229,172,Suh Kyung-Bae,7.7,1964,Amore Pacific,Cosmetics,2017
+2230,174,Alisher Usmanov,7.5,1954,Megafon,Steel,2017
+2231,174,Eduardo Saverin,7.5,1983,Facebook,Technology,2017
+2232,176,Andrey Melnichenko,7.4,1973,Suek,Energy,2017
+2233,176,Liu Yongxing & family,7.4,1948,East Hope,Chemicals & Petrochemicals,2017
+2234,176,Lu Guanqiu & family,7.4,1946,Wanxiang ,Automobiles & Auto Components,2017
+2235,176,Michael Hartono,7.4,1940,Bank Central Asia,Banking,2017
+2236,180,Charles Cadogan & family,7.3,1938,Cadogan Estate,Real Estate,2017
+2237,180,Mikhail Prokhorov,7.3,1966,Polyus Gold,Mining,2017
+2238,180,Pierre Bellon & family,7.3,1930,Sodexo,Food & Beverages,2017
+2239,180,R Budi Hartono,7.3,1941,Bank Central Asia,Banking,2017
+2240,184,Chen Lihua,7.2,1941,Fu Wah ,Real Estate,2017
+2241,184,James Ratcliffe,7.2,1953,Ineos,Chemicals & Petrochemicals,2017
+2242,184,Theo Jr Albrecht,7.2,/,Aldi Nord,Multi Brand Retailing,2017
+2243,184,Uday Kotak,7.2,1960,Kotak Mahindra,Financial Services,2017
+2244,184,Xavier Niel,7.2,1968,Iliad,Technology,2017
+2245,184,Xu Rongmao & family,7.2,1950,Shimao,Real Estate,2017
+2246,190,Joseph Tsai Chung-Hsin  ,7.1,1964,Alibaba ,TMT ,2017
+2247,190,Susilo Wonowidjojo & family,7.1,/,Gudang Garam,Tobacco,2017
+2248,190,Yu Huijiao & Zhang Xiaojuan,7.1,/,YTO,Express delivery,2017
+2249,193,Eka Tjipta Widjaja & family,7,1923,Sinar Mas ,Chemicals & Petrochemicals,2017
+2250,193,James Chambers,7,1958,Cox Enterprise,Media,2017
+2251,193,Katharine Rayner,7,1945,Cox Enterprise,Media,2017
+2252,193,Lin Yu-Lin & family ,7,1926,Hung Tai ,Real Estate ,2017
+2253,193,Liu Qiangdong,7,1974,JD,TMT,2017
+2254,193,Margaretta Taylor,7,1943,Cox Enterprise,Media,2017
+2255,193,Sergey Nikolaevich Galitskiy,7,1968,Magnit PAO,Retail,2017
+2256,193,Shahid Khan,7,1951,Flex N Gate,Automobiles & Auto Components,2017
+2257,201,Barry Sherman,6.9,1943,Apotex Pharma,Pharmaceuticals,2017
+2258,201,David Duffield,6.9,1941,Workday,Technology,2017
+2259,201,Gordon Moore,6.9,1930,Intel ,Technology,2017
+2260,201,Pierre Omidyar,6.9,1968,Ebay,Online Retail,2017
+2261,201,Raymond Kwok & family,6.9,1952,Sun Hung Kai,Real Estate,2017
+2262,201,Sean Parker,6.9,1980,Facebook,Technology,2017
+2263,207,Ludwig Merckle,6.8,1965,Heidelberg Cement,Pharmaceuticals,2017
+2264,208,David Reuben,6.7,1943,Global  Switch,Real Estate,2017
+2265,208,Gautam Adani,6.7,1963,Adani Enterprises,Diversified,2017
+2266,208,Goh Cheng Liang,6.7,1929,Nippon Paints,Manufacturing,2017
+2267,208,Simon Reuben,6.7,/,Global  Switch,Real Estate,2017
+2268,212,Eyal Ofer,6.6,1951,Royal Carribean Cruises,Shipping,2017
+2269,212,John Malone,6.6,1942,Liberty Media ,Entertainment,2017
+2270,212,Leise Maersk McKinney Moller & family,6.6,/,AP Moller – Maersk ,Logistics,2017
+2271,212,Pauline MacMillan Keinath,6.6,1935,Cargill,Food & Beverages,2017
+2272,212,Sunil Mittal & family,6.6,1959,Bharti Airtel,Telecom Services,2017
+2273,212,Whitney MacMillan,6.6,1930,Cargill ,Food & Beverages,2017
+2274,218,Edward Johnson III,6.5,1931,Fidelity,Investments,2017
+2275,218,Harry Triguboff,6.5,1934,Mir Investments,Real Estate,2017
+2276,218,Ingrid Flick & family,6.5,1967,Daimler,Automobiles & Auto Components,2017
+2277,218,Jay Y Lee,6.5,1969,Samsung ,Electronics,2017
+2278,218,Kumar Mangalam Birla,6.5,1968,Aditya Birla,Diversified,2017
+2279,218,Melker Schorling,6.5,1948,Melker Schorling,Investments,2017
+2280,218,Terry Guo Tai-Ming  ,6.5,1950,Hon Hai ,Manufacturing ,2017
+2281,225,Guo Guangchang,6.4,1967,Fosun ,Investments,2017
+2282,225,Michael & Marian Ilitch & family,6.4,1933,Ilitch,Food & Beverages,2017
+2283,225,Nathan Kirsh,6.4,1932,Jetro Holdings,Multi Brand Retailing,2017
+2284,225,Sun Piaoyang & Zhong Huijuan,6.4,1958,"Hengrui Medicine, Haosen Medicine",Pharmaceuticals,2017
+2285,225,Yeung Kin Man,6.4,/,Biel Crystal Manufactory,Manufacturing,2017
+2286,230,Carrie Perrodo & family,6.3,1951,Perenco,Energy,2017
+2287,230,Wang Wenxue,6.3,1967,Fortune Land Development,Real Estate,2017
+2288,230,Wee Cho Yaw,6.3,1929,United Overseas Bank,Banking,2017
+2289,233,Carl Cook,6.2,1963,Cook Group,Medical Device,2017
+2290,233,Elisio Alexandre Soares dos Santos & family,6.2,1936,Jeronimo Martins,Food & Beverages,2017
+2291,233,Jim Pattison,6.2,1929,Jim Pattison Group,Automobiles & Auto Components,2017
+2292,233,MA Yusuff Ali,6.2,1956,Emke Group,Multi Brand Retailing,2017
+2293,233,Mohamed Bin Issa Al Jaber,6.2,1960,Mbi International,Hospitality,2017
+2294,233,Silvio Berlusconi,6.2,1937,Mediaset,Entertainment,2017
+2295,233,Suleiman Kerimov,6.2,1967,Polyus Gold,Mining,2017
+2296,233,Walter Droege,6.2,1953,Droege International Group,consulting,2017
+2297,233,Xu Shihui & family,6.2,1957,Dali ,Food & Beverages,2017
+2298,242,Hansjorg Wyss,6.1,1936,Synthes,Medical Equipments,2017
+2299,242,Hiroshi Mikitani,6.1,1966,Rakuten,Online Retail,2017
+2300,242,John Gokongwei Jr,6.1,1927,JG Summit Holding,Telecom,2017
+2301,242,Yuan Yafei,6.1,1964,Sunpower,Retail,2017
+2302,242,Zhou Qunfei & Zheng Junlong,6.1,1970、1972,Lens,Communication device,2017
+2303,247,Adam Kwok & family,6,1983,Sun Hung Kai,Real Estate,2017
+2304,247,Garrett Camp,6,1979,Uber Technologies,Transport (mobile app-based),2017
+2305,247,Johann Graf,6,1947,Novamtic,Entertainment,2017
+2306,247,Ken Griffin,6,1969,Citadel,Hedge Funds,2017
+2307,247,Nassef Sawiris,6,1961,Orascom Construction,Investments,2017
+2308,247,Nicky Oppenheimer & family,6,1946,De Beers,Diamonds,2017
+2309,247,Stanley Kroenke,6,1948,Kroenke Group,Sports,2017
+2310,247,Stef Wertheimer & family,6,1927,Iscar,Manufacturing,2017
+2311,247,Travis Kalanick,6,1977,Uber Technologies,Transport (mobile app-based),2017
+2312,256,Christoffel Wiese,5.9,1942,Pepkor,Multi Brand Retailing,2017
+2313,256,George Lucas,5.9,1947,Lucas Film,Entertainment,2017
+2314,256,Iskander Makhmudov,5.9,1964,Urals Mining ,Mining,2017
+2315,256,Li Jinyuan,5.9,1958,Tiens ,Health care,2017
+2316,256,Michael Kadoorie & family,5.9,1941,CLP,Electric Power、Investments,2017
+2317,256,Thomas Frist Jr & family,5.9,1939,Hca Holding,Health Care,2017
+2318,256,Vincent Bollore,5.9,1953,Havas,Investments,2017
+2319,263,Juan Roig,5.8,1950,Mercadona,Multi Brand Retailing,2017
+2320,263,Richard Kinder,5.8,1945,Kinder Morgan ,Energy,2017
+2321,263,Robert Rowling,5.8,1954,Trt Holdings,Investments,2017
+2322,263,Sandra Ortega Mera,5.8,1969,Inditex,Single Brand Retailing,2017
+2323,263,Viktor Rashnikov,5.8,1949,MMK,Steel,2017
+2324,263,Wei Jianjun & Hang Xuejuan,5.8,1964,Great Wall Motor,Automobiles & Auto Components,2017
+2325,269,Anand Burman & family,5.7,1953,Dabur,FMCG,2017
+2326,269,Bruce Kovner,5.7,1946,CAM Capital,Hedge Funds,2017
+2327,269,German Larrea Mota Velasco & family,5.7,1942,Grupo Mexico,Mining,2017
+2328,269,Jia Yueting,5.7,1973,Letv,Entertainment,2017
+2329,269,John A Sobrato & family,5.7,1940,Sobrato Development,Real Estate,2017
+2330,269,Li Hejun,5.7,1967,Hanergy,New energy,2017
+2331,269,Li Shufu & Li Xingxing,5.7,1963、1985,Geely ,Automobiles & Auto Components,2017
+2332,269,Liu Yonghao & family,5.7,1951,New Hope ,Agriculture、 finance,2017
+2333,269,Yan Zhi,5.7,1972,Zhuoer ,Real Estate,2017
+2334,269,Zhao Tao,5.7,1966,Buchang ,Pharmaceuticals,2017
+2335,279,Antonia Ax:son Johnson & family,5.6,1944,Axel Johnson ,Investments,2017
+2336,279,Dannine Avara,5.6,1965,Enterprise Products,Energy,2017
+2337,279,German Khan,5.6,1962,Alfa ,Energy,2017
+2338,279,Giorgio Armani,5.6,1935,Armani,Single Brand Retailing,2017
+2339,279,Merlin Swire & family,5.6,1974,Swire Pacific,Logistics,2017
+2340,279,Milane Frantz,5.6,1970,Enterprise Products,Energy,2017
+2341,279,Randa Williams,5.6,1962,Enterprise Products,Energy,2017
+2342,279,Scott Duncan,5.6,1983,Enterprise Products,Energy,2017
+2343,287,Americo Amorim,5.5,1935,Galp Energia,Investments,2017
+2344,287,David Geffen,5.5,1944,Geffen Records,Entertainment,2017
+2345,287,Gianluigi Aponte,5.5,1941,Mediterranean Shipping,Shipping,2017
+2346,287,Philip & Tina Green,5.5,1953,Arcadia,Single Brand Retailing,2017
+2347,287,Robert Ng,5.5,/,Far East,Real Estate,2017
+2348,287,Tsai Eng-Meng & family ,5.5,1957,Want Want ,Food & Beverages,2017
+2349,287,Xiao Jianhua & Zhou Hongwen,5.5,1971、/,Tomorrow,Investments,2017
+2350,294,Anders Holch Povlsen,5.4,1973,Bestseller,Multi Brand Retailing,2017
+2351,294,Benu Gopal Bangur,5.4,1932,Shree Cements,Construction Materials,2017
+2352,294,Daniel Gilbert,5.4,1962,Quicken Loans,Investments,2017
+2353,294,Denis O'Brien,5.4,1959,Digicel,Telecom,2017
+2354,294,Johann Rupert & family,5.4,1951,Richemont,Multi Brand Retailing,2017
+2355,294,Karl-Heinz Kipp,5.4,1925,Hotel Eden Roc,Hospitality,2017
+2356,294,Leonard Lauder,5.4,1934,Estee Lauder,Cosmetics,2017
+2357,294,Pansy Ho ,5.4,1962,"Shun Tak , MGM China",Gaming,2017
+2358,294,Pollyanna Chu,5.4,1958,Kingston Financial ,Investments,2017
+2359,294,Trevor Rees-Jones,5.4,1952,Marcellus,Energy,2017
+2360,294,Yuri Milner,5.4,1962,Mail.ru,Investments,2017
+2361,305,Gong Hongjia & Chen Chunmei ,5.3,1965、1965,Hikvision Digital Technology ,TMT,2017
+2362,305,Jim Davis & family,5.3,1946,New Balance,Multi Brand Retailing,2017
+2363,305,Jorn Rausing,5.3,1960,Tetra Pak,Packaging,2017
+2364,305,Lino Saputo,5.3,1937,Saputo,Food & Beverages,2017
+2365,305,Pan Zhengmin & Wu Chunyuan,5.3,1967、/,AAC Acoustic Technologies,Audio technology,2017
+2366,310,Aloys Wobben,5.2,1953,Enercon,Energy,2017
+2367,310,Desh Bandhu Gupta,5.2,1939,Lupin,Pharmaceuticals,2017
+2368,310,Horst Paulmann & family,5.2,1936,Cencosud,Multi Brand Retailing,2017
+2369,310,James Crown & family,5.2,1964,General Dynamics,Aerospace,2017
+2370,310,John Doerr,5.2,1952,Kleiner Perkins Caufield & Byers,Investments,2017
+2371,310,Lim Kok Thay & family,5.2,1952,Genting Group,Hospitality,2017
+2372,310,Ma Xingtian & family,5.2,1969,Kangmei,Pharmaceuticals,2017
+2373,310,Quek Leng Chan,5.2,1942,Hong Leong Bank,Financial Services,2017
+2374,318,Dan Sten Olsson,5.1,1947,Stena Sphere,conglomerate,2017
+2375,318,Eva Gonda Rivera & family,5.1,/,FEMSA,Food & Beverages,2017
+2376,318,Finn Rausing,5.1,1955,Tetra Pak,Packaging,2017
+2377,318,Heinz Hermann Thiele & family,5.1,1942,Knorr-Bremse,Automobiles & Auto Components,2017
+2378,318,Kirsten Rausing,5.1,1953,Tetra Pak,Packaging,2017
+2379,318,Liu Yiqian,5.1,1963,Sunline ,Investments,2017
+2380,318,Margarita Louis Dreyfus,5.1,1963,Louis-Dreyfus,Agriculture,2017
+2381,318,Richard Branson,5.1,1951,Virgin,Entertainment,2017
+2382,318,Subhash Chandra,5.1,1952,Zee,Media,2017
+2383,318,Ted Lerner,5.1,1926,Lerner Enterprise,Real Estate,2017
+2384,318,Walter Faria,5.1,1956,Petropolis,Food & Beverages,2017
+2385,318,Wang Yusuo & Zhao Baoju,5.1,1964、1965,ENN,Gas、 energy ,2017
+2386,318,Wolfgang Marguerre,5.1,1942,Octapharma,Pharmaceuticals,2017
+2387,318,Zhou Jianping & family,5.1,1961,Hailan ,Textiles,2017
+2388,332,Dennis Washington,5,1935,Seaspan,Construction,2017
+2389,332,Frederik Paulson,5,1951,Ferring Pharmaceuticals,Pharmaceuticals,2017
+2390,332,Gustaf Douglas,5,1939,Investment Ab Latour,Investments,2017
+2391,332,Kirk Kristiansen ,5,1948,Lego ,Manufacturing,2017
+2392,332,Liang Wengen,5,1956,Sany ,Heavy Industry,2017
+2393,332,Luis Carlos Sarmiento,5,1934,Aval,Banking,2017
+2394,332,Philippe Stern & family,5,1938,Patek Philippe,Luxury,2017
+2395,332,Richard LeFrak & family,5,1946,Lefrak Organization,Real Estate,2017
+2396,332,Steve Bisciotti,5,1961,Allegis Group,Sports,2017
+2397,332,Vikram Lal,5,1943,Eicher Motors,Automobiles & Auto Components,2017
+2398,342,Andrew Forrest & family,4.9,1962,Fortescue Metals,Mining,2017
+2399,342,Bidzina Ivanishvili,4.9,1957,Rossiyskiy Kredit Bank,Investments,2017
+2400,342,Bobby Murphy,4.9,1990,Snapchat,Technology,2017
+2401,342,Chen Jianhua & Fan Hongwei,4.9,1971,Wujiang Henli Chemical Fibre,Textiles,2017
+2402,342,Chung Mong-Koo,4.9,1939,Hyundai,Automobiles & Auto Components,2017
+2403,342,Evan Spiegel,4.9,1991,Snapchat,Technology,2017
+2404,342,Heinrich Deichmann,4.9,1963,Deichmann,Footwear Retail,2017
+2405,342,Jean-Michel Besnier,4.9,1968,Lactalis,Food & Beverages,2017
+2406,342,Marie Besnier Beauvalot,4.9,1981,Lactalis,Food & Beverages,2017
+2407,342,Nie Tengyun & Chen Liying,4.9,1976、1975,Yunda,Express delivery,2017
+2408,342,Sulaiman Al Rajhi & family,4.9,1921,Al Rajhi Banking And Investment,Banking,2017
+2409,342,Sun Guangxin,4.9,1962,Guanghui  ,Car sales、 energy、 real estate,2017
+2410,354,Alexei Kuzmichev,4.8,1963,Alfa ,Energy,2017
+2411,354,Gianfelice Mario Rocca,4.8,1950,Techint ,Manufacturing,2017
+2412,354,Hoang Kieu,4.8,1945,RAAS Blood Products,Pharmaceuticals,2017
+2413,354,Ivan Glasenberg,4.8,1959,Glencore International,Commodities,2017
+2414,354,Kwon Hyuk-Bin,4.8,1974,Smilegate,Online Games,2017
+2415,354,Leandro Rizzuto,4.8,1939,Conair ,Multi Brand Retailing,2017
+2416,354,Michael Stoschek & family,4.8,1948,Brose Group,Automobiles & Auto Components,2017
+2417,354,Paolo Mario Rocca,4.8,1950,Techint ,Manufacturing,2017
+2418,354,Ricardo Salinas Pliego & family,4.8,1956,Elekta,Multi Brand Retailing,2017
+2419,354,Richard DeVos,4.8,1927,Amway,Single Brand Retailing,2017
+2420,354,Tom & Judy Love,4.8,/,Love's Travel Stops & Country Stores,Multi Brand Retailing,2017
+2421,365,Charles Johnson,4.7,1933,Franklin Resources,Investments,2017
+2422,365,Christy Walton,4.7,1950,Walmart,Multi Brand Retailing,2017
+2423,365,David Sun,4.7,1952,Kingston Technology ,Technology,2017
+2424,365,Georges Nickolas Hayek Jr & family,4.7,1955,Swatch ,Luxury,2017
+2425,365,Joao Roberto Marinho,4.7,1954,Rede Globo,Media,2017
+2426,365,John Tu,4.7,1941,Kingston Technology ,Technology,2017
+2427,365,Jose Roberto Marinho,4.7,1956,Rede Globo,Media,2017
+2428,365,Mitchell Rales,4.7,1957,Danaher,Manufacturing,2017
+2429,365,Roberto Irineu Marinho,4.7,1948,Rede Globo,Media,2017
+2430,365,Rupert Johnson Jr,4.7,1941,Franklin Resources,Investments,2017
+2431,365,Teh Hong Piow,4.7,1931,Public Bank ,Banking,2017
+2432,365,Theo Mueller,4.7,1941,Theo Muller Group,Food & Beverages,2017
+2433,377,Ajay Piramal,4.6,1957,Piramal Enterprise,Pharmaceuticals,2017
+2434,377,Brian Acton,4.6,1973,WhatsApp,Technology,2017
+2435,377,Charles Dolan,4.6,1927,Amc Network,Sports,2017
+2436,377,David Gottesman,4.6,1927,Berkshire Hathaway,Investments,2017
+2437,377,David Shaw,4.6,1952,DE Shaw,Hedge Funds,2017
+2438,377,Gunther Fielmann,4.6,1940,Fielmann,Multi Brand Retailing,2017
+2439,377,Isolde Liebherr & family,4.6,1950,Liebherr ,Manufacturing,2017
+2440,377,Jerry Jones,4.6,1943,Cowboy,Sports,2017
+2441,377,Ji Changqun,4.6,1968,Fullshare,Real Estate,2017
+2442,377,John  L Morris ,4.6,1949,Bass Pro Shops,Multi Brand Retailing,2017
+2443,377,Lin Li,4.6,1963,Liye ,Finance、 Investments,2017
+2444,377,Micky Jagtiani,4.6,1953,Landmark ,Multi Brand Retailing,2017
+2445,377,Mohammed Alaouite VI,4.6,1964,Societe National D'Investissement,Banking,2017
+2446,377,Mohammed Bin Saud Al Kabeer,4.6,1955,Almarai,Food & Beverages,2017
+2447,377,Ray Lee Hunt,4.6,1944,Hunt Oil Company,Energy,2017
+2448,377,Savitri Jindal & family,4.6,1951,JSW Steel,Metals & Mining,2017
+2449,377,Willi Liebherr & family,4.6,1947,Liebherr ,Manufacturing,2017
+2450,377,Wu Yajun & family,4.6,1964,Longfor,Real Estate,2017
+2451,395,Daniel Ziff,4.5,1974,Oach Ziff Capital Management,Investments,2017
+2452,395,Dirk Ziff,4.5,1965,Oach Ziff Capital Management,Investments,2017
+2453,395,Donald Trump,4.5,1947,Trump Entertainment Resorts,Real Estate,2017
+2454,395,Katsuhito Yamauchi,4.5,/,Nintendo,Entertainment,2017
+2455,395,Lisa K Simmons & Serena Simmons,4.5,1959、1973,Valhi ,Chemicals & Petrochemicals,2017
+2456,395,Reinhold Schmieding ,4.5,1956,Arthex,Medical devices,2017
+2457,395,Robert Ziff,4.5,1967,Oach Ziff Capital Management,Investments,2017
+2458,395,Sergei Popov,4.5,1972,Suek,Energy,2017
+2459,395,Shigenobu Nagamori,4.5,1945,Nidec Oration,Electronics,2017
+2460,395,Victor Gradin & family,4.5,1933,Odebrecht,Energy,2017
+2461,395,Zhang Yin,4.5,1957,Nine Dragons Paper,Paper & Packaging,2017
+2462,406,Andrew & Peggy Cherng,4.4,1948、1948,Chain Panda,Hospitality,2017
+2463,406,Bruno Schroder & family,4.4,1933,Schroders,Banking,2017
+2464,406,Daniel Servitje Montull & family,4.4,1960,Bimboa Mexico,Food processing (bakery),2017
+2465,406,David Green,4.4,1942,Hobby Lobby,Multi Brand Retailing,2017
+2466,406,Doug Meijer,4.4,1956,Meijer Supermarket,Multi Brand Retailing,2017
+2467,406,Eli Broad,4.4,1934,AIG,Investments,2017
+2468,406,Han Chang-Woo & family,4.4,1932,Maruhan,Entertainment,2017
+2469,406,Hank Meijer,4.4,1953,Meijer Supermarket,Multi Brand Retailing,2017
+2470,406,Hazel Czernin,4.4,/,The Howard De Walden Estate,Real Estate,2017
+2471,406,Jiang Nanchun,4.4,1973,FocusMedia,TMT,2017
+2472,406,Robert Kraft,4.4,1942,Kraft,Sports,2017
+2473,406,Steven Rales,4.4,1952,Danaher ,Manufacturing,2017
+2474,406,Tamara Gustavson & family,4.4,1962,Public Storage,Real Estate,2017
+2475,406,Thomas Schmidheiny,4.4,1946,Holcim,Cement,2017
+2476,406,Zhou Xiaoguang & Yu Yunxin,4.4,1962,Xinguang ,Luxury,2017
+2477,421,Alexandre Ricard & family,4.3,1973,Pernard Ricard,Food & Beverages,2017
+2478,421,Andy von Bechtolsheim,4.3,1956,Google,Technology,2017
+2479,421,Fang Wei,4.3,1973,Fangda ,Manufacturing,2017
+2480,421,Georg Rethmann,4.3,1968,Rethmann,Logistics,2017
+2481,421,Harald Tschira,4.3,/,SAP,Software,2017
+2482,421,John Sall,4.3,1949,Sas Institute,Technology,2017
+2483,421,Klemens Rethmann,4.3,/,Rethmann,Logistics,2017
+2484,421,Ludger Rethmann,4.3,1969,Rethmann,Logistics,2017
+2485,421,Martin Rethmann,4.3,/,Rethmann,Logistics,2017
+2486,421,Masatoshi Ito,4.3,1925,Seven & I ,Multi Brand Retailing,2017
+2487,421,Odd Reitan,4.3,1952,Reitangruppen,Retail,2017
+2488,421,Pankaj Patel,4.3,1952,Cadila,Pharmaceuticals,2017
+2489,421,Udo Tschira,4.3,/,SAP,Software,2017
+2490,421,Zhang Jun,4.3,/,Fu De,Financial、 Real estate,2017
+2491,435,Frederick Smith,4.2,1945,Fedex,Logistics,2017
+2492,435,Jeffrey Hildebrand,4.2,1960,Eagle Ford,Energy,2017
+2493,435,Lyu Xiangyang & Zhang Changhong,4.2,1962、1961,Guangzhou Youngy,Investments,2017
+2494,435,Ma Jianrong & family,4.2,1965,Shenzhou ,Textiles,2017
+2495,435,Naomi Azrieli & family,4.2,/,Azrieli ,Real Estate,2017
+2496,435,Pyotr Aven,4.2,1956,Alfa ,Energy,2017
+2497,435,Shari Arison,4.2,1958,Carnival Cruises,Entertainment,2017
+2498,435,Stewart & Lynda Resnick,4.2,/,Roll International,Food & Beverages,2017
+2499,435,Wang Chuanfu,4.2,1966,BYD,Automobiles & Auto Components,2017
+2500,435,Xu Jingren,4.2,1944,Yangtze River Pharmacy ,Pharmaceuticals,2017
+2501,445,Arnon Milchan,4.1,1945,New Regency Movies,Entertainment,2017
+2502,445,Che Jianxing & Chen Shuhong,4.1,1966,Redstar Furniture,Retail,2017
+2503,445,Diane Hendricks,4.1,1948,Abc Supply,Single Brand Retailing,2017
+2504,445,Gabe Newell,4.1,1963,Valve,Entertainment,2017
+2505,445,Jeronimo Arango & family,4.1,1926,Cifra,Multi Brand Retailing,2017
+2506,445,Jerry Speyer,4.1,1941,Tishman Speyer,Real Estate,2017
+2507,445,Keichiro Takahara & family,4.1,1932,Unicharm,Cosmetics,2017
+2508,445,Song Zuowen & family,4.1,1947,Nanshan ,Aluminium、 apparel、 real estate,2017
+2509,445,Sun Xishuang,4.1,1953,Yifang ,Real Estate,2017
+2510,445,Zhu Mengyi & family,4.1,1959,"Hopson, Pearl River ",Real Estate,2017
+2511,455,Alejandro Santo Domingo,4,1978,Sab Miller,Food & Beverages,2017
+2512,455,Andreas Santo Domingo,4,1979,Sab Miller,Food & Beverages,2017
+2513,455,Bernard Fraisse ,4,1957,Fareva,Pharmaceuticals,2017
+2514,455,David Cheriton,4,1952,Google,Technology,2017
+2515,455,"Jeremy Jacobs, Sr",4,1940,Delaware North,Entertainment,2017
+2516,455,Ken Chu & family,4,1974,Mission Hills,Real Estate,2017
+2517,455,Leonid Fedun,4,1957,Lukoil,Energy,2017
+2518,455,Lin Chang Su-E & family ,4,/,Liberty Times ,Real Estate ,2017
+2519,455,Maria Elisabeth Schaeffler & family,4,1942,Schaeffler,Manufacturing,2017
+2520,455,Mark Scheinberg,4,1974,PokerStars,Entertainment,2017
+2521,455,Martha Ingram & family,4,1936,Ingram Industries,Technology,2017
+2522,455,Ronda Stryker,4,1955,Stryker Corporation,Medical Technology,2017
+2523,455,Sebastian Kulczyk & family,4,1983,Sab Miller,Food & Beverages,2017
+2524,455,Terrence Pegula,4,1952,Buffalo Sabres,Energy,2017
+2525,455,Tsai Hong-Tu Brothers & family ,4,/,Lin Yuan ,Financial Services ,2017
+2526,455,Wang Tao,4,1980,DJI-Innovations,TMT,2017
+2527,455,Xiao Wen'ge,4,1967,DMG,Entertainment,2017
+2528,472,Alain Merieux & family,3.9,1938,Bio Merieux,Pharmaceuticals,2017
+2529,472,Ann Walton Kroenke,3.9,1949,Walmart,Multi Brand Retailing,2017
+2530,472,Fredrik Lundberg,3.9,1952,L E Lundbergforetagen,Real Estate,2017
+2531,472,Frits Goldschmeding,3.9,1934,Randstad,Hr Services,2017
+2532,472,George Roberts,3.9,1944,KKR,Investments,2017
+2533,472,Henry Kravis,3.9,1944,KKR,Investments,2017
+2534,472,Henry Ross Perot Sr,3.9,1931,Perot System,Technology,2017
+2535,472,Huang Wei & Li Ping ,3.9,1959、/,XinHu ,Real Estate,2017
+2536,472,Indu Jain,3.9,1938,Bennett Coleman,Media,2017
+2537,472,James Packer,3.9,1968,Crown  ,Entertainment,2017
+2538,472,Magdalena Blocher,3.9,1969,EMS Chemie,Chemicals & Petrochemicals,2017
+2539,472,Otto Philipp Braun,3.9,1978,B. Braun,Health Care,2017
+2540,472,Pan Sutong,3.9,1963,Goldin Properties,Real Estate,2017
+2541,472,Rahel Blocher,3.9,1976,EMS Chemie,Chemicals & Petrochemicals,2017
+2542,472,Robert Duggan,3.9,1945,Pharmacyclics,Pharmaceuticals,2017
+2543,472,Zheng Yuewen,3.9,1962,Creat ,Pharmaceuticals,2017
+2544,488,Alexander Abramov,3.8,1960,Evraz,Steel,2017
+2545,488,Andrei Guriev,3.8,1961,Phosagro,Chemicals & Petrochemicals,2017
+2546,488,Archie Aldis Emerson,3.8,1930,Sierra Pacific Industries,Real Estate,2017
+2547,488,Bill Marriott Jr & family,3.8,1933,Marriott International,Hospitality,2017
+2548,488,Eduardo Eurnekian,3.8,1933,Aeropuertos,Entertainment,2017
+2549,488,Elizabeth Mohn & family,3.8,1944,Bertelsmann,Entertainment,2017
+2550,488,Filaret Galchev,3.8,1964,Holcim,Cement,2017
+2551,488,Gao Tianguo,3.8,1951,Guozhijie,Investments,2017
+2552,488,Ira Rennert,3.8,1935,Renco,Investments,2017
+2553,488,Kazumi Yanai,3.8,/,Fast Retailing,Multi Brand Retailing,2017
+2554,488,Peter Kellogg,3.8,1943,Investments,Investments,2017
+2555,488,Ralph Dommermuth,3.8,1964,United Internet,Technology,2017
+2556,488,Samwer Brothers,3.8,/,Rocket Internet,E-commerce Venture capital ,2017
+2557,501,Acharya Balakrishna,3.7,1973,Patanjali Ayurved,FMCG,2017
+2558,501,Axel Oberwelland,3.7,1967,Storck,Food & Beverages,2017
+2559,501,Brian Chesky,3.7,1982,AirBnb,Social networking service,2017
+2560,501,Bubba Cathy,3.7,1955,Chick - Fil - A,Food & Beverages,2017
+2561,501,Chen Dongsheng & family,3.7,1957,Taikang,Trading,2017
+2562,501,Dan Cathy,3.7,1954,Chick - Fil - A,Food & Beverages,2017
+2563,501,Jiang Zhaobai,3.7,1963,Pengxin ,Food&Beverages,2017
+2564,501,Joe Gebbia,3.7,1982,AirBnb,Social networking service,2017
+2565,501,John Gandel,3.7,1936,Chandell,Construction,2017
+2566,501,Josephine Louis,3.7,1931,S.C Johnson & Son,Consumer goods (cleaning supplies),2017
+2567,501,Kim Jung-Ju,3.7,1969,Nexon ,Entertainment,2017
+2568,501,Leon Black,3.7,1952,Apollo Global Management,Investments,2017
+2569,501,Lin Xiucheng & Lin Zhiqiang ,3.7,1951、1974,Sanan ,Solar,2017
+2570,501,Nathan Blecharczyk,3.7,1984,AirBnb,Social networking service,2017
+2571,501,Niels Peter Louis-Hansen,3.7,1948,Coloplast,Medical Equipments,2017
+2572,501,Ravi Ruia,3.7,1950,Essar,Oil & Gas,2017
+2573,501,Rinat Akhmetov,3.7,1967,System Capital Management,Investments,2017
+2574,501,Robert Rich Jr,3.7,1944,Rich Products Oration,Food & Beverages,2017
+2575,501,Shashi Ruia,3.7,1945,Essar,Oil & Gas,2017
+2576,501,Sumiko Nagamori ,3.7,/,Nidec,Electronics,2017
+2577,501,Tilman Fertitta,3.7,1958,Landry's,Hospitality,2017
+2578,501,Yang Kai,3.7,/,Huishan Dairy,Food & Beverages,2017
+2579,523,Anthony Pritzker,3.6,1961,Hyatt,Hospitality,2017
+2580,523,Boenjamin Setiawan & family ,3.6,1934,Mitra Keluarga,Pharmaceuticals,2017
+2581,523,Chen Fashu,3.6,1961,Xinhuadu Industrial ,Retail,2017
+2582,523,Christoph Henkel,3.6,1958,Henkel ,Consumer goods,2017
+2583,523,Daisy Igel & family,3.6,1928,Ultrapar,Energy,2017
+2584,523,David Consunji,3.6,1922,DMCI Holdings,Construction,2017
+2585,523,Denise Coates,3.6,1969,Bet365,Online Gambling,2017
+2586,523,Gary Rollins,3.6,1945,Rollins,Services,2017
+2587,523,Graeme Hart,3.6,1956,Rank Group,Investments,2017
+2588,523,Isak Andic & family,3.6,1954,Mango,Single Brand Retailing,2017
+2589,523,Jorge Moll Filho,3.6,1945,Rede D'or,Health care (Hospitals),2017
+2590,523,Ken Fisher,3.6,1951,Fisher Investments,Investments,2017
+2591,523,Madhukar Parekh & family,3.6,1947,Pidilite,Chemicals & Petrochemicals,2017
+2592,523,Martin Haefner,3.6,1954,Computer Associates,Techonology,2017
+2593,523,Mary Alice Dorrance Malone,3.6,1950,Campbell Soup,Food & Beverages,2017
+2594,523,Michael Herz,3.6,1944,Maxingvest,Food & Beverages,2017
+2595,523,Pang Kang,3.6,1956,Haitian,Food flavorings,2017
+2596,523,Philip Ng,3.6,1952,Far East,Real Estate,2017
+2597,523,Phorntep Phornprapha,3.6,1951,SIAM Motors,Automobiles & Auto Components,2017
+2598,523,R Randall Rollins,3.6,1932,Rollins,Consumer & commerical services/ Broadcasting,2017
+2599,523,Robert Pera,3.6,1981,Ubiquity Networks,Technology,2017
+2600,523,Roger Wang Hung ,3.6,1948,Golden Eagle ,Real Estate ,2017
+2601,523,Russell Weiner,3.6,1971,Rockstar Energy Drinks,Beverages,2017
+2602,523,Walter Kwok & family,3.6,1950,Sun Hung Kai,Real Estate,2017
+2603,523,Wang Guangxi & Guo Tianshu,3.6,1969、/,Wintime,Energy,2017
+2604,523,Wolfgang Herz,3.6,1951,Maxingvest,Food & Beverages,2017
+2605,549,Abdullah Al Rajhi,3.5,/,Al Rajhi Banking And Investment,Banking,2017
+2606,549,Chamnong Bhirombhakdi & family,3.5,1931,Boon Rawd Brewery,Food & Beverages,2017
+2607,549,Chen Tianqiao & Luo Qianqian,3.5,1973,Shanda ,Investments,2017
+2608,549,Chey Tae Won,3.5,1961,SK ,Energy,2017
+2609,549,Hussain Sajwani,3.5,1954,Damac Properties,Real Estate ,2017
+2610,549,Issad Rebrab,3.5,1944,Cevital,Food & Beverages,2017
+2611,549,Jack Dangermond,3.5,1946,ESRI,Technology,2017
+2612,549,Oleg Deripaska,3.5,1968,Rusal,Steel,2017
+2613,549,Paul Tudor Jones II,3.5,1955,Tudor Investments,Hedge Funds,2017
+2614,549,Phillip Frost,3.5,1937,Ivax ,Pharmaceuticals,2017
+2615,549,Steven Spielberg,3.5,1947,Dreamworks Animation,Entertainment,2017
+2616,549,Traudl Engelhorn,3.5,1930,Boehringer Mannheim,Pharmaceuticals,2017
+2617,549,Ursula Engelhorn ,3.5,/,Boehringer Mannheim,Pharmaceuticals,2017
+2618,562,Anil Ambani,3.4,1960,ADA Reliance,Diversified,2017
+2619,562,Bernard Broermann,3.4,1944,Asklepios,Health Care,2017
+2620,562,Chen Hongtian & Yao Lini,3.4,1959、/,Cheung Kei,Investment、 Real estate,2017
+2621,562,Edward Roski Jr,3.4,1939,Majestic Reality,Real Estate,2017
+2622,562,Fred & Ron Mannix,3.4,/,Mancal,Oil、Gas,2017
+2623,562,George Kaiser,3.4,1943,BOK Financial ,Energy,2017
+2624,562,George Lindemann Sr,3.4,1937,Southern Union,Energy,2017
+2625,562,Hans-Adam von & zu Liechtenstein,3.4,1937,Lgt Bank,Banking,2017
+2626,562,Igor Olenicoff,3.4,1943,Olen Properties,Real Estate,2017
+2627,562,Jin Sook & Do Won Chang,3.4,1955,Forever 21,Single Brand Retailing,2017
+2628,562,John Catsimatidis,3.4,1949,Red Apple,Energy,2017
+2629,562,Kelcy Warren,3.4,1956,Energy Transfer Equity,Energy,2017
+2630,562,Khalaf Al Habtoor & family,3.4,/,Al Habtoor ,Construction,2017
+2631,562,Lee Shin Cheng & family,3.4,1940,Ioi Group,Food & Beverages,2017
+2632,562,Leonard Stern,3.4,1939,Hartz Mountain Industries,Real Estate,2017
+2633,562,Li Shuirong,3.4,1956,RongSheng ,Manufacturing,2017
+2634,562,Lin Wenjing,3.4,1928,Rong Qiao,Real Estate,2017
+2635,562,Lin Yi,3.4,/,Shenglong,Real Estate,2017
+2636,562,Liu Hanyuan & Guan Yamei ,3.4,1964、/,Tongwei ,Agriculture、 new energy,2017
+2637,562,Marc Benioff,3.4,1965,Salesforce,Technology,2017
+2638,562,Masahiro Miki,3.4,1956,Abc Mart,Footwear Retail,2017
+2639,562,Miao Shouliang,3.4,1955,Fuyuan ,Real Estate、 hydroelectricity、 new energy,2017
+2640,562,Michel Leclercq,3.4,1940,Decathlon,Retail,2017
+2641,562,Sheldon Solow,3.4,1929,Solow Projects,Real Estate,2017
+2642,562,Siegfried Meister,3.4,1939,Rational,Electronics,2017
+2643,562,Silas Chou,3.4,1946,Novel Enterprises,Multi Brand Retailing,2017
+2644,562,Teddy Sagi,3.4,1972,Playtech,Entertainment,2017
+2645,562,Xiao Yongming & family,3.4,1964,Zangge Potash Fertilizer,Potash fertilizer,2017
+2646,562,Zhang Lei,3.4,1972,Hillhouse,Investments,2017
+2647,562,Zygmunt Solorz-Zak,3.4,1957,Cyfrowy Polsat,Entertainment,2017
+2648,592,Andrej Babis,3.3,1955,Agrofert,Food & Beverages,2017
+2649,592,Austen Cargill II,3.3,1952,Cargill ,Food & Beverages,2017
+2650,592,Carlos Ardila Lulle,3.3,1931,Organizacion Ardila Lulle,Media,2017
+2651,592,Clayton Mathile,3.3,1941,Lams,Technology,2017
+2652,592,David Siegel,3.3,1962,Two Sigma Investments,Hedge Funds,2017
+2653,592,Francis Choi Chee Ming ,3.3,1945,Early Light International,Toy、Investments,2017
+2654,592,Gustavo Cisneros & family,3.3,1946,Cisneros Group,Entertainment,2017
+2655,592,Gwendolyn Sontheim Meyer,3.3,1962,Cargill ,Food & Beverages,2017
+2656,592,Helmut Sohmen & family,3.3,1941,BW Group ,Logistics,2017
+2657,592,Huang Guangyu & family,3.3,1969,Gome,Retail,2017
+2658,592,Huang Rulun,3.3,1951,Century Golden Resources,Real Estate,2017
+2659,592,James Cargill II,3.3,1950,Cargill ,Food & Beverages,2017
+2660,592,Jay Robert Pritzker,3.3,1965,Hyatt,Hospitality,2017
+2661,592,Jeffrey Skoll,3.3,1965,Ebay,Online Retail,2017
+2662,592,John Overdeck,3.3,1970,Two Sigma Investments,Hedge Funds,2017
+2663,592,Koji Yanai,3.3,/,Fast Retailing,Multi Brand Retailing,2017
+2664,592,Liang Qingde,3.3,1937,Galanz ,Household appliances ,2017
+2665,592,Marianne Liebmann,3.3,1954,Cargill ,Food & Beverages,2017
+2666,592,Mark Cuban,3.3,1959,Dallas Mavericks,Entertainment,2017
+2667,592,Miuccia Prada,3.3,1950,Prada,Single Brand Retailing,2017
+2668,592,Naguib Sawiris,3.3,1955,Vimpelcom,Telecom,2017
+2669,592,Patrizio Bertelli,3.3,1946,Prada,Single Brand Retailing,2017
+2670,592,Prasert Prasarttong-Osoth,3.3,1934,Bangkok Dusit Medical Services,Health Care,2017
+2671,592,Riley Bechtel,3.3,1953,Bechtel ,Construction,2017
+2672,592,Stephen Bechtel Jr,3.3,1926,Bechtel ,Construction,2017
+2673,592,Vladimir Yevtushenkov,3.3,1949,Sistema,Telecom,2017
+2674,592,Xiong Xuqiang,3.3,1956,Yinyi ,Real Estate,2017
+2675,592,Xu Guanju,3.3,1961,Chuanhua ,Manufacturing,2017
+2676,592,Zhang Jin,3.3,1971,Junhua,Investment、 real estate、 automobile,2017
+2677,621,Akio Nitori,3.2,1944,Nitori,Multi Brand Retailing,2017
+2678,621,Akira Mori & family,3.2,1937,Akira Mori,Real Estate,2017
+2679,621,Andrew taylor,3.2,/,Enterprise Holdings,Automobiles & Auto Components,2017
+2680,621,Anil Agarwal,3.2,1956,Vedanta Resource,Mining,2017
+2681,621,Bernard Marcus,3.2,1930,The Home Depot ,Multi Brand Retailing,2017
+2682,621,David Filo,3.2,1967,Yahoo,Technology,2017
+2683,621,Enrique Razon Jr,3.2,1961,International Container Terminal Services,Logistics,2017
+2684,621,Henry Samueli,3.2,1955,Broadcom ,Technology,2017
+2685,621,Issac Perlmutter,3.2,1943,Marvel Entertainment,Entertainment,2017
+2686,621,Jo Ann Taylor ,3.2,/,Enterprise Holdings,Automobiles & Auto Components,2017
+2687,621,Lina Maria Aguiar,3.2,1938,Banco Bradesco,Banking,2017
+2688,621,Matthias Reimann Andersen,3.2,1966,Reckitt Benckiser,Consumer products,2017
+2689,621,Ou Zongrong,3.2,1964,Zhenro ,Real Estate,2017
+2690,621,Rahul Bajaj,3.2,1939,Bajaj Auto,Automobiles & Auto Components,2017
+2691,621,Reid Hoffman,3.2,1970,Linkedin ,Technology,2017
+2692,621,Renate Reimann Haas,3.2,1952,Reckitt Benckiser,Consumer products,2017
+2693,621,Sergio Mantegazza,3.2,1928,Globus ,Entertainment,2017
+2694,621,Stefan Reimann Andersen,3.2,1964,Reckitt Benckiser,Consumer products,2017
+2695,621,Thomas Pritzker,3.2,1951,Hyatt,Hospitality,2017
+2696,621,Warren Stephens,3.2,1958,Stephens ,Investments,2017
+2697,621,Wolfgang Reimann,3.2,1953,Reckitt Benckiser,Consumer products,2017
+2698,642,Abdulla Al Futtaim,3.1,/,Al Futtaim ,Automobiles & Auto Components,2017
+2699,642,Andreas Strungmann,3.1,1951,Hexal,Pharmaceuticals,2017
+2700,642,Ashwin Dani,3.1,1943,Asian Paints,Chemicals & Petrochemicals,2017
+2701,642,Bennett Dorrance ,3.1,1947,Campbell Soup,Food & Beverages,2017
+2702,642,Bernd Baus & family,3.1,/,Bauhaus,Multi Brand Retailing,2017
+2703,642,Bruno Bich ,3.1,1949,Societe Bic Sa,Multi Brand Retailing,2017
+2704,642,Cai Kui & family,3.1,/,Longfor,Real Estate,2017
+2705,642,Daryl Katz,3.1,1962,Katz,Pharmaceuticals,2017
+2706,642,Du Jiangtao & Hao Hong,3.1,1969、/,Junzheng ,Manufacturing,2017
+2707,642,Du Sha & family,3.1,1947,Pacific Links,Sports,2017
+2708,642,Edward DeBartolo Jr,3.1,1947,Simon Property ,Real Estate,2017
+2709,642,Edwin Leong,3.1,1952,Tai Hung Fai ,Real Estate,2017
+2710,642,Feng Hailiang,3.1,1960,Hailiang ,Heavy industry,2017
+2711,642,Friede Springer,3.1,1943,Axel Springer ,Entertainment,2017
+2712,642,Geng Jianming & Yang Xiaoqing,3.1,1962、/,RiseSun ,Real estate,2017
+2713,642,Hans Peter Wild,3.1,1942,Rudolf Wild GmbH & Co. KG,Food & Beverages,2017
+2714,642,Harry Stine,3.1,1942,Stine Seeds,Agriculture,2017
+2715,642,Hortensia Herrero,3.1,1951,Mercadona,Retail,2017
+2716,642,James Leprino,3.1,1938,Leprino Foods Company,Food & Beverages,2017
+2717,642,Kwek Leng Beng & family,3.1,1941,City Development,Real Estate,2017
+2718,642,Leslie Wexner,3.1,1938,Limited Brands,Single Brand Retailing,2017
+2719,642,Lo Ka Shui & family,3.1,1954,Great Eagle ,Real Estate,2017
+2720,642,Luo Jie & family ,3.1,1927,Cheng Shin Rubber ,Manufacturing ,2017
+2721,642,Michael Gregory,3.1,/,CLP,Electric Power、Investments,2017
+2722,642,Michael Ying,3.1,1949,Esprit,Investments,2017
+2723,642,Nancy Walton Laurie,3.1,1952,Walmart,Multi Brand Retailing,2017
+2724,642,Pan Shiyi & Zhang Xin ,3.1,1963、1965,SOHO,Real Estate,2017
+2725,642,Thomas Strungmann,3.1,1951,Hexal,Pharmaceuticals,2017
+2726,642,Wang Qicheng & Wu Yan,3.1,1980、1981,Hakim,TMT,2017
+2727,642,Wang Qingtao,3.1,1962,Shandong Coking,Coal ,2017
+2728,642,Wang Xicheng & family,3.1,1948,Linglong ,Tires ,2017
+2729,642,Wei Shaojun & family,3.1,1963,Longjitaihe,Real estate、 new energy,2017
+2730,642,Ye Chenghai & Liao Qingqing,3.1,1943、1949,Salubris Pharmaceuticals,Pharmaceuticals,2017
+2731,642,Yu Yong,3.1,/,Cathay Fortune Corp,Mining,2017
+2732,642,Zhu Gongshan & family,3.1,1958,Golden Concord ,Energy,2017
+2733,677,Abilio Diniz,3,1937,Companhia Brasileira De Distribuicao,Multi Brand Retailing,2017
+2734,677,Albert Frere ,3,1927,CNP,Investments ,2017
+2735,677,Anthoni Salim,3,1949,First Pacific,Telecom,2017
+2736,677,Arthur Blank,3,1943,Home Depot,Multi Brand Retailing,2017
+2737,677,Barry Lin Bai-Li  ,3,1949,Quanta Computer ,Manufacturing ,2017
+2738,677,Bertil Hult,3,1942,Ef Education First,Education,2017
+2739,677,Denise York,3,1951,San Francisco 49ers,Sports,2017
+2740,677,Dorothea Steinbruch & family,3,/,CSN,Steel,2017
+2741,677,George Ty & family,3,1933,GT Capital,Financial Services,2017
+2742,677,God Nisanov,3,1973,Radisson Royal Ukraine Hotel,Real Estate,2017
+2743,677,Hal Steinbrenner & family,3,1970,New York Yankees,Sports,2017
+2744,677,Huang Maoru & Zhang Jin,3,1965,Maoye ,Real Estate、 Retail,2017
+2745,677,Jason Chang C.S. & family ,3,1944,ASE ,Manufacturing ,2017
+2746,677,Jean Pierre Cayard,3,1943,La Martiniquaise,Beverages,2017
+2747,677,Jim Breyer,3,1962,Accel Partners,Investments,2017
+2748,677,Ke Zunhong & family,3,1954,Kanghong Pharmaceuticals  ,Pharmaceuticals,2017
+2749,677,Luca Rovati & family,3,1963,Meda ,Pharmaceuticals,2017
+2750,677,Maggie Magerko,3,1966,84 Lumber,Construction,2017
+2751,677,Marc Ladreit de Lacharriere,3,1941,Fimalac,Investments,2017
+2752,677,Michael Platt ,3,1969,BlueCrest Capital Management,Investment,2017
+2753,677,Miguel Fluxa Rossello,3,1939,Grupo Iberostar ,Hotels,2017
+2754,677,Nusli Wadia,3,1945,Britannia,FMCG,2017
+2755,677,Qiu Guanghe & family,3,1951,Semir ,Textiles,2017
+2756,677,Shigeyoshi Kinoshita & family,3,1952,Acom,Banking,2017
+2757,677,Sumet Jiaravanon,3,1935,Charoen Pokphand ,Conglomerate,2017
+2758,677,William P. Lauder,3,1961,Estee Lauder,Cosmetics,2017
+2759,677,Zarakh Iliev,3,1967,Radisson Royal Ukraine Hotel,Real Estate,2017
+2760,704,Anita Zucker,2.9,1952,Intertech Group,Chemicals & Petrochemicals,2017
+2761,704,Arne Wilhelmsen,2.9,1930,Royal Caribbean Cruises & Linstow ,Hospitalityhospitality,2017
+2762,704,Dan Friedkin,2.9,1966,Gulf States Toyota,Single Brand Retailing,2017
+2763,704,Donald Sterling,2.9,1939,Los Angeles Clippers,Real Estate,2017
+2764,704,Husnu Ozyegin,2.9,1945,Fiba Holding,Financial Services,2017
+2765,704,Jiang Bin & Hu Shuangmei,2.9,1965、1968,GoerTek,Audio technology,2017
+2766,704,John Middleton,2.9,1956,John Middleton Inc,FMCG,2017
+2767,704,Jorge Perez,2.9,1950,The Related Company,Construction,2017
+2768,704,Laurence Graff,2.9,1940,Graff Diamonds ,Diamonds,2017
+2769,704,Li Li & Li Tan,2.9,1964、1964,Hepalink,Pharmaceuticals,2017
+2770,704,Lu Zhengyao,2.9,1970,CAR,Automobiles & Auto Components,2017
+2771,704,Michael Pieper,2.9,1949,Franke Group,Consumer Products,2017
+2772,704,Peter Peterson,2.9,1927,Blackstone ,Investments,2017
+2773,704,Rafael del Pino Calvo-Sotelo,2.9,1959,Ferrovial,Construction,2017
+2774,704,Richard Li Tzar Kai,2.9,1967,PCCW,Telecom,2017
+2775,704,Rubens Ometto,2.9,1950,Cosan,Food & Beverages,2017
+2776,704,Shen Wenrong,2.9,1946,Sha Steel,Iron & Steel,2017
+2777,704,Vichai Srivaddhanaprabha,2.9,1958,King Power Duty Free,Entertainment,2017
+2778,704,Wang Wenbiao ,2.9,1959,Elion,Chemicals & Petrochemicals,2017
+2779,704,Wu Xu & family,2.9,1963,Sincere ,Real estate、 finance,2017
+2780,704,Yuji Otsuka,2.9,1955,Otsuka,Technology,2017
+2781,725,Augusto Perfetti,2.8,/,Perfetti Van Melle,Food and Bevarage,2017
+2782,725,Carlos Rodriguez Pastor,2.8,1960,Banco Internacional Del Peru,Banking,2017
+2783,725,David Barclay,2.8,1934,Shop Direct,Multi Brand Retailing,2017
+2784,725,Dou Zhenggang & Wei Xuefeng,2.8,1953,Jinjiang ,Energy,2017
+2785,725,Erich Kellerhals,2.8,1940,Media-Saturn,Consumer electronics Retailing,2017
+2786,725,Francesco Aquilini ,2.8,1961,Aquilini Investment ,Investment,2017
+2787,725,Frederick Barclay,2.8,1934,Shop Direct,Multi Brand Retailing,2017
+2788,725,Giorgio Perfetti,2.8,/,Perfetti Van Melle,Food and Bevarage,2017
+2789,725,Howard Schultz,2.8,1954,Starbucks ,Multi Brand Retailing,2017
+2790,725,John Paul DeJoria,2.8,1945,Mitchell System,Cosmetics,2017
+2791,725,Lars Larsen,2.8,1950,Jysk,Single Brand Retailing,2017
+2792,725,Martin Viessmann,2.8,1955,Viessmann Werke,Electronics,2017
+2793,725,Michael Milken,2.8,1947,Drexel Burham Lambert,Investments,2017
+2794,725,Michael Moritz,2.8,1955,Sequoia Capital,Investments,2017
+2795,725,Neil Bluhm,2.8,1941,Walton Street Capital,Investments,2017
+2796,725,Nicolas Puech,2.8,1945,Hermes,Multi Brand Retailing,2017
+2797,725,Oprah Winfrey,2.8,1954,Oprah Winfrey Network,Entertainment,2017
+2798,725,Peter Thiel,2.8,1968,Clarium Capital,Investments,2017
+2799,725,Phillip Ragon,2.8,1950,InterSystems,Technology,2017
+2800,725,Renzo Rosso,2.8,1958,OTB,Single Brand Retailing,2017
+2801,725,Robert McNair,2.8,1939,Houston Texans,Sports,2017
+2802,725,Robert Wood Johnson IV,2.8,1948,New York Jets,Sports,2017
+2803,725,Romesh T Wadhwani,2.8,1948,Symphony Technology ,Technology,2017
+2804,725,Torbjorn Tornquist,2.8,1954,Gunvor group,Oil & Gas,2017
+2805,725,Vijay Chauhan & family,2.8,1937,Parle Products,FMCG,2017
+2806,725,Yasumitsu Shigeta,2.8,1966,Hikari Tsushin,Telecom,2017
+2807,725,Yusaku Maezawa,2.8,1976,Start Today,Online retail,2017
+2808,752,Anthony Bamford & family,2.7,1947,JCB,Manufacturing,2017
+2809,752,Bruce Halle,2.7,1931,Discount Tire,Single Brand Retailing,2017
+2810,752,Cao Longxiang & Zhou Guodi,2.7,1957,Jumpcan,Pharmaceuticals,2017
+2811,752,Chen Jinxia,2.7,1968,Yongjin,Pharmaceuticals,2017
+2812,752,Chen Zhuolin & family,2.7,1962,Agile Property,Real Estate,2017
+2813,752,Chi Yufeng,2.7,1971,Perfect World,TMT,2017
+2814,752,Clemmie Spangler Jr,2.7,1933,Bank Of America,Investments,2017
+2815,752,Clive Calder,2.7,1948,Record Label,Entertainment,2017
+2816,752,Dagmar Dolby & family,2.7,1942,Dolby Laboratories,Entertainment,2017
+2817,752,Denise DeBartolo York  ,2.7,1951,San Francisco 49ers ,Sports,2017
+2818,752,Emilio Azcarraga Jean,2.7,1969,Televisia,Entertainment,2017
+2819,752,Ferit Faik Sahenk,2.7,1965,Garanti Bank,Banking,2017
+2820,752,Feroz Allana,2.7,/,IFFCO,Consumer Products,2017
+2821,752,Giuseppe De Longhi ,2.7,1940,De Longhi,Consumer Electronics,2017
+2822,752,Guenther Lehmann,2.7,/,Drogeriemarkt,Retail,2017
+2823,752,Gunter Herz,2.7,1941,Mayfair,Food & Beverages,2017
+2824,752,Hans Guido Riegel & family,2.7,/,Haribo ,Food & Beverages,2017
+2825,752,He Qiaonv & Tang Kai ,2.7,1966、1970,Orient Landscape,Forestry,2017
+2826,752,Jeff Greene,2.7,1955,Real Estate Investments,Real Estate,2017
+2827,752,Joan Tisch,2.7,1928,Loews ,Energy,2017
+2828,752,John Brown,2.7,1935,Stryker Corporation,Medical Technology,2017
+2829,752,John Tyson,2.7,1954,Tyson Foods,Food processing,2017
+2830,752,Kenneth Feld & family,2.7,1949,Feld Entertainment,Live Entertainment (Circus),2017
+2831,752,Kenneth Langone,2.7,1936,Home Depot,Multi Brand Retailing,2017
+2832,752,Kushal Pal Singh,2.7,1933,DLF,Realty,2017
+2833,752,Li Hua & family,2.7,1966,Excellence ,Real Estate,2017
+2834,752,Li Yihai,2.7,1963,Jiangxi Jiminkexin ,Pharmaceuticals,2017
+2835,752,Lottie Tham,2.7,1951,Hennes & Mauritz,Single Brand Retailing,2017
+2836,752,Luis Enrique Yarur Rey,2.7,1951,Empresas Juan Yarur,Banking,2017
+2837,752,Michael Rubin,2.7,1973,Kynetic,Technology,2017
+2838,752,Phil Ruffin,2.7,1936,Treasure Island Resort & Casino,Casinos,2017
+2839,752,Sarik Tara,2.7,1931,Enka,Construction,2017
+2840,752,Shah Karim Al Hussaini,2.7,/,Aga Khan Development Network,Construction,2017
+2841,752,Shen Guojun & family,2.7,1962,Yintai ,Retail,2017
+2842,752,Steven Udvar,2.7,1947,Air Lease ,Aviation,2017
+2843,752,Vivek Chaand Sehgal,2.7,1958,Motherson Sumi System,Automobiles & Auto Components,2017
+2844,752,Wu Liangding & family,2.7,1946,Zhongbao ,Automobiles & Auto Components,2017
+2845,752,Xie Shihuang,2.7,1970,"Alibaba, Ant Financial",TMT,2017
+2846,752,Xu Guanbao,2.7,1957,Chuanhua ,Manufacturing,2017
+2847,752,Zhang Fan,2.7,1954,Great Eagle ,Real Estate,2017
+2848,792,Adam Neuman,2.6,1980,WeWork,Technology,2017
+2849,792,Amos Hostetter,2.6,1937,AT&T,Entertainment,2017
+2850,792,An Kang & family,2.6,1949,Hualan Biological Engineering,Biopharmaceuticals,2017
+2851,792,Barry Diller,2.6,1942,Interactive Corp,Media,2017
+2852,792,Bernard Saul II,2.6,1933,Saul Centre,Financial Services,2017
+2853,792,Carlo Fidani,2.6,1955,Fidani & Sons,Real Estate,2017
+2854,792,Chelia Cohen Safra,2.6,1937,Banco Safra,Investments,2017
+2855,792,Chen Hongdao,2.6,/,JDB,Food & Beverages,2017
+2856,792,Edgar Bronfman Jr,2.6,1956,Warner Music ,Entertainment,2017
+2857,792,Elijah Widjaja,2.6,/,Bund Center,Real Estate,2017
+2858,792,Fernando Roberto Moreira Salles,2.6,1947,Itau Unibanco,Banking,2017
+2859,792,Fu Jun,2.6,1957,Macrolink ,Mining,2017
+2860,792,Fu Liquan & Chen Ailing,2.6,1967、1967,Dahua Technology,TMT,2017
+2861,792,Guo Wengui & family,2.6,1966,Zhengquan ,Real Estate,2017
+2862,792,Harsh Mariwala,2.6,1952,Marico,FMCG,2017
+2863,792,J Joe Ricketts,2.6,1942,TD Ameritrade,Brokerages,2017
+2864,792,Joao Moreira Salles,2.6,1963,Itau Unibanco,Banking,2017
+2865,792,Kalanithi Maran,2.6,1965,Sun Network,Media,2017
+2866,792,Kuok Khoon Hong,2.6,1950,Wilmar International,Food & Beverages,2017
+2867,792,Lai Meisong,2.6,1970,ZTO,Express delivery,2017
+2868,792,Lawrence Ho,2.6,1977,Melco,Gaming,2017
+2869,792,Li Gaiteng & family,2.6,1972,Flyco,Consumer Electronics,2017
+2870,792,Lindsay Fox,2.6,1938,Linfox,Logistics,2017
+2871,792,Luo Shaoyu & Zhao Jiehong,2.6,1969、/,Dongyin ,Property、 special automobiles、 investments,2017
+2872,792,Lynn Schusterman,2.6,1939,Samson Resources,Energy,2017
+2873,792,Min Kao & family,2.6,1949,Garmin ,Technology,2017
+2874,792,Mortimer Zuckerman,2.6,1938,Boston Properties,Real Estate,2017
+2875,792,Norbert Dentressangle,2.6,1955,Norbert Dentressangle,Logistics,2017
+2876,792,Pan Weiming,2.6,1964,Fusheng ,Real Estate,2017
+2877,792,Pedro Moreira Salles,2.6,1961,Itau Unibanco,Banking,2017
+2878,792,Penny Pritzker,2.6,1960,Hyatt,Hospitality,2017
+2879,792,Peter Hargreaves,2.6,1947,Hargreaves Lansdown,Investments,2017
+2880,792,Ralph Lauren,2.6,1940,RL Corporation,Single Brand Retailing,2017
+2881,792,Robert Bass,2.6,1949,Oak Hill Capital Management,Investments,2017
+2882,792,Roberto Bonatti,2.6,1949,Techint,Construction,2017
+2883,792,Sun Shoukuan & family,2.6,1949,Jiacheng ,Mining,2017
+2884,792,Tom Golisano,2.6,1942,Paychex ,Hr Services,2017
+2885,792,Walther Moreira Salles,2.6,1957,Itau Unibanco,Banking,2017
+2886,792,"William Wrigley, Jr",2.6,1964,Wrigley Management,Food & Beverages,2017
+2887,792,Yoshiko Mori,2.6,1941,Minoru Estate,Real Estate,2017
+2888,792,Yu Feng,2.6,1963,Focus Media,Investments,2017
+2889,792,Zhou Hongyi,2.6,1970,Qihoo,TMT,2017
+2890,834,Alicia Koplowitz,2.5,1955,Omega Capital,Investments,2017
+2891,834,Alwin Lehner & family,2.5,/,Alpla,Packaging,2017
+2892,834,Antti Herlin,2.5,1957,Kone Corporation,Elevators & Escalators production,2017
+2893,834,Ben Pon Jr.,2.5,1937,Pon Holdings,Automobiles & Auto Components,2017
+2894,834,Bulat Utemuratov,2.5,1958,Verny Capital,Investments,2017
+2895,834,Carlos Hank Rhon & family,2.5,1948,Grupo Financiero Interacciones,Banking,2017
+2896,834,Christopher Reyes,2.5,1954,Reyes ,Food & Beverages,2017
+2897,834,Cui Genliang & Cui Wei,2.5,1958,Hengtong ,TMT,2017
+2898,834,Daniel Jaeggi  ,2.5,1960,Mercuria Energy Group,Oil & Gas,2017
+2899,834,Daniel Tsai Ming-Chung & family ,2.5,1957,Fubon ,Financial Services ,2017
+2900,834,David Hains,2.5,1932,Portland House ,Investments,2017
+2901,834,Dirk Rossmann,2.5,1948,Rossmann,Multi Brand Retailing,2017
+2902,834,Fernando Augusto Zobel,2.5,1961,Ayala Corporation,Energy,2017
+2903,834,Gigi Pritzker,2.5,1963,Hyatt,Hospitality,2017
+2904,834,Gil Shwed,2.5,1969,Check Point Software Technologies ,Technology,2017
+2905,834,Hans Melchers,2.5,1939,Hal Trust,Chemicals & Petrochemicals,2017
+2906,834,Hans Strothoff,2.5,1951,Hans Strothoff,Retail,2017
+2907,834,Helmut Lehner & family,2.5,/,Alpla,Packaging,2017
+2908,834,Herbert Simon,2.5,1935,Simon Property ,Real Estate,2017
+2909,834,Jamie Augusto Zobel,2.5,1960,Ayala Corporation,Energy,2017
+2910,834,Joe Shoen,2.5,1950,Amerco,Rental (moving & storing),2017
+2911,834,John Arnold,2.5,1975,Centaurus Advisors,Hedge Funds,2017
+2912,834,John Whittaker,2.5,1943,The Peel Group,Real Estate,2017
+2913,834,Jon Stryker,2.5,1959,Stryker Corporation,Medical Technology,2017
+2914,834,Juan Coneo Solari & family,2.5,/,SACI Falabella,Multi Brand Retailing,2017
+2915,834,Juan-Miguel Villar Mir,2.5,1933,Obrascon Huarte Lain,Construction,2017
+2916,834,Jude Reyes,2.5,1956,Reyes ,Food & Beverages,2017
+2917,834,Larry Silverstein,2.5,1934,Silverstein Properties,Real Estate,2017
+2918,834,Liang Xinjun,2.5,1968,Fosun ,Investments,2017
+2919,834,Ma Xiuhui & Wang Yaohai,2.5,1967、1971,Opple,Manufacturing,2017
+2920,834,Marco Dunand,2.5,1962,Mercuria Energy Group,Oil & Gas,2017
+2921,834,Mark Shoen,2.5,1951,Amerco,Rental (moving & storing),2017
+2922,834,Michael Wu & family,2.5,1945,Wing Lung Bank,Banking,2017
+2923,834,Patrick Lee,2.5,1941,Lee & Man,Paper,2017
+2924,834,PV Ramaprasad Reddy,2.5,1959,Aurobindo Pharma,Pharmaceuticals,2017
+2925,834,Rajan Raheja,2.5,1955,Exide Industries,Automobiles & Auto Components,2017
+2926,834,Richard Schulze,2.5,1942,Best Buy,Electronic Retailer,2017
+2927,834,Richard Tsai Ming-Hsing & family ,2.5,1958,Fubon ,Financial Services ,2017
+2928,834,Robert P Stiller,2.5,1944,Keurig Green Mountain Inc,Coffee,2017
+2929,834,Samuel Yin Yan-Liang  ,2.5,1950,Ruentex ,Retail ,2017
+2930,834,Sit Kwong Lam,2.5,1969,Brightoil Petroleum,Oil & Gas,2017
+2931,834,Stefan Olsson,2.5,1950,Stena Sphere,Conglomerate,2017
+2932,834,Tsai Chen-Yu ,2.5,1953,Homax Equity  ,Real Estate ,2017
+2933,834,Wu Gang,2.5,1977,JD Capital,Investments,2017
+2934,834,Xie Zhikun & family,2.5,/,Zhongzhi ,Investments,2017
+2935,834,Xiu Laigui & Li Yanhua,2.5,1955、1958,Xiuzheng ,Pharmaceuticals,2017
+2936,834,Xue Guanglin,2.5,1967,Brightoil,Oil exploration、 oil trading,2017
+2937,834,Yvonne Bauer & family,2.5,1979,Bauer Media ,Entertainment,2017
+2938,834,Zhou Yaoting & family,2.5,1943,Hongdou ,Textiles,2017
+2939,883,Andre Hoffman,2.4,1959,Roche,Pharmaceuticals,2017
+2940,883,Andreas Oeri,2.4,1950,Roche,Pharmaceuticals,2017
+2941,883,Andrew Currie,2.4,1958,Ineos Group ,Chemicals & Petrochemicals,2017
+2942,883,Anthony Pratt,2.4,1961,Visy Industries,Paper、Packaging & recyling,2017
+2943,883,Antonio Dell Valle Ruiz,2.4,1940,Mexichem,Chemicals & Petrochemicals,2017
+2944,883,Bob Parsons,2.4,1951,Go Daddy,Technology,2017
+2945,883,Cai Dongqing,2.4,1969,Alpha Animation,Animation ,2017
+2946,883,Catherine Oeri,2.4,1956,Roche,Pharmaceuticals,2017
+2947,883,Chung Eui-Sun,2.4,1971,Hyundai,Automobiles & Auto Components,2017
+2948,883,David Bonderman,2.4,1943,Texas Pacific Group,Investments,2017
+2949,883,Dieter Schnabel,2.4,1946,Helm,Chemicals & Petrochemicals,2017
+2950,883,Dominique Heriard Dubreuil & family,2.4,/,Remy Cointreau,Food & Beverages,2017
+2951,883,Fiona Pratt,2.4,1965,Visy Industries,Paper、Packaging & recyling,2017
+2952,883,Heloise Pratt,2.4,1963,Visy Industries,Paper、Packaging & recyling,2017
+2953,883,Hubertus Benteler,2.4,1947,Benteler International,Automobiles & Auto Components,2017
+2954,883,James Irsay,2.4,1960,Indianapolis Cult,Sports,2017
+2955,883,Jerrold Perenchio,2.4,1931,Chartwell Leisure,Entertainment,2017
+2956,883,Jiang Wei & family,2.4,1961,Bailing ,Pharmaceuticals,2017
+2957,883,Jimmy Haslam,2.4,1955,Pilot Flying J,Single Brand Retailing,2017
+2958,883,Joe Lewis,2.4,1938,Tavistock,Investments,2017
+2959,883,John Pritzker,2.4,1953,Hyatt,Hospitality,2017
+2960,883,John Reece,2.4,1958,Ineos Group ,Chemicals & Petrochemicals,2017
+2961,883,Jorg Duschmale,2.4,/,Roche,Pharmaceuticals,2017
+2962,883,Law Kar Po,2.4,1950,Lobo Investment,Hospitality,2017
+2963,883,Leslie Wilson & family,2.4,1944,Reece Australia,Multi Brand Retailing,2017
+2964,883,Li Zongsong & Gu Xiaojia,2.4,/,Bicon,Pharmaceuticals,2017
+2965,883,Liu Yuhua & Zhao Yan,2.4,/、1967,Bloomage,Investments,2017
+2966,883,Lukas Duschmale,2.4,/,Roche,Pharmaceuticals,2017
+2967,883,Maja Hoffman,2.4,/,Roche,Pharmaceuticals,2017
+2968,883,Pat Stryker,2.4,1957,Stryker Corporation,Medical Technology,2017
+2969,883,Paul Demarais & family ,2.4,/,Power Corp. of Canada,Conglomerate ,2017
+2970,883,Philip Niarchos,2.4,1956,-,Art,2017
+2971,883,Qi Shi & family,2.4,1970,Eastmoney,TMT,2017
+2972,883,Sabine Duschmale Oeri,2.4,1951,Roche,Pharmaceuticals,2017
+2973,883,Sam Zell,2.4,1942,Equity Group Investments,Investments,2017
+2974,883,Shen Nanpeng,2.4,1967,Sequoia,Investments,2017
+2975,883,Tom Benson,2.4,1928,New Orleans,Sports,2017
+2976,883,Tuncay Ozilhan,2.4,1948,Anadolu,Food & Beverages,2017
+2977,883,Vanich Chaiyawan,2.4,1932,Thai Life,Financial Services,2017
+2978,883,Vera Michalski Hoffman,2.4,1955,Roche,Pharmaceuticals,2017
+2979,883,Xie Bing & Zheng Xiangling,2.4,1952、1964,Sino Biopharmaceutial ,Pharmaceuticals,2017
+2980,924,Adi Godrej,2.3,1943,Godrej,Consumer Durables,2017
+2981,924,Agnete Kirk Thinggaard,2.3,/,Lego ,Manufacturing,2017
+2982,924,Alberto Bombassei,2.3,1941,Brembo,Automobiles & Auto Components,2017
+2983,924,Alexandra Schorghuber,2.3,1960,Schoerghuber Unternehmensgruppe,Construction,2017
+2984,924,Aloysio de Andrade Faria,2.3,1924,Banco Alfa,Banking,2017
+2985,924,Andrei Kozitsyn,2.3,1961,UMMC,Mining,2017
+2986,924,Andrew Tan,2.3,1953,Alliance Global Group ,Food & Beverages,2017
+2987,924,Arthur Demoulas & family,2.3,1956,Market Basket,Multi Brand Retailing,2017
+2988,924,Ashwin Choksi,2.3,1944,Asian Paints,Chemicals & Petrochemicals,2017
+2989,924,Brad Kelley,2.3,1957,Commonwealth Brands,Tobacco,2017
+2990,924,Chan Tan Ching Fen,2.3,/,Hang Lung,Real Estate,2017
+2991,924,Dan Snyder,2.3,1965,Washington Redskins,Sports,2017
+2992,924,Daniel Pritzker,2.3,1961,Hyatt,Hospitality,2017
+2993,924,Dulce Pugliese de Godoy Bueno,2.3,1948,Amil Participacoes,Health Care,2017
+2994,924,Edson de Godoy Bueno & family,2.3,1944,Amil Participacoes,Health Care,2017
+2995,924,Erivan Haub & family,2.3,1933,Tengelmann,Multi Brand Retailing,2017
+2996,924,Erman Ilicak,2.3,1968,Ronesans Construction ,Construction,2017
+2997,924,Ferdinand Piech,2.3,1938,Volkswagen,Automobiles & Auto Components,2017
+2998,924,Fong Yun Wah,2.3,1925,Hip Shing Hong,Real Estate,2017
+2999,924,Forrest Preston,2.3,1934,Life Care Centers of America,Health care,2017
+3000,924,Friedhelm Loh,2.3,1948,Friedhelm Loh Group,Manufacturing,2017
+3001,924,Hanni Toosbuy Kasprzak,2.3,1959,Ecco,Manufacturing,2017
+3002,924,Hasmukh Chudgar & family,2.3,1934,Intas Pharma,Pharmaceuticals,2017
+3003,924,James France,2.3,1945,Nascar Team,Stock car Racing,2017
+3004,924,Jamshyd Godrej,2.3,1950,Godrej,Consumer Durables,2017
+3005,924,Jeff Rothschild,2.3,1955,Facebook,Social networking service,2017
+3006,924,Jing Baifu,2.3,1970,Angzhan ,Real Estate,2017
+3007,924,Johan Johannson ,2.3,1967,NorgesGruppen,Grocery wholesale,2017
+3008,924,John B Hess,2.3,1955,Hess,Oil & gas,2017
+3009,924,John Fisher,2.3,1962,GAP,Single Brand Retailing,2017
+3010,924,John Leigh,2.3,/,CLP,Electric Power、Investments,2017
+3011,924,Juan Abello,2.3,1942,Sacyr Vallehermoso,Investments,2017
+3012,924,Judy Faulkner,2.3,1944,Epic Systems,Technology,2017
+3013,924,Lee Joong-Keun,2.3,1941,Booyoung,Real Estate,2017
+3014,924,Leonard Schleifer,2.3,1953,Regeneron,Pharmaceuticals、 Biotech,2017
+3015,924,Li Zhe,2.3,1955,Riverside ,Real Estate,2017
+3016,924,Lin Gang,2.3,1964,CMS,Pharmaceuticals,2017
+3017,924,Manuel Jove,2.3,1943,Banco Bilbao Vizcaya Argentaria,Banking,2017
+3018,924,Nadir Godrej,2.3,1952,Godrej,Consumer Durables,2017
+3019,924,Najib Mikati,2.3,1956,MTN,Telecom,2017
+3020,924,Qin Yinglin & Qian Ying,2.3,1956、1966,Muyuan,Husbandry,2017
+3021,924,Richard Chandler,2.3,1959,Richard Chandler,Investments,2017
+3022,924,Rishad Naoroji,2.3,1953,Godrej,Consumer Durables,2017
+3023,924,Robert Miller,2.3,1946,Future Electronics,Computer & Electronics Retail,2017
+3024,924,Scott Lin Yao-Ying & family ,2.3,1933,Largan ,Manufacturing ,2017
+3025,924,Shoji Uehara & family,2.3,1928,Taisho Pharmacuetical,Pharmaceuticals,2017
+3026,924,Smitha V Crishna,2.3,1951,Godrej,Consumer Durables,2017
+3027,924,Sofie Kirk Kiaer Kristiansen,2.3,/,Lego ,Manufacturing,2017
+3028,924,Su Weizhong,2.3,/,Chinahr,Energy,2017
+3029,924,Taha Mikati,2.3,1945,MTN,Telecom,2017
+3030,924,Ted Turner,2.3,1939,Turner Broadcasting,Entertainment,2017
+3031,924,Thomas Kirk Kiaer Kristiansen,2.3,/,Lego ,Manufacturing,2017
+3032,924,Tu Jianhua,2.3,1963,Longcin ,Motorcycles、 Real estate,2017
+3033,924,Vyacheslav Kantor,2.3,1955,Acron,Chemicals & Petrochemicals,2017
+3034,924,Wang Changtian & Du Yinglian,2.3,1965、/,Enlight Media,Entertainment,2017
+3035,924,Wang Xing,2.3,1979,Meituan,TMT,2017
+3036,924,Xu Yu & Li Shanhu,2.3,/,Trendy,Apparel,2017
+3037,924,Yan Xijun & family,2.3,1953,Tasly,Pharmaceuticals,2017
+3038,924,Zhang Bangxin,2.3,1980,TAL,Education,2017
+3039,924,Zuo Hui,2.3,1971,Lianjia,Real Estate,2017
+3040,984,Abhay Vakil,2.2,1952,Asian Paints,Chemicals & Petrochemicals,2017
+3041,984,Alan Gerry,2.2,1930,Cablevision Industries,Entertainment,2017
+3042,984,Alec Gores,2.2,1954,Gores Group,Investments,2017
+3043,984,Alexander Ponomarenko,2.2,1965,Novorossiysk Commercial Sea Port,Construction,2017
+3044,984,Alexander Spanos & family,2.2,1924,San Diego Chargers,Sports,2017
+3045,984,Barbara Tyson,2.2,/,Tyson Foods,Food processing,2017
+3046,984,Bernie Ecclestone & family,2.2,1933,Formula One ,Sports,2017
+3047,984,Bill Gross,2.2,1945,Pimco,Investments,2017
+3048,984,Carl Bennet,2.2,1953,Getinge Group,Health Care,2017
+3049,984,Chandru Raheja,2.2,1941,Shoppers Stop,Retailing,2017
+3050,984,Chen Bang,2.2,1965,Aier Ophthalmology,Medical services ,2017
+3051,984,Clemens Toennies,2.2,1957,Tonnies Food,Conglomerate,2017
+3052,984,Craig McCaw,2.2,1950,Pendrell Oration,Telecom,2017
+3053,984,Frank Lowy & family,2.2,1931,Westfield ,Real Estate,2017
+3054,984,Gerald J Ford,2.2,1945,Ford Financial Fund,Banking,2017
+3055,984,Gordon Getty,2.2,1934,Ann & Gordon Getty Foundation,Energy,2017
+3056,984,Hilton H. Schlosberg,2.2,1953,Monster Beverage Co.,Beverages,2017
+3057,984,Huang Qisen & family,2.2,1965,Thaihot,Real Estate,2017
+3058,984,Huang Wenzai,2.2,1953,Star river,Real Estate,2017
+3059,984,Isabel Dos Santos,2.2,1974,Unitel,Investments,2017
+3060,984,Jacques Saade & family,2.2,1938,CMA-CGM,Logistics,2017
+3061,984,James Shoen,2.2,1950,Amerco,Rental (moving & storing),2017
+3062,984,Jeffrey Lorberbaum,2.2,1955,Mohawk Industries,Manufacturing,2017
+3063,984,John Henry,2.2,1950,Fenway Sports Group,Sports,2017
+3064,984,Julian Robertson Jr,2.2,1933,Tiger Management,Hedge Funds,2017
+3065,984,Kazuo Okada & family,2.2,1943,Universal Entertainment ,Entertainment,2017
+3066,984,Koos Bekker,2.2,1953,Naspers,Media,2017
+3067,984,Lin Tianfu ,2.2,1962,GRN ,Textiles,2017
+3068,984,Linda Pritzker,2.2,1954,Hyatt,Hospitality,2017
+3069,984,Liu Zhongtian,2.2,1964,Zhongwang ,Metals,2017
+3070,984,Michael Federmann,2.2,1944,Elbit Systems,Defense 、 Hotel,2017
+3071,984,Ni Zugen & family,2.2,1957,KingClean Electric,Manufacturing,2017
+3072,984,Pham Nhat Vuong,2.2,1969,Vingroup,Real Estate,2017
+3073,984,Ravi Pillai,2.2,1953,Ravi Pillai,Construction,2017
+3074,984,Ray Davis,2.2,1942,Energy Transfer Equity LP,Pipeline,2017
+3075,984,Reinold Geiger,2.2,1949,L'Occitane,Cosmetics,2017
+3076,984,Robert Toennies,2.2,/,Toennies Lebensmittel,Food & Beverages,2017
+3077,984,Ronald Lauder,2.2,1945,Estee Lauder,Cosmetics,2017
+3078,984,Rudolf Maag,2.2,1946,Actelion,Pharmaceutical/ biotech,2017
+3079,984,Sam Goi,2.2,1949,Tee Yih Jia,Food & Beverages,2017
+3080,984,Samprada Singh,2.2,1926,Alkem Laboratories,Pharmaceuticals,2017
+3081,984,Sebastian Pinera,2.2,1950,Blanco Y Negro,Investments,2017
+3082,984,Semahat Arsel,2.2,1929,KOC ,Conglomerate,2017
+3083,984,Seo Jung Jin,2.2,1958,Celltrion,Pharmaceuticals,2017
+3084,984,Stanley Druckenmiller,2.2,1954,Duquesne Capital Management,Hedge Funds,2017
+3085,984,Teresa Solari Falabella & family,2.2,/,SACI Falabella,Multi Brand Retailing,2017
+3086,984,Wu Zhigang & family,2.2,1935,Toly Bread,Food & Beverages,2017
+3087,984,Xue Xiangdong & family,2.2,1959,DHC Digital ,TMT,2017
+3088,984,Zan Shengda,2.2,1963,Zongyi ,Investments,2017
+3089,984,Zhang Zhixiang,2.2,1967,Jianlong,Iron & Steel,2017
+3090,984,Zhou Zerong,2.2,1954,Kingold ,Real Estate、 Investments,2017
+3091,984,Zhu Linyao,2.2,1970,Huabao International ,Fragrances、 Flavouring,2017
+3092,984,Zygi Wilf,2.2,1951,Garden Homes,Real Estate,2017
+3093,1037,Alexander Nesis,2.1,1963,ICT ,Investments,2017
+3094,1037,Alexander Skorobogatko,2.1,1968,Novorossiysk Commercial Sea Port,Construction,2017
+3095,1037,Arkady Rotenberg,2.1,1952,SGM,Energy,2017
+3096,1037,Bob Gaglardi,2.1,/,Northland Properties,Hospitality (Hotel & Restaurant),2017
+3097,1037,Brian France,2.1,1963,Nascar Team,Entertainment,2017
+3098,1037,C Dean Metropoulos,2.1,1947,Metropoulos,Investments,2017
+3099,1037,Carlo Benetton,2.1,1944,Benetton ,Single Brand Retailing,2017
+3100,1037,Chairul Tanjung,2.1,1963,CT Corp ,Conglomerate ,2017
+3101,1037,"Chase Coleman, III",2.1,1976,Tiger Global Management,Hedge Funds,2017
+3102,1037,Chen Jinshi & family,2.1,1962,Zhongnan ,Real Estate,2017
+3103,1037,Chen Yung-Tai ,2.1,1936,Aurora ,Real Estate ,2017
+3104,1037,Daniel D'Aniello,2.1,1947,Carlyle ,Investments,2017
+3105,1037,Daniela Herz,2.1,1955,Mayfair,Food & Beverages,2017
+3106,1037,Danil Khachaturov,2.1,1972,Rosgosstrakh,Insurance,2017
+3107,1037,Dennis Chip Wilson,2.1,1957,Lululemon,Single Brand Retailing,2017
+3108,1037,Folorunsho Alakija,2.1,1951,Famfa,Energy,2017
+3109,1037,Gilberto Benetton,2.1,1942,Benetton ,Single Brand Retailing,2017
+3110,1037,Gilles Martin,2.1,1965,Eurofins Scientific,Laboratory Services,2017
+3111,1037,Giuliana Benetton,2.1,1939,Benetton ,Single Brand Retailing,2017
+3112,1037,Irene Lee & family,2.1,1955,Hysan,Real Estate,2017
+3113,1037,James Jannard,2.1,1950,Oakley,Eye Wear,2017
+3114,1037,Jean-Charles Decaux,2.1,1970,JC Decaux,Entertainment,2017
+3115,1037,Jean-Francois Decaux,2.1,1960,JC Decaux,Entertainment,2017
+3116,1037,Jiang Rensheng & family,2.1,1953,Zhifei Biological Prouducts,Vaccine ,2017
+3117,1037,Johnelle Hunt,2.1,1932,Jb Hunt Transport Services ,Logistics,2017
+3118,1037,Joshua Harris,2.1,1965,Apollo Global Management,Investments,2017
+3119,1037,Kenny Troutt,2.1,1948,Excel Communications,Telecom,2017
+3120,1037,Lesa France Kennedy,2.1,1962,Nascar Team,Entertainment,2017
+3121,1037,Li Yong,2.1,1977,Huaxin,Energy,2017
+3122,1037,Li Zhongchu & family,2.1,1963,Shiji ,TMT,2017
+3123,1037,Liliana Solari Falabella & family,2.1,1941,SACI Falabella,Multi Brand Retailing,2017
+3124,1037,Lim Oon Kuin,2.1,1944,Hin Leong Trading,Oil & Gas,2017
+3125,1037,Lin Jianhua & Zhang Hong,2.1,1962、1960,First,Solar,2017
+3126,1037,Luciano Benetton,2.1,1936,Benetton ,Single Brand Retailing,2017
+3127,1037,Maja Oeri,2.1,/,Roche,Pharmaceuticals,2017
+3128,1037,Manuel Lao Hernandez,2.1,1944,Cirsa,Gaming & Entertainment,2017
+3129,1037,Marc Lasry,2.1,1961,Avenue Capital ,Hedge Funds,2017
+3130,1037,Marius Nacht,2.1,1966,Check Point Software Technologies,Security software、 Computer hardware,2017
+3131,1037,Miao Hangen,2.1,1965,Shenghong Printing & Dyeing,Manufacturing,2017
+3132,1037,Michael Ashley,2.1,1965,Sports Direct,Multi Brand Retailing,2017
+3133,1037,Mike Cannon-Brookes,2.1,1980,Atlassian,Business Software,2017
+3134,1037,Pearse Lyons,2.1,1945,Alltech,Pharmaceuticals,2017
+3135,1037,Peter Lim,2.1,1954,Wilmar International,Food & Beverages,2017
+3136,1037,Philippe Foriel-Destezet,2.1,1938,Adecco ,Hr Services,2017
+3137,1037,Piero Solari Donajjio & family,2.1,/,SACI Falabella,Multi Brand Retailing,2017
+3138,1037,Prakash Lohia,2.1,1954,Indorama Venture,Chemicals & Petrochemicals,2017
+3139,1037,Richard Yuengling Jr,2.1,1944,D.G. Yuengling & Son,Food & Beverages,2017
+3140,1037,Robert Smith,2.1,1963,Vista Equity Partners,Investments ,2017
+3141,1037,Rodney Sacks,2.1,1950,Monster Beverage,Beverages,2017
+3142,1037,Scott Farquhar ,2.1,1980,Atlassian,Business Software,2017
+3143,1037,Shi Wenbo,2.1,1950,HengAn ,Consumer Products,2017
+3144,1037,Shuai Fangwen & Cao Zaiyun,2.1,1966、1965,Er-Kang Pharmaceutical,Pharmaceuticals,2017
+3145,1037,Sun Jimu & Sun Xiang,2.1,1956、/,Sinogiant ,Iron & Steel,2017
+3146,1037,Suna Kirac,2.1,1942,Koc,Energy,2017
+3147,1037,Thomas Siebel,2.1,1953,First Virtual Group,Technology,2017
+3148,1037,Vinod Gupta,2.1,1946,Havells India,Consumer Durables,2017
+3149,1037,Wang Chaoyong & Li Yifei,2.1,1965、1964,China Equity ,Investments,2017
+3150,1037,Wang Jing,2.1,1972,Xinwei,Telecom,2017
+3151,1037,Wang Junhua & Wu Lanlan,2.1,1970、1974,Yuto Packaging Technology,Packaging,2017
+3152,1037,Yeoh Tiong Lay & family,2.1,1930,Ytl Corporation,Construction,2017
+3153,1037,Zhang Guiping & Zhang Kangli,2.1,1951、1981,Suning Universal,Real Estate,2017
+3154,1037,Zhang Hongwei,2.1,1954,Orient,Energy,2017
+3155,1037,Zhang Li & Zhang Liang,2.1,1953、1982,R&F,Real Estate、 Mining,2017
+3156,1037,Zhu Xingliang & family,2.1,1959,Gold Mantis,Real Estate,2017
+3157,1101,Ahmet Nazif Zorlu,2,1944,Zorlu,Energy,2017
+3158,1101,Anne Beaufour,2,1965,Ipsen,Pharmaceutical ,2017
+3159,1101,Baba Kalyani,2,1950,Bharat Forge,Diversified,2017
+3160,1101,Bernhard Sebastian Braun-Luedicke,2,1977,B. Braun,Medical device,2017
+3161,1101,Brian Roberts,2,1960,Comcast,Media,2017
+3162,1101,Charles Zegar,2,1949,Bloomberg,Media,2017
+3163,1101,Chen Hua,2,1966,Kingkey ,Real Estate、 Finance ,2017
+3164,1101,Duncan MacMillan,2,/,Bloomberg,Media,2017
+3165,1101,Ennio Doris,2,1941,Mediolanum,Insurance,2017
+3166,1101,Eva Maria Braun-Luedicke,2,1987,B. Braun,Medical device,2017
+3167,1101,"Frank Fertitta, III",2,1963,ZUFFA,Entertainment,2017
+3168,1101,Friederike Braun-Luedicke,2,1984,B. Braun,Medical device,2017
+3169,1101,Fu Mingkang & family ,2,1963,Riyue Heavy Industry,Manufacturing,2017
+3170,1101,Gail Miller,2,1944,Larry H. Miller Group,Automobiles & Auto Components,2017
+3171,1101,Georg Von Opel,2,1968,Athris,Real Estate,2017
+3172,1101,George Argyros,2,1937,Dst Systems ,Real Estate,2017
+3173,1101,Glenn Dubin,2,1958,Highbridge Capital,Hedge Funds,2017
+3174,1101,Gu Jiangsheng & family ,2,1973,Jason Furniture,Manufacturing,2017
+3175,1101,H Wayne Huizenga,2,1938,Swisher Hygiene,Investments,2017
+3176,1101,Hamdi Ulukaya,2,1973,Chobani,Food & Beverages,2017
+3177,1101,Hans Georg Naeder,2,1962,Ottobock,Medical device,2017
+3178,1101,Helena Revoredo,2,1947,Prosegur,Logistics,2017
+3179,1101,Henri Beaufour,2,1967,Ipsen,Pharmaceutical ,2017
+3180,1101,Henry Swieca,2,1960,Talpion Fund Management,Hedge Funds,2017
+3181,1101,Huang Minli & Xu Huiqing,2,1965、1963,Manwah,Manufacturing,2017
+3182,1101,Huang Shizai & family,2,1951,Great China International,Real Estate,2017
+3183,1101,Ian Livingstone,2,1963,London and Regional Properties,Real Estate,2017
+3184,1101,Israel Englander,2,1949,Millennium Management,Hedge Funds,2017
+3185,1101,James Coulter,2,1960,Tpg Capital,Investments,2017
+3186,1101,Jane Lauder,2,1974,Estee Lauder,Cosmetics,2017
+3187,1101,Jennifer Pritzker,2,1951,Hyatt,Hospitality,2017
+3188,1101,Jiang Weiping & Zhang Jing,2,1955、1961,Tianqi ,Mining,2017
+3189,1101,Joe Mansueto,2,1957,Morningstar ,Investments,2017
+3190,1101,John Arrillaga,2,1939,Silicon Valley,Real Estate,2017
+3191,1101,John Caudwell,2,1953,Phones4U,Multi Brand Retailing,2017
+3192,1101,John Dorrance III,2,1945,Campbell Soup,Food & Beverages,2017
+3193,1101,John Morgridge,2,1934,Cisco,Technology,2017
+3194,1101,Jorge Gerdau & family,2,1939,Metalurgica Gerdau,Iron & Steel,2017
+3195,1101,Julio Mario Santo Domingo III,2,1986,Sab Miller,Food & Beverages,2017
+3196,1101,Kavitark Ram Shriram,2,1957,Google ,Technology,2017
+3197,1101,Krit Ratanarak,2,1947,Bank Of Ayudhya,Financial Services,2017
+3198,1101,Lawrence Stroll,2,1960,Michael Kors Holdings ,Single Brand Retailing,2017
+3199,1101,Leena Tewari,2,1958,USV,Pharmaceuticals,2017
+3200,1101,Li Wenbin & family,2,1975,Yunnan Junfa ,Real estate,2017
+3201,1101,Lorenzo Fertitta,2,1968,ZUFFA,Entertainment,2017
+3202,1101,Ma Hong & Huang Xiaoxuan,2,1967、/,Souyute,Apparel,2017
+3203,1101,Marc Rowan,2,1963,Apollo Global Management,Investments,2017
+3204,1101,Mark Walter,2,1961,Guggenheim Partners,Finance,2017
+3205,1101,Mehmet Emin Karamehmet,2,1945,Turkcell,Telecom,2017
+3206,1101,Mike Adenuga,2,1954,Conoil,Telecom,2017
+3207,1101,Mustafa Rahmi Koc,2,1931,Koc,Energy,2017
+3208,1101,Ni Zhaoxing & family,2,1956,Zhongrong,Culture,2017
+3209,1101,Que Wenbin,2,1963,Duyiwei,Bio-pharmaceuticals、 mining ,2017
+3210,1101,Rakesh Gangwal,2,1954,Interglobe Enterprise,Aviation,2017
+3211,1101,Richard Livingstone,2,1963,London and Regional Properties,Real Estate,2017
+3212,1101,Rufino Vigil Gonzalez,2,1949,Industrias,Manufacturing,2017
+3213,1101,S Daniel Abraham,2,1925,Slim Fast,Cosmetics,2017
+3214,1101,Scott Cook,2,1953,Intuit,Technology,2017
+3215,1101,Stanley Hubbard,2,1934,Hubbard Broadcasting,Entertainment,2017
+3216,1101,Stephen Hilbert,2,1947,Menards,Home Improvement,2017
+3217,1101,Sunil Vaswani,2,1964,Stallion ,Conglomerate,2017
+3218,1101,Tatiana Casiraghi,2,1984,SABMiller,Beverages,2017
+3219,1101,Theodore Permadi Rachmat,2,1944,Triputra Group,Conglomerate,2017
+3220,1101,Thomas Secunda,2,1955,Bloomberg,Media,2017
+3221,1101,Timur Kulibayev,2,1967,Halyk Bank,Banking,2017
+3222,1101,Tom Morris,2,1955,Home Bargains,Retail,2017
+3223,1101,Wen Yibo & Zhang Huiming,2,1965、/,Sound Environment,Waste Treatment,2017
+3224,1101,William Young,2,1941,Plastipak,Packaging,2017
+3225,1101,Wu Jianshu,2,1964,Tuopu,Automobiles & Auto Components,2017
+3226,1101,Xu Lianjie,2,1953,HengAn ,Consumer Products,2017
+3227,1101,Yang Keng,2,1962,Languan ,Real Estate,2017
+3228,1172,Anwar Pervaiz,1.9,1937,Bestway,Multi Brand Retailing,2017
+3229,1172,Barry Charles Diller,1.9,1942,Expedia,Online Travel & media,2017
+3230,1172,Benjamin Otto,1.9,/,Otto,Multi Brand Retailing,2017
+3231,1172,Catherine Lozick,1.9,1945,Swagelok,Manufacturing,2017
+3232,1172,Chee Chen Tung & family,1.9,1918,Johnson Electric ,Electric Motor Manufacture,2017
+3233,1172,Chen Dejun,1.9,1970,Shentong Express,Express delivery,2017
+3234,1172,Cheng Wei,1.9,1983,Didi,TMT,2017
+3235,1172,Christoph Zeller,1.9,1959,Ivoclar Vivadent,Healthcare,2017
+3236,1172,Ding Shijia,1.9,1964,Anta,Textiles,2017
+3237,1172,Ding Shizhong ,1.9,1970,Anta,Textiles,2017
+3238,1172,Eva-Maria Bucher Haefner,1.9,1958,Computer Associates,Technology,2017
+3239,1172,Gavril Yushvaev,1.9,1958,Wimm -Bill- Dann,Food & Beverages,2017
+3240,1172,George Bishop,1.9,1938,Geo Southern Energy,Oil & gas,2017
+3241,1172,Glenn Saldanha & family,1.9,1970,Glenmark  Pharma ,Pharmaceuticals,2017
+3242,1172,Gudrun Heine,1.9,1955,Storz,Medical device,2017
+3243,1172,Huang Chiheng,1.9,/,Helenbergh,Real estate、 Investments,2017
+3244,1172,Huang Xiaojie,1.9,1978,JD Capital,Investments,2017
+3245,1172,Joseph Grendys,1.9,1962,Koch Foods,Meat processing,2017
+3246,1172,Kevin Plank,1.9,1973,Under Armour,Single Brand Retailing,2017
+3247,1172,Kiran Mazumdar-Shaw,1.9,1954,Biocon,Pharmaceuticals,2017
+3248,1172,Kjell Inge Rokke,1.9,1960,Aker Solution,Shipping,2017
+3249,1172,Leitner Wolfgang,1.9,1955,Andritz,Engineering,2017
+3250,1172,Li Zhaoting,1.9,1965,Tunghsu,Electronics,2017
+3251,1172,Liao Long-Shing ,1.9,/,Chang Chun ,Manufacturing ,2017
+3252,1172,Lin Shu-Hung ,1.9,1928,Chang Chun ,Manufacturing ,2017
+3253,1172,Liu Baolin ,1.9,1953,Jointown ,Pharmaceutical distribution ,2017
+3254,1172,Liu Zhiqiang & Zhai Meiqing,1.9,1964、1964,Heung Kong ,Real Estate、 Furniture retail ,2017
+3255,1172,Lucio Tan & family,1.9,1937,Philip Morris ,Tobacco,2017
+3256,1172,Luo Yuping,1.9,1966,Zhongtian Urban,Real estate,2017
+3257,1172,Madeleine Olsson Ericksson,1.9,1945,Stena Sphere,Conglomerate,2017
+3258,1172,Mannalal B Agarwal & family,1.9,1948,Ajanta Pharma,Pharmaceuticals,2017
+3259,1172,Manoj Bhargava,1.9,1954,5 Hour Energy,Food & Beverages,2017
+3260,1172,Martisa Lazari,1.9,1945,Lazari Investments,Real Estate,2017
+3261,1172,Michael & Rainer Schmidt-Ruthenbeck,1.9,/,Metro,Multi Brand Retailing,2017
+3262,1172,Mukund Rungta,1.9,1959,Rungta Mines,Metals & Mining,2017
+3263,1172,Nicola Bulgari,1.9,/,LVMH,Single Brand Retailing,2017
+3264,1172,Nicolas Berggruen,1.9,1962,Berggruen Holdings,Investments,2017
+3265,1172,Otto Happel,1.9,1950,Gea,Engineering,2017
+3266,1172,Park Hyeon Joo,1.9,1959,Mirae Asset,Financial Services,2017
+3267,1172,Patrick Ryan,1.9,1938,AON Insurance Broker,Insurance,2017
+3268,1172,Paul Singer,1.9,1945,Elliot Management,Financial Services,2017
+3269,1172,Qi Jianhong,1.9,1967,Sparkle Roll ,Automobiles & Auto Components,2017
+3270,1172,Raj Kumar & Kishin RK,1.9,1955,RB Capital,Real Estate,2017
+3271,1172,Ralph Sonnenberg,1.9,1935,Hunter Dougles Group,Medical Equipments,2017
+3272,1172,Reed Hastings,1.9,1961,Netflix,Entertainment,2017
+3273,1172,Ren Zhengfei,1.9,1944,Telecom Solutions ,Guangdong,2017
+3274,1172,Ron Baron,1.9,1944,Barons Capital,Investments,2017
+3275,1172,Shao Genhuo,1.9,1965,Dabeinong ,Agriculture,2017
+3276,1172,Shao Zhongyi,1.9,1968,Chenxi ,Petrochemical、 grain,2017
+3277,1172,Shin Chang Jae,1.9,1955,Kyobo Life,Insurance,2017
+3278,1172,Sun Qinghuan,1.9,1973,MLS,Led,2017
+3279,1172,Sybill Storz,1.9,1938,Storz,Medical device,2017
+3280,1172,Tom Gores,1.9,1965,Platinum Equity,Investments,2017
+3281,1172,Tony Chen Shih-Ching & Chiang Tsui-Ying  ,1.9,/,Largan ,Manufacturing ,2017
+3282,1172,Tony Tan Caktiong & family,1.9,1953,Jollibee Foods,Food & Beverages,2017
+3283,1172,Wang Wenjing,1.9,1964,Yonyou,TMT,2017
+3284,1172,Yang Shuping & family,1.9,1959,Chengqi,Real estate,2017
+3285,1172,Yi Zhen,1.9,1970,Hithink RoyalFlush Information Network,TMT,2017
+3286,1172,Yu Minhong,1.9,1962,New Oriental,Education,2017
+3287,1172,Zhao Weiguo,1.9,/,Jiankun,Investments,2017
+3288,1172,Zhong Shengjian,1.9,1958,Yanlord,Real Estate,2017
+3289,1233,Ahmet Calik,1.8,1959,Calik,Energy,2017
+3290,1233,Alexander Mamut,1.8,1961,A&NN Capital Fund Management,Investments,2017
+3291,1233,Alfred Oetker,1.8,1971,Dr Oetker,Food & Beverages,2017
+3292,1233,Ali Wakrim & family,1.8,/,Akwa Group,Energy,2017
+3293,1233,Amy Wyss,1.8,1971,Synthes,Health care,2017
+3294,1233,Andre Esteves,1.8,1970,Btg Pactual,Banking,2017
+3295,1233,August Oetker Jr ,1.8,1946,Dr Oetker,Food & Beverages,2017
+3296,1233,Aziz Akhannouch & family,1.8,1961,Akwa Group,Energy,2017
+3297,1233,B Parthasaradhi Reddy,1.8,1955,Hetero group of companies,Pharmaceuticals,2017
+3298,1233,Bahaa Hariri,1.8,1968,Horizon Group,Real Estate,2017
+3299,1233,Bergit Douglas,1.8,/,Dr Oetker,Food & Beverages,2017
+3300,1233,Carl Ferdinand Oetker,1.8,1975,Dr Oetker,Food & Beverages,2017
+3301,1233,Christian Oetker,1.8,/,Dr Oetker,Food & Beverages,2017
+3302,1233,David Nahmad & family,1.8,1949,-,Art,2017
+3303,1233,Donald Hall,1.8,1929,Hallmark Cards,Greeting Cards,2017
+3304,1233,Eduardo Belmont,1.8,1946,Belcorp,Cosmetics,2017
+3305,1233,Hans-Werner Hector,1.8,1941,SAP,Technology,2017
+3306,1233,He Simo,1.8,1965,Eastups,Manufacturing,2017
+3307,1233,Hedda Brahm Droege,1.8,1955,Droege International ,Services,2017
+3308,1233,Hiroko Takei & family,1.8,1944,TFK Corp,Financial Services,2017
+3309,1233,Hong Lee Ra-Hee,1.8,1946,Samsung ,Electronics,2017
+3310,1233,Hsu Cheng & family  ,1.8,1952,Hsu Fu Chi ,Food & Beverages,2017
+3311,1233,Hu Kaijun,1.8,/,CheChc,Pharmaceuticals,2017
+3312,1233,Huang Chaoyang,1.8,1966,SCE ,Real Estate,2017
+3313,1233,Huang Chulong,1.8,/,Galaxy ,Real Estate、 Investment,2017
+3314,1233,Jacques Merceron-Vicat & family,1.8,1940,Vicat,Cement,2017
+3315,1233,Jaime Botin,1.8,1937,Bankinter,Banking,2017
+3316,1233,Jeffrey Lurie,1.8,1952,Philadelphia Eagles,Sports,2017
+3317,1233,Ji Haipeng & family,1.8,1967,Logan Estate,Real Estate,2017
+3318,1233,Jose Luis Del Rio Goudie & family,1.8,1923,SACI Falabella,Multi Brand Retailing,2017
+3319,1233,Julia Oetker,1.8,1978,Dr Oetker,Food & Beverages,2017
+3320,1233,Jurgen Bickle,1.8,1947,SEW Eurodrive,Manufacturing,2017
+3321,1233,Kagemasa Kozuki,1.8,1941,Konami,Entertainment,2017
+3322,1233,Kenneth Lo,1.8,1939,Crystal ,Textiles,2017
+3323,1233,Kim Bum-Soo,1.8,1967,Daum Kakao ,Mobile application (Online services),2017
+3324,1233,Kommer Damen,1.8,1945,Damen Shipyards,Logistics & Shipping,2017
+3325,1233,Koo Lin Jui-Hui & family ,1.8,1933,CTBC ,Financial Services ,2017
+3326,1233,Lee Hwa Kyung & family,1.8,1957,Orion,Food & Beverages,2017
+3327,1233,Li Kwok-po & family,1.8,1940,BEA,Banking,2017
+3328,1233,Mahdi al-Tajir,1.8,1942,Highland Spring,Real Estate,2017
+3329,1233,Mao Lixiang & family,1.8,1941,Fotile,Manufacturing,2017
+3330,1233,Mark Stevens,1.8,1961,Sequoia Capital,Investments,2017
+3331,1233,Mikhail Balakin,1.8,1962,Construction Department 155,Construction,2017
+3332,1233,Mitchell Goldhar,1.8,1962,Smart Centres,Real Estate,2017
+3333,1233,N Murray Edwards,1.8,1960,Canadian Natural Resources  ,Energy,2017
+3334,1233,Nelson Peltz,1.8,1943,Trian Partners,Investments,2017
+3335,1233,Nikolai Tsvetkov,1.8,1961,Financial Corporation Uralsib,Financial Services,2017
+3336,1233,Richard Oetker,1.8,1953,Dr Oetker,Food & Beverages,2017
+3337,1233,Rosely Schweizer,1.8,1942,Dr Oetker,Food & Beverages,2017
+3338,1233,Shamsheer Vayalil,1.8,1977,VPS Healthcare,Healthcare,2017
+3339,1233,Stein Erik Hagen & family,1.8,1959,Orkla,Manufacturing,2017
+3340,1233,Stephen Rubin,1.8,1938,Pentland,Sports apparel,2017
+3341,1233,Stewart Horejsi,1.8,1938,Berkshire Hathaway,Conglomerate,2017
+3342,1233,Su Suyu & family,1.8,1948,Lianmei,Real estate、 mining、 investments ,2017
+3343,1233,Sukanto Tanoto,1.8,1950,Sateri Holdings  ,Manufacturing,2017
+3344,1233,Timothy Headington,1.8,1951,Headington ,Energy,2017
+3345,1233,Tsai Chi-Jui & family ,1.8,1951,Pou Chen  ,Manufacturing ,2017
+3346,1233,Tseng Shin- Yi,1.8,1928,Chang Chun,Oil & Gas,2017
+3347,1233,Vladimir Iorich,1.8,1960,Pala Investment,Mining,2017
+3348,1233,Walter Scott Jr,1.8,1932,Mid American Energy,Energy,2017
+3349,1233,Wu Daohong,1.8,1966,Shenwu,Environmental Protection,2017
+3350,1233,Yokyu Kanazawa & family,1.8,/,Sanyo Bussan,Entertainment,2017
+3351,1233,Zhang Dazhong,1.8,1948,Dazhong ,Investments,2017
+3352,1233,Zhou Chengjian & family,1.8,1965,Metersbonwe,Textiles,2017
+3353,1297,Alberto Prada,1.7,/,Prada,Single Brand Retailing,2017
+3354,1297,Aldo Bensadoun,1.7,1939,Aldo Shoes,Retail (shoes),2017
+3355,1297,Alexander Svetakov,1.7,1969,Absolut Retail,Banking,2017
+3356,1297,Alfredo Egydio Arruda Villela Filho,1.7,1970,Itau Unibanco,Banking,2017
+3357,1297,Aloke Lohia,1.7,1959,Indorama Ventures,Chemicals & Petrochemicals,2017
+3358,1297,Anna Maria Braun,1.7,1979,B. Braun,Medical device,2017
+3359,1297,Anna Murdoch,1.7,1945,News Corp,Media,2017
+3360,1297,Barbara Carlson Gage,1.7,1943,Carlson ,Hospitality,2017
+3361,1297,Bill Alfond,1.7,1949,Berkshire Hathaway,Conglomerate,2017
+3362,1297,Binod Chaudhary,1.7,1956,Chaudhary Group,Food & Beverages,2017
+3363,1297,Bo Shijiu & Li Guiping,1.7,1964、1971,Changjiu  ,Express delivery,2017
+3364,1297,Bruce Karsh,1.7,1956,Oaktree Capital,Investments,2017
+3365,1297,Cao Dewang ,1.7,1946,Fuyao Glass,Manufacturing,2017
+3366,1297,Chen Kaixuan,1.7,1958,Liby,Daily chemical product,2017
+3367,1297,Chen Qingzhou & Weng Limin,1.7,1965、1967,Hytera,Wireless services,2017
+3368,1297,Chen Rong & family,1.7,1958,Shanghai Zhonglu ,Investments,2017
+3369,1297,Chen Xiaoying,1.7,1976,Shentong Express,Express delivery,2017
+3370,1297,Chin Jong-Hwa ,1.7,1958,Minth ,Manufacturing ,2017
+3371,1297,Clement Fayat & family,1.7,1934,Fayat Group,Construction,2017
+3372,1297,Cui Lijie,1.7,/,Bower Pacific,Food & Beverages、Gaming,2017
+3373,1297,Dai Weili ,1.7,1961,Marvell,Semiconductors、 computer chips ,2017
+3374,1297,David & Vicky Teoh,1.7,/,TPG Telecom,Telecom,2017
+3375,1297,Edward Bass,1.7,1946,Fine Line,Energy,2017
+3376,1297,Edward Rogers III,1.7,1970,Rogers Communications,Telecommunication,2017
+3377,1297,Fahd Hariri,1.7,1983,Turk Telekomunikasyon,Construction,2017
+3378,1297,Farhad Akhmedov,1.7,1956,Northgas,Energy,2017
+3379,1297,Frank McCourt,1.7,1945,LA Dodgers,Sports,2017
+3380,1297,Fritz Draexlmaier,1.7,/,Draexlaimer,Automobiles & Auto Components,2017
+3381,1297,Gary Michelson,1.7,1949,Medtronic,Medical Equipments,2017
+3382,1297,Heinrich Weiss,1.7,1949,SMS Group,Steel,2017
+3383,1297,Henry Hillman,1.7,1919,Hilman,Investments,2017
+3384,1297,Henry Ross Perot Jr,1.7,1959,Perot System,Technology,2017
+3385,1297,Horst Wortmann,1.7,1942,Wortmann,Apparel,2017
+3386,1297,Huang Lianxi & Zuo Xiaoping,1.7,1963、1973,L&S,Plastic pipes and fittings ,2017
+3387,1297,Huang Xi & family,1.7,/,Goodfirst ,Financial Services,2017
+3388,1297,Huo Qinghua & family,1.7,1961,China Kingho,Heavy Industry,2017
+3389,1297,Igor Makarov,1.7,1963,Itera,Energy,2017
+3390,1297,James Dinan,1.7,1960,York Capital Management,Hedge Funds,2017
+3391,1297,Johanna Braun,1.7,1980,B. Braun,Medical device,2017
+3392,1297,Jonathan Nelson,1.7,1957,Providence Equity Partners,Investments,2017
+3393,1297,Jost Hellmann,1.7,1953,Hellmann Worldwide Logistics,Logistics & Shipping,2017
+3394,1297,Karl Friedrich Braun,1.7,1983,B. Braun,Medical device,2017
+3395,1297,Kenji Kasahara,1.7,1976,Mixi,Social Network ,2017
+3396,1297,Klaus Hellmann,1.7,1949,Hellmann Worldwide Logistics,Logistics & Shipping,2017
+3397,1297,Klaus-Peter Schulenberg,1.7,1952,CTS Eventim  ,Entertainment,2017
+3398,1297,Kunio Busujima,1.7,1926,Sankyo,Entertainment,2017
+3399,1297,Lee Bass,1.7,1957,Disney,Media,2017
+3400,1297,Lee Jay-Hyun,1.7,1961,Cj Korea Express,Food & Beverages,2017
+3401,1297,Li Rucheng,1.7,1951,Youngor,Textiles,2017
+3402,1297,Li Sze Lim,1.7,1958,R&F,Real Estate,2017
+3403,1297,Li Xianyi & Dong Xizhi,1.7,1952、/,Xinyi Glass,Manufacturing,2017
+3404,1297,Lin Dingqiang & Lin Fengying,1.7,1966、/,Kamfei,Real Estate,2017
+3405,1297,Lin Ming-Hsiung ,1.7,1950,Yuan Lih ,Retail ,2017
+3406,1297,Marilyn Carlson Nelson,1.7,1940,Carlson ,Hospitality,2017
+3407,1297,Marina Prada ,1.7,/,Prada,Single Brand Retailing,2017
+3408,1297,Markus Persson,1.7,1980,Minecraft,Entertainment,2017
+3409,1297,Matthias Reinhart,1.7,1960,VZ Holding,Financial Services,2017
+3410,1297,Mikhail Gutseriev,1.7,1959,Oao Russneft,Energy,2017
+3411,1297,Mohamed Al Fayed,1.7,1930,Ritz Paris,Multi Brand Retailing,2017
+3412,1297,Nan Cunhui,1.7,1963,Chint ,Manufacturing,2017
+3413,1297,Noam Gottesman,1.7,1962,Toms Capital,Hedge Funds,2017
+3414,1297,Peter Alfond,1.7,1953,Berkshire Hathaway,Conglomerate,2017
+3415,1297,Peter Unger,1.7,1946,Auto-Teile-Unger ,Automobiles & Auto Components,2017
+3416,1297,PNC Menon,1.7,1949,PNC Investments,Investments,2017
+3417,1297,Radovan Vitek,1.7,1973,CPI property group,Real Estate,2017
+3418,1297,Rahul Bhatia,1.7,1956,Interglobe Enterprise,Transport Services,2017
+3419,1297,Roger Penske,1.7,1938,Penske Automotive,Automobiles & Auto Components,2017
+3420,1297,Ruan Shuilong & family,1.7,1935,Lonsen ,Manufacturing,2017
+3421,1297,Samih Sawiris,1.7,1957,Orascom Construction,Construction,2017
+3422,1297,Sheryl Sandberg,1.7,1972,Facebook,Technology,2017
+3423,1297,Sid Bass,1.7,1943,Disney,Media,2017
+3424,1297,Stanley Perron,1.7,1923,Perron Group,Real Estate,2017
+3425,1297,Susan Alfond,1.7,1946,Berkshire Hathaway,Conglomerate,2017
+3426,1297,Ted Alfond,1.7,1945,Berkshire Hathaway,Conglomerate,2017
+3427,1297,Thomas Meyer ,1.7,1960,Desigual,Textiles、 Apparels & Accessories,2017
+3428,1297,Thomas Steyer,1.7,1958,Farallon Capital Management,Hedge Funds,2017
+3429,1297,Ty Warner,1.7,1945,Ty Warner Hotels & Resorts,Hospitality,2017
+3430,1297,Valentin Gapontsev,1.7,1940,Ipg Photonics,Medical Equipments,2017
+3431,1297,Wang Laichun,1.7,1967,Luxshare Precision,Computer connectors ,2017
+3432,1297,Wang Laisheng,1.7,1964,Luxshare Precision,Computer connectors ,2017
+3433,1297,Wang Wenliang,1.7,1954,China Rilin,Logistics and Shipping,2017
+3434,1297,William R. Berkley Jr,1.7,1976,WR Berkley Corp,Insurance (property & casualty),2017
+3435,1297,Yin Mingshan,1.7,1938,Lifan ,Motorcycles、 automobile、 investment,2017
+3436,1297,Yitzhak Tshuva,1.7,1949,Delek Group,Real Estate,2017
+3437,1297,Yu Songbo,1.7,/,Herun ,Real Estate,2017
+3438,1297,Yusuf Hamied,1.7,1937,Cipla,Pharmaceuticals,2017
+3439,1297,Zhang Zhongneng & Guo Meilan,1.7,1956、/,HEC ,Aluminium、 pharmaceuticals、 mining,2017
+3440,1297,Zhou Liangzhang & family,1.7,1963,Hexing Electrical,Manufacturing,2017
+3441,1297,Zhou Zhenke,1.7,1975,Dasheng Times Cultural ,TMT,2017
+3442,1386,Aerin Lauder Zinterhofer,1.6,1971,Estee Lauder,Cosmetics,2017
+3443,1386,Albert Yeung,1.6,1945,Emperor,Real Estate、Entertainment,2017
+3444,1386,Alberto Alcocer,1.6,1945,Banco Zaragozano,Investments,2017
+3445,1386,Alberto Cortina,1.6,1949,Banco Zaragozano,Investments,2017
+3446,1386,Alexei Ananyev,1.6,1965,Synterra ,Banking,2017
+3447,1386,Alicia & Tannetta Fentener van Vlissingen,1.6,/,Shv Holdings,Energy,2017
+3448,1386,Andrei Skoch,1.6,1967,Metalloinvest,Mining,2017
+3449,1386,Bernardo Matte,1.6,1956,Empresas CMPC,Forestry,2017
+3450,1386,BR Shetty,1.6,1943,NMC Healthcare ,Health care,2017
+3451,1386,Cai Rongjun,1.6,1972,0-Film Tech,TMT,2017
+3452,1386,Chang Yun Chung,1.6,1919,Pacific International Lines,Logistics,2017
+3453,1386,Charles Dunstone,1.6,1966,Carphone Warehouse ,Multi Brand Retailing,2017
+3454,1386,Christopher Goldsbury,1.6,1943,Pace Salsa,Food & Beverages,2017
+3455,1386,Christopher Hohn,1.6,1967,The Children's Investment Fund Management,Hedge Funds,2017
+3456,1386,Chu Jinfu,1.6,1959,Senyuan Electric,Electronics,2017
+3457,1386,Dato Sri Tahir,1.6,1954,Bank Mayapada,Banking,2017
+3458,1386,Dimitry Ananyev,1.6,1970,Synterra ,Banking,2017
+3459,1386,Edward Lampert,1.6,1963,Sears Holdings,Hedge Funds,2017
+3460,1386,Eliodoro Matte,1.6,1946,Empresas CMPC,Forestry,2017
+3461,1386,Fred Chang,1.6,1957,Newegg,Online Retail,2017
+3462,1386,Ge Weidong,1.6,1969,Hundun ,Investments,2017
+3463,1386,Gerry Harvey,1.6,1940,Harvey Norman,Retail,2017
+3464,1386,Gerry Schwartz,1.6,1942,Onex corporation,Investment management,2017
+3465,1386,Glen Taylor,1.6,1942,Taylor Corp,Packaging,2017
+3466,1386,Henry Nicholas III,1.6,1960,Broadcom,Technology,2017
+3467,1386,Huang Qiaoling & family,1.6,1958,Worldland,Other Services,2017
+3468,1386,Huang Zhuangmian,1.6,1970,Feima International ,Warehousing logistics transportation,2017
+3469,1386,Jack Dorsey,1.6,1977,Twitter,Technology,2017
+3470,1386,James Richardson,1.6,1956,James Richardson & Sons,Conglomerate ,2017
+3471,1386,Jiang Yehua & Jiang Yu,1.6,1963、/,Huayu ,Real Estate,2017
+3472,1386,John Martin,1.6,1952,-,Biotechnology ,2017
+3473,1386,Kamil Yazici & family,1.6,1929,Anadolu,Food & Beverages,2017
+3474,1386,Lai Haimin,1.6,1966,Horoy ,Real estate,2017
+3475,1386,Lee Boo-Jin,1.6,1971,Samsung ,Electronics,2017
+3476,1386,Lee Man Tat,1.6,1930,Lee Kun Kee,Food & Beverages,2017
+3477,1386,Lee Seo-Hyun,1.6,1974,Samsung ,Electronics,2017
+3478,1386,Lei Jufang,1.6,1953,Qizheng Pharmaceutical ,Pharmaceuticals,2017
+3479,1386,Li Feilie,1.6,1966,Feishang ,Mining、 steel、 energy ,2017
+3480,1386,Li Zhen & family,1.6,1964,Anhui Guoxuan,Real estate、 screen culture、 batteries,2017
+3481,1386,Liang Guangwei,1.6,1963,Huaqiang,High-tech information service、 culture、 real estate,2017
+3482,1386,Lin Mingzhang,1.6,/,Creat ,Pharmaceuticals,2017
+3483,1386,Louis Le Duff ,1.6,1947,Groupe Le Duff,Food and Bevarage,2017
+3484,1386,Ludwig Theodore Braun,1.6,1990,B. Braun,Medical device,2017
+3485,1386,Luigi Cremonini & family,1.6,1940,Cremonini Group,Food Processing,2017
+3486,1386,Mallika Srinivasan,1.6,1960,TAFE,Automobiles & Auto Components,2017
+3487,1386,Martua Sitorus,1.6,1961,Wilmar International,Food & Beverages,2017
+3488,1386,Mi Enhua,1.6,1958,Hualing  ,Real estate、 livestock,2017
+3489,1386,Michael Hintze,1.6,1956,CQS,Investments,2017
+3490,1386,Mohammed Al Barwani,1.6,1952,MR Holding,Oil,2017
+3491,1386,Murat Ulker & family,1.6,1959,Yildi,Food & Beverages,2017
+3492,1386,Mustafa Kucuk,1.6,1964,LC Waikiki,Fashion Store,2017
+3493,1386,Nandlal Rungta,1.6,1951,Rungta Mines,Metals & Mining,2017
+3494,1386,Paolo Bulgari,1.6,/,LVMH,Single Brand Retailing,2017
+3495,1386,Patricia Angelini Rossi,1.6,1955,Antarchille,Conglomerate,2017
+3496,1386,Patricia Matte,1.6,1944,Empresas CMPC,Forestry,2017
+3497,1386,Per & Winnie Enevoldsen,1.6,1956,Pandora,Jewllery,2017
+3498,1386,Pierre Chen Tai-Ming & family ,1.6,1956,Yageo ,Manufacturing ,2017
+3499,1386,Pu Zhongjie & Zhang Yue'e,1.6,/,Lepu ,Health care,2017
+3500,1386,Rainer Bickle,1.6,1947,SEW Eurodrive,Manufacturing,2017
+3501,1386,Ren Jianhua,1.6,1957,Robam,Consumer Electronics,2017
+3502,1386,Richard Marriot,1.6,1939,Host Hotels & Resorts ,Hospitality,2017
+3503,1386,Roberto Angelini Rossi,1.6,1949,Antarchille,Conglomerate,2017
+3504,1386,Saif Al Ghurair & family,1.6,/,Mashreq Bank,Banking,2017
+3505,1386,Sanford Weill,1.6,1934,Citi Group,Financial Services,2017
+3506,1386,Sol & Eddie Zakay,1.6,1951,Topland ,Real Estate,2017
+3507,1386,Spiro Latsis & family,1.6,1948,Hellenic Petroleum,Oil & gas,2017
+3508,1386,Steve Wynn,1.6,1942,Wynn Resort,Casinos,2017
+3509,1386,Sun Hongbing,1.6,1963,Sunac ,Real Estate,2017
+3510,1386,Sun Shangchuan & Liu Wei,1.6,1963、/,Tatfook,Communications equipment,2017
+3511,1386,Sylvia Stroher,1.6,1956,Wella,Cosmetics,2017
+3512,1386,Tan Bingzhao & family,1.6,/,Nimble,Real estate,2017
+3513,1386,Thomas Prinzhorn,1.6,1945,Prinzhorn,Packaging,2017
+3514,1386,Timothy Boyle,1.6,1950,Columbia Sportswear,Sportswear,2017
+3515,1386,Tiong Hiew King,1.6,1936,Oregon Group,Investments,2017
+3516,1386,Victor Pinchuk,1.6,1962,Interpipe,Manufacturing,2017
+3517,1386,Wang Shusheng,1.6,1954,DTW Logistics,Investments,2017
+3518,1386,Wei Qi & Wei Xiao,1.6,1955、/,Tianhe Chemicals,Manufacturing,2017
+3519,1386,Wen Jianping,1.6,1962,Origin Water,Water Technology,2017
+3520,1386,Wen Pengcheng & family,1.6,1962,WENS,Poultry farming、 animal healthcare,2017
+3521,1386,Wilbur Ross Jr,1.6,1938,WL Ross & Co,Investments,2017
+3522,1386,William Heinecke,1.6,1949,Minor International,Catering,2017
+3523,1386,Wu Guangming & Wu Qun,1.6,1962、1988,Jiangsu Yuyue Medical Equipment ,Health care,2017
+3524,1386,Wu Shangzhi,1.6,1950,CDH ,Investments,2017
+3525,1386,Wu Yiling & family,1.6,1949,Yiling Pharmaceutical ,Pharmaceuticals,2017
+3526,1386,Yang Zhimao & Zhu Fenglian,1.6,1963,Xin Shiji,Real Estate、 Investments,2017
+3527,1386,Yao Xinyi ,1.6,1964,DunAn ,Manufacturing,2017
+3528,1386,Zhang Wanzheng,1.6,1949,Three-Circle,Electronic components,2017
+3529,1386,Zhang Xiugen & Zhang Hongliang,1.6,1961、1984,Hawtai,Automobiles & Auto Components,2017
+3530,1386,Zhong Yu,1.6,1950,Kangde Xin,Environmental Protection,2017
+3531,1386,Zhou Guohui,1.6,1965,Eternal Asia,Supply-chain management,2017
+3532,1386,Zhu Baoguo & famiy,1.6,1962,Joint Care,Pharmaceuticals,2017
+3533,1386,Zhu Zhiping,1.6,1962,Tongfang Unite,Real Estate,2017
+3534,1386,Zhuang Min,1.6,1968,Protruly,Electronic equipment,2017
+3535,1479,Alain Taravella & Jacques Nicolet,1.5,1950,Altarea Cogedim   ,Real Estate,2017
+3536,1479,Alan Howard,1.5,1965,Brevan Howard Asset Management,Hedge Funds,2017
+3537,1479,Alexander Frolov,1.5,1965,Evraz,Steel,2017
+3538,1479,Alexander Karp,1.5,1968,Palantir Technologies,Technology,2017
+3539,1479,Alvaro Saieh Bendeck,1.5,1950,Corpbanca,Investments,2017
+3540,1479,Ana Maria Marcondes Penido Sant'Anna,1.5,1957,CCR Group,Construction,2017
+3541,1479,Arturo Moreno,1.5,1947,Anaheim Angels,Sports,2017
+3542,1479,Chao Teng-Hsiung & family ,1.5,1944,Farglory ,Real Estate ,2017
+3543,1479,Charlotte Soderstrom,1.5,1977,Hennes & Mauritz,Retail,2017
+3544,1479,Chen Qixing,1.5,1959,Changying ,Precision Technology,2017
+3545,1479,Christopher Cline,1.5,1959,Foresight Energy Partner,Energy,2017
+3546,1479,Christopher Portman,1.5,1960,Portman Estate,Real Estate,2017
+3547,1479,Ciliandra Fangiono & family ,1.5,1977,First Resources,Palm Oil ,2017
+3548,1479,Dan Wilks,1.5,1957,Wilks Masonry,Energy,2017
+3549,1479,David Rockefeller Sr,1.5,1916,Standard Oil,Real Estate,2017
+3550,1479,David Rubenstein,1.5,1950,Carlyle ,Investments,2017
+3551,1479,Dermot Desmond,1.5,1952,NCB,Investments,2017
+3552,1479,Diego Della Valle,1.5,1955,Tod's,Single Brand Retailing,2017
+3553,1479,Doris Fisher,1.5,1932,GAP,Single Brand Retailing,2017
+3554,1479,Esther Grether,1.5,1937,Swatch ,Luxury,2017
+3555,1479,Ezra Nahmad,1.5,1947,-,Art,2017
+3556,1479,Fang Tonghua & family,1.5,1963,ZBD Pharmaceutical,Pharmaceuticals,2017
+3557,1479,Farris Wilks,1.5,1953,Wilks Masonry,Energy,2017
+3558,1479,Francesco Gaetano Caltagirone,1.5,1946,Caltagirone,Real Estate、 cement manufacturing 、 construction,2017
+3559,1479,Franz Melnhof Mayr & family,1.5,/,Mayr Melnhof Karton,Packaging,2017
+3560,1479,Georg Stumpf,1.5,1974,M+W,Construction,2017
+3561,1479,He Yamin & family,1.5,1957,Chengdu Leejun Industrial,Machinery manufacturing ,2017
+3562,1479,Heidi Horten,1.5,1942,Horten,Multi Brand Retailing,2017
+3563,1479,"Herbert Allen, Jr & family",1.5,1941,Allen & Co,Investments,2017
+3564,1479,Huang Hongyun & Tao Hongxia,1.5,1966、1973,Jinke ,Real Estate,2017
+3565,1479,Huang Shaowu,1.5,1970,SinoPostgraduate ,Mobile phones、 logistics、 real estate ,2017
+3566,1479,Ihor Kolomoyskyy,1.5,1965,Privatbank,Banking,2017
+3567,1479,Irwin Jacobs,1.5,1934,Qualcomm,Technology,2017
+3568,1479,J.K. Rowling,1.5,1966,Novelist,Publishing,2017
+3569,1479,Jai Hari Dalmia & family,1.5,1945,Dalmia Bharat,Construction Materials,2017
+3570,1479,Jiang Xuefei & Zhu Xuehua,1.5,1969、1969,Suntak,Electric,2017
+3571,1479,Johannes Karcher,1.5,1951,Alfred Karcher ,Home Products,2017
+3572,1479,John Coates,1.5,1970,Bet365,Online Gambling,2017
+3573,1479,Jorgen Mads Clausen & family,1.5,1950,Danfoss,Manufacturing,2017
+3574,1479,Juan Carlos Escotet,1.5,1960,Banesco,Banking,2017
+3575,1479,Karl-Johan Persson,1.5,1976,H&M,Retail (Clothes),2017
+3576,1479,Katsumi Tada,1.5,1946,Daito Trust Construction,Real Estate,2017
+3577,1479,Koos van Oord & family,1.5,1950,Van Oord,Construction,2017
+3578,1479,Kwee Liong Keng,1.5,/,Pontiac Land,Real estate,2017
+3579,1479,Kwee Liong Phing,1.5,1948,Pontiac Land,Real estate,2017
+3580,1479,Kwee Liong Seen,1.5,/,Pontiac Land,Real estate,2017
+3581,1479,Kwee Liong Tek,1.5,/,Pontiac Land,Real estate,2017
+3582,1479,Lilian Wernighaus,1.5,1935,Weg ,Industrial engineering,2017
+3583,1479,Lin Chen-Hai & family ,1.5,/,Pao Chia ,Real Estate ,2017
+3584,1479,Liu Canglong,1.5,1955,Hongda ,Metallurgical industry、 chemicals、 Real estate,2017
+3585,1479,Liu Ke-Chen & family ,1.5,1957,Advantech ,TMT ,2017
+3586,1479,Liu Xuejing & family,1.5,1951,GMK,Meat、 copper smelting ,2017
+3587,1479,Louis Bacon,1.5,1957,Moore Capital,Hedge Funds,2017
+3588,1479,Lutz Mario Helmig,1.5,1949,Aton,Health Care,2017
+3589,1479,Martin Bouygues,1.5,1953,Bouygues,Construction,2017
+3590,1479,Martin Naughton,1.5,1940,Glen Dimplex ,Electronics,2017
+3591,1479,Maurice Alter,1.5,1926,Pacific Shopping Centres,Real Estate,2017
+3592,1479,Maxim Nogotkov,1.5,1978,Svyaznoy Retail,Multi Brand Retailing,2017
+3593,1479,Michael Krasny,1.5,1954,CDW,Computer & Electronics Retail,2017
+3594,1479,Michal Solowow,1.5,1963,Synthos,Investments,2017
+3595,1479,Murat Vargi,1.5,1948,MV Holding,Telecom,2017
+3596,1479,Neal Patterson,1.5,1950,Cerner,Technology,2017
+3597,1479,Nicola Leibinger-Kammueller,1.5,1960,Trumpf,Machine tools,2017
+3598,1479,Olivier Bouygues,1.5,1951,Bouygues,Construction,2017
+3599,1479,Othman Benjelloun,1.5,1933,BMCE Bank,Banking,2017
+3600,1479,Peter Coates & family,1.5,1938,Bet365,Entertainment,2017
+3601,1479,Peter Gilgan,1.5,1951,Mattamy Homes,Real Estate,2017
+3602,1479,Peter Leibinger,1.5,1967,Trumpf,Machine tools,2017
+3603,1479,Radhe Shyam Agarwal,1.5,1947,Emami ,FMCG,2017
+3604,1479,Radhe Shyam Goenka,1.5,1948,Emami ,FMCG,2017
+3605,1479,Randal Kirk,1.5,1954,Intrexon Corp,Pharmaceuticals,2017
+3606,1479,Regina de Camargo Pires Oliveira Dias,1.5,1954,Camargo Corrêa ,Conglomerate (Construction & Cement),2017
+3607,1479,Regine Leibinger,1.5,1963,Trumpf,Machine tools,2017
+3608,1479,Renata de Camargo Nascimento,1.5,1951,Camargo Corrêa ,Conglomerate (Construction & Cement),2017
+3609,1479,Robert Coyuito jr,1.5,1953,Coyuito Group,Energy,2017
+3610,1479,Roberto Hernandez Ramirez,1.5,1943,Banamex,Banking,2017
+3611,1479,Ron Burkle,1.5,1954,Barnes & Noble,Multi Brand Retailing,2017
+3612,1479,Rosana Camargo de Arruda Botelho,1.5,1950,Camargo Corrêa ,Conglomerate (Construction & Cement),2017
+3613,1479,Sameer Gehlaut,1.5,1975,Indiabulls Financial Services,Financial Services,2017
+3614,1479,Seth Klarman,1.5,1958,Baupost Group,Hedge Funds,2017
+3615,1479,Slavica Ecclestone,1.5,1959,Formula One,Entertainment,2017
+3616,1479,Stephan Schmidheiny & family,1.5,1949,Swiss Eternit Group,Investments,2017
+3617,1479,Sunny Varkey,1.5,1958,Gems Education,Education,2017
+3618,1479,Susanne Zimmermann von Siefart,1.5,1957,Alfred Karcher ,Home Products,2017
+3619,1479,Tang Yiu & family,1.5,1935,Belle,Shoes,2017
+3620,1479,Thomas Bailey,1.5,1940,Janus Capital ,Investments,2017
+3621,1479,Thomas Bruch,1.5,1951,Globus Retail,Multi Brand Retailing,2017
+3622,1479,Tom Persson ,1.5,1985,Hennes & Mauritz,Retail,2017
+3623,1479,Vijay Shekhar Sharma,1.5,1979,Paytm,Technology,2017
+3624,1479,Vincent Viola,1.5,1957,Virtu Financials,Electronic trading,2017
+3625,1479,Vinod Khosla,1.5,1955,Khosla Ventures,Investments,2017
+3626,1479,Vladimir Gruzdev,1.5,1968,Rgi International,Investments,2017
+3627,1479,Wang Han,1.5,1987,JuneYao ,Investments,2017
+3628,1479,Willibert Krueger,1.5,1941,Krueger ,Food & Beverages,2017
+3629,1479,Wim van der Leegte,1.5,1949,VDL Group,Automobiles & Auto Components,2017
+3630,1479,Xia Dinghu,1.5,1944,Zhongding ,Rubber and plastic,2017
+3631,1479,Zhang Yue & Lai Yujing,1.5,1960、/,Broad,Air conditioning、 construction,2017
+3632,1479,Zhang Zhangsun,1.5,/,Glory,Real Estate,2017
+3633,1479,Zhong Naixiong,1.5,1963,Nenking,Real estate、 Investments,2017
+3634,1479,Zhou Qingzhi & Zhao Yilan,1.5,1955、1978,Narada ,Manufacturing,2017
+3635,1479,Zhou Weijian & Wang Manli,1.5,/,Maydos,Coating,2017
+3636,1479,Zhou Yifeng,1.5,1978,Oriental Energy ,Petrochemicals,2017
+3637,1581,Divyank Turakhia,1.5,1982,Media.net,Technology,2017
+3638,1581,Alan G Rydge,1.4,/,Amalgamated Holding Company,Entertainment,2017
+3639,1581,Alberto Chiesi,1.4,1969,Chiesi Farmaceutici,Pharmaceuticals,2017
+3640,1581,Alfred Gantner,1.4,1950,Partners Group,Financial Services,2017
+3641,1581,Allan Wong,1.4,1959,VTECH,IT,2017
+3642,1581,Allen Hong Shui-Shu & family ,1.4,1953,Catcher Technology ,Manufacturing ,2017
+3643,1581,Anatoly Lomakin,1.4,/,Silvinit,Chemicals & Petrochemicals,2017
+3644,1581,Andrew Buckeridge,1.4,1962,Buckeridge Group,Construction,2017
+3645,1581,Angela leong on-ki,1.4,1956,SJM Holdings,Casinos,2017
+3646,1581,Aras Agalarov,1.4,1965,Crocus,Real Estate,2017
+3647,1581,Arkady Volozh,1.4,1950,Yandex,Technology,2017
+3648,1581,Bacaksiz Sezai,1.4,/,Limak,Construction,2017
+3649,1581,Barbara Agnes Ferrari Bengolea & Amalia Amoedo,1.4,1953,Loma Negra,Cement,2017
+3650,1581,Bharat Desai & family,1.4,1973,Syntel,Technology,2017
+3651,1581,Bu Yang,1.4,1970,Suning,Retail,2017
+3652,1581,Cai Wensheng & family,1.4,1944,Meitu,TMT,2017
+3653,1581,Charles Brandes,1.4,1949,Brandes Investment Partners,Investments,2017
+3654,1581,Charles Simonyi,1.4,1974,Microsoft,Computer Software,2017
+3655,1581,Chau Cheok Wa,1.4,1962,Suncity Group,Entertainment,2017
+3656,1581,Chen Xiaxin & family,1.4,1963,Xizi ,Manufacturing,2017
+3657,1581,David Harding,1.4,1963,Winton Capital,Investments,2017
+3658,1581,Deng Wei,1.4,1936,Bright Oceans,Telecom,2017
+3659,1581,Don Simplot,1.4,/,JR Simplot,Frozen food,2017
+3660,1581,Douglas Perkins,1.4,1937,Specsavers,Single Brand Retailing,2017
+3661,1581,Drayton McLane,1.4,1946,Walmart,Multi Brand Retailing,2017
+3662,1581,Elisabeth Badinter,1.4,1949,Publicis Groupe,Entertainment,2017
+3663,1581,Florentino Perez,1.4,1937,Actividades De Construcción Y Servicios,Construction,2017
+3664,1581,Gabriel Escarrer,1.4,1974,Melia Hotel,Hospitality,2017
+3665,1581,Gary Fegel,1.4,1955,Glencore,Commodities,2017
+3666,1581,Gary Magness,1.4,1946,AT&T,Entertainment,2017
+3667,1581,Gay Simplot,1.4,1965,JR Simplot,Frozen food,2017
+3668,1581,Gu Wei,1.4,1960,MTC,Digital products,2017
+3669,1581,Guy Laliberte,1.4,1946,Cirque Du Soleil,Entertainment,2017
+3670,1581,Horst Julius Pudwill,1.4,1963,TTI,Manufacturing,2017
+3671,1581,Huang Li & family,1.4,1969,Guide Electrics,Electronics,2017
+3672,1581,Huang Wenji,1.4,1941,China Jicheng ,Manufacturing,2017
+3673,1581,Hubert Burda,1.4,1971,Hubert Burda Media,Media,2017
+3674,1581,Igor Altushkin,1.4,1945,RMK,Mining,2017
+3675,1581,James Leininger,1.4,1953,Kinetic Concept,Medical Equipments,2017
+3676,1581,Jim McColl,1.4,1944,Clyde blowers,Manufacturing,2017
+3677,1581,John Kapoor,1.4,1950,Insys Therapeutics,Pharmaceuticals,2017
+3678,1581,John Magnier,1.4,1955,Coolmore Stud,Sports,2017
+3679,1581,Jose & Francisco Jose Calderon Rojas,1.4,1934,FEMSA,Food & Beverages,2017
+3680,1581,Josef Boquoi,1.4,1982,Josef H. Boquoi Germany West,Conglomerate,2017
+3681,1581,Kang Qiao,1.4,/,Searainbow  Corp,Medical e-commerce、 digital entertainment、 high tech chemical fiber ,2017
+3682,1581,Karl Scheufele,1.4,1969,Chopard,Manufacturing,2017
+3683,1581,Liang Yunchao & family,1.4,1943,BY-Health,Health Products,2017
+3684,1581,Lin Ming-Cheng ,1.4,1963,Hua Nan ,Financial Services ,2017
+3685,1581,Liu Shaoxi & family,1.4,1967,Yihua Timbar Stock,Wood、 Real estate、 Investment ,2017
+3686,1581,Liu Xiaodong,1.4,1969,Bairun,Fragrances、Flavoring,2017
+3687,1581,Lu Zhaoxi,1.4,1965,"Alibaba, Ant Financial",TMT,2017
+3688,1581,Marcel Erni,1.4,1942,Partners Group,Financial Services,2017
+3689,1581,Marie-Jeanne Meyer,1.4,1946,Louis Dreyfus Holdings,Retail,2017
+3690,1581,Mary Perkins,1.4,1959,Specsavers,Single Brand Retailing,2017
+3691,1581,Mehmet Sinan Tara,1.4,1946,Enka,Construction,2017
+3692,1581,Monique Roosmale Nepveu,1.4,1951,Louis Dreyfus Holdings,consumer durables,2017
+3693,1581,Nihat Özdemir,1.4,1946,Limak,Construction,2017
+3694,1581,Nobutada Saji ,1.4,1933,Suntory ,Food & Beverages,2017
+3695,1581,Norman Braman,1.4,1947,Keystone Discount Stores,Automobiles & Auto Components,2017
+3696,1581,NR Narayana Murthy,1.4,1936,Infosys,Software & Services,2017
+3697,1581,Paul Gauselmann & family,1.4,/,Gauselmann,Gaming industry,2017
+3698,1581,Paulo Chiesi,1.4,1973,Chiesi Farmaceutici,Pharmaceuticals,2017
+3699,1581,Peng Lei,1.4,1931,"Alibaba, Ant Financial",TMT,2017
+3700,1581,Peter Buck,1.4,1944,Subway,Hospitality,2017
+3701,1581,Peter Nygard,1.4,1964,Nygard International,Textiles、 Apparels & Accessories,2017
+3702,1581,Petter Stordalen,1.4,/,Nordic Choice Hotel,Hospitality,2017
+3703,1581,Pier Luigi Piana,1.4,1962、1988,Loro Piana,Textiles,2017
+3704,1581,Qi Jinxing & Qi Jiaqi,1.4,1961,Binjiang ,Real Estate,2017
+3705,1581,Rakesh Jhunjhunwala,1.4,1928,Rare Enterprises,Investments,2017
+3706,1581,Red McCombs,1.4,1942,Red McCombs Automotive ,Automobiles & Auto Components,2017
+3707,1581,Remo Ruffini,1.4,/,Moncler,Textiles,2017
+3708,1581,Rodolphe Marchais,1.4,1968,TAT Group,Aviation,2017
+3709,1581,Roman Avdeev,1.4,1942,Credit Bank Of Moscow,Banking,2017
+3710,1581,Rong Zhijian,1.4,1984,Citic Pacific,Investments,2017
+3711,1581,Ryan Graves,1.4,/,Uber Technologies,Technology,2017
+3712,1581,Sam Buckeridge,1.4,1947,Buckeridge Group,Construction,2017
+3713,1581,Scott Simplot,1.4,1948,JR Simplot,Frozen food,2017
+3714,1581,Sergio Lins Andrade & family,1.4,1963,Andrade Gutierrez,Construction,2017
+3715,1581,Shen Xiaoping & family,1.4,1954、1971,Tongding ,TMT,2017
+3716,1581,Shi Zhengfu & Zhai Li,1.4,1929,Tonghua ,Investments,2017
+3717,1581,Suhon LIn ,1.4,1954,Chang Chun,Plastic industry,2017
+3718,1581,Thomas Lau,1.4,1955,Lifestyle,Real Estate,2017
+3719,1581,Tong Jinquan,1.4,1965,Changfeng  ,Real Estate,2017
+3720,1581,Tu Guoshen,1.4,1962,Zhongheng Huizhi Investment,Investments ,2017
+3721,1581,Urs Wietlisbach,1.4,1949,Partners Group,Financial Services,2017
+3722,1581,Vincent Lo,1.4,1968,Shui On,Real Estate,2017
+3723,1581,Wang Junjin & family,1.4,1954,JuneYao ,Investments,2017
+3724,1581,Wei Ing-Chou ,1.4,1943,Ting Hsin ,Food & Beverages,2017
+3725,1581,William F Austin,1.4,1949,Starkey Hearing Technologies,Hearing Aid,2017
+3726,1581,William Fung,1.4,1946,Li & Fung,Logistics,2017
+3727,1581,William Macaulay,1.4,1956,First Reserve,Energy,2017
+3728,1581,William Stone,1.4,1980,SS&C Technologies Holdings,Technology,2017
+3729,1581,Wu Qiang,1.4,1968、/,JD Capital,Investments,2017
+3730,1581,Xu Jiangang & Xu Feijun,1.4,1972,Gangtai,Real Estate,2017
+3731,1581,Xu Xiong,1.4,/,Eastern Pioneer,Education,2017
+3732,1581,Xu Ziquan & Kang Ning,1.4,1967,Jetsen,TMT,2017
+3733,1581,Yao Xinquan,1.4,1944,DunAn ,Manufacturing,2017
+3734,1581,Ye Lipei & family,1.4,1978,Super Ocean ,Real Estate,2017
+3735,1581,Yi Rubo,1.4,1960,Zhongall,Real Estate,2017
+3736,1581,Zelimkhan Mutsoev,1.4,/,Regions Group,Construction,2017
+3737,1581,Zheng Jianming,1.4,1963、1965,Shunfeng PV,New energy,2017
+3738,1581,Zhou Liwu & Han Xiaofang,1.4,1956,Xinyuan Filter,Manufacturing,2017
+3739,1581,Zhou Yongli,1.4,1961,Yongli ,Textiles,2017
+3740,1581,Zhou Yunjie,1.4,1964,ORG Packaging,Packaging,2017
+3741,1685,Zhu Yicai & Wu Xueqin ,1.4,1956,Yurun ,Food & Beverages,2017
+3742,1685,Abdulla Ahmed Al Ghurair & family,1.3,1956,Mashreq Bank,Banking,2017
+3743,1685,Alexander Dzhaparidze,1.3,1955,Eurasia Drilling,Energy,2017
+3744,1685,Alexander Machkevitch,1.3,1955,Eurasian Natural Resources ,Mining,2017
+3745,1685,Ali Ibrahim Agaoglu,1.3,1955,Agaoglu,Construction,2017
+3746,1685,Alijan Ibragimov,1.3,1962,Eurasian Natural Resources ,Mining,2017
+3747,1685,Andreas Halvorsen,1.3,1967,Viking Global Investors,Hedge Funds,2017
+3748,1685,Andrei Bokarev,1.3,1953,Transmash Holdings,Manufacturing,2017
+3749,1685,Banthoon Lamsam,1.3,1983,Kasikornbank ,Insurance,2017
+3750,1685,Ben Silbermann,1.3,1934,Pinterest,Technology,2017
+3751,1685,Bradley Wayne Hughes,1.3,1957,Public Storage,Real Estate,2017
+3752,1685,Carol Jenkins Barnett,1.3,1944,Publix,Retail,2017
+3753,1685,Carolus Nolet & family,1.3,1938,Ketel One,Food & Beverages,2017
+3754,1685,Charles Edelstenne,1.3,1924,Dassault,Aviation,2017
+3755,1685,Charles Munger,1.3,1959、1982,Berkshire Hathaway,Investments,2017
+3756,1685,Chen Jiancheng & Chen Yanni,1.3,1970,Wolong  ,Manufacturing,2017
+3757,1685,Cheng Xue,1.3,1961,Haitian,Food flavour,2017
+3758,1685,Chung Mong Jin ,1.3,1968,KCC ,Building Materials,2017
+3759,1685,Dai Yongge & family,1.3,1974,Renhe ,Real Estate,2017
+3760,1685,Dan Gertler,1.3,1968,Dan Gertler International,Mining,2017
+3761,1685,Erik Selin,1.3,1973,Fastighets AB Balder,Real Estate,2017
+3762,1685,Evan Williams,1.3,1929,Twitter,Technology,2017
+3763,1685,Fayez Sarofim ,1.3,/,Kinder Morgan,Investments,2017
+3764,1685,Fred Mouawad,1.3,1954,Mouawad,Diamonds,2017
+3765,1685,Fu Guangming & family,1.3,1935,Sunner ,Agriculture,2017
+3766,1685,Gregorio Perez Companc,1.3,1960,Molinos Rio De La Plata,Food & Beverages,2017
+3767,1685,Guido Barilla,1.3,1971,Barilla Group,Food & Beverages,2017
+3768,1685,Guo Donglin,1.3,1951,Yishion,Apparel,2017
+3769,1685,Gurbachan Singh Dhingra,1.3,1938,Berger Paints,Chemicals & Petrochemicals,2017
+3770,1685,Gustavo Denegri,1.3,1942,Diasorrin,Chemicals & Petrochemicals,2017
+3771,1685,Hajime Satomi,1.3,1966,Sega Sammy Holdings,Entertainment,2017
+3772,1685,Hary Tanoesoedibjo,1.3,1954,MNC ,Media,2017
+3773,1685,He Jianliang,1.3,1953,Yihe,Real estate,2017
+3774,1685,Hong Seok-Joh,1.3,1954,BGF Retail,Retail,2017
+3775,1685,Huang Bingwen & family,1.3,1950,Dongfeng Printing,Printing,2017
+3776,1685,Hur Young-In,1.3,1967,SPC group,Food (bakery & fast food),2017
+3777,1685,Jithendra Virwani,1.3,1970,Embassy Property Developments ,Realty,2017
+3778,1685,Johanathan Gray,1.3,1990,Blackstone,Investment management,2017
+3779,1685,John Collison,1.3,1957,Stripe,Financial Services,2017
+3780,1685,John de Mol,1.3,1958,Endemol,Entertainment,2017
+3781,1685,Jon Yarbrough,1.3,1967,Video Gaming Technologies,Gaming,2017
+3782,1685,Jonas Kamprad,1.3,1937,Ikea,Single brand retailing,2017
+3783,1685,Julio Bozano,1.3,1972,Embraer,Banking,2017
+3784,1685,Karel Komarek,1.3,1960,KKCG ,Energy,2017
+3785,1685,Ke Xiping,1.3,1950,Hengxing,Investments,2017
+3786,1685,Keeree Kanjanapa,1.3,1960,BTS Skytrain,Logistics,2017
+3787,1685,Kenneth Tuchman,1.3,1950,TeleTech Holdings,Business Process,2017
+3788,1685,Kerr Neilson & family,1.3,1968,Platinum Asset Management,Investments,2017
+3789,1685,Kim Taek-Jin,1.3,1969,Nc Soft,Entertainment,2017
+3790,1685,Kong Jianmin,1.3,1948,KWG Property,Real Estate,2017
+3791,1685,Kuldip Singh Dhingra,1.3,1946,Berger Paints,Chemicals & Petrochemicals,2017
+3792,1685,Kutayba Alghanim,1.3,1924,Alghanim Industries,Automobiles & Auto Components,2017
+3793,1685,Lens Ainsworth,1.3,1944,Ainsworth Gaming Technology,Entertainment,2017
+3794,1685,Leon Cooperman,1.3,1966,Omega Advisors,Hedge Funds,2017
+3795,1685,Lev Kvetnoi,1.3,1964,Novoroscement,Construction,2017
+3796,1685,Li Jun,1.3,1964,Leyard ,Solar,2017
+3797,1685,Lin Yinsun,1.3,1954,Zhengbang ,Fodder、 cultivation,2017
+3798,1685,Lirio Parisotto,1.3,1968,Geracao Futuro L Par Fund,Investments,2017
+3799,1685,Liu Bing,1.3,1973,Fu Senmei,furniture retailing,2017
+3800,1685,Liu Chiping,1.3,1951、1961,Tencent,IT、 Entertainment,2017
+3801,1685,Liu Jianmin & Wang Aiqin,1.3,1966,Jianxin ,Metals,2017
+3802,1685,Lu Shengju,1.3,/,Casin,Real estate finance,2017
+3803,1685,Luca Barilla,1.3,1957,Barilla Group,Food & Beverages,2017
+3804,1685,Mangal Prabhat Lodha,1.3,1928,Lodha ,Realty,2017
+3805,1685,Manuel Moroun & family,1.3,1965,Ambassador Bridge,Logistics,2017
+3806,1685,Marc Coucke ,1.3,1945,Omega Pharma,Pharmaceuticals,2017
+3807,1685,Margaret Lien & family,1.3,/,United Overseas Bank,Banking,2017
+3808,1685,Maria de Lourdes Egydio Villela,1.3,1970,Itau Unibanco,Banking,2017
+3809,1685,Mathias Kamprad,1.3,1975,Ikea,Single brand retailing,2017
+3810,1685,Miguel McKelvey,1.3,1926,WeWork,Technology,2017
+3811,1685,Minoru Otsuka,1.3,1961,Otsuka,Technology,2017
+3812,1685,Mochtar Riady & family,1.3,1949,Lippo Group,Real estate,2017
+3813,1685,Mohed Altrad,1.3,1945,Groupe Altrad,Cement,2017
+3814,1685,Mustafa Latif Topbas & family,1.3,/,Birlesik Magazalar,Food & Beverages,2017
+3815,1685,Naoki Tada,1.3,1958,Sundrug,Drug Store,2017
+3816,1685,Nikolai Maximov & family,1.3,1964,Maxi Group,Investments,2017
+3817,1685,Omid Kordestani,1.3,1963,Google,Technology,2017
+3818,1685,Paola Barilla,1.3,1953,Barilla Group,Food & Beverages,2017
+3819,1685,Patokh Chodiev,1.3,1963,Eurasian Natural Resources ,Mining,2017
+3820,1685,Patrice Motsepe,1.3,1989,African Rainbow Minerals,Mining,2017
+3821,1685,Patrick Collison,1.3,1957、1982,Stripes,Financial Services,2017
+3822,1685,Peng Jianhu & Peng Junheng,1.3,1965,New Century Cruise,Tourism ,2017
+3823,1685,Peter Kamprad,1.3,1966,Ikea,Single brand retailing,2017
+3824,1685,Rajesh Mehta,1.3,1965,Rajesh Exports,Jewellery,2017
+3825,1685,Robert Citrone,1.3,1954,Discovery Capital Management,Hedge Funds,2017
+3826,1685,Robert Fisher,1.3,1927,GAP,Single Brand Retailing,2017
+3827,1685,Ryoichi Jinnai,1.3,1971,Promise Consumer Lender,Financial Services,2017
+3828,1685,Saad Hariri,1.3,1968,Saudi Oger ,Construction,2017
+3829,1685,Salman & Ahmed Rahman,1.3,1964,Beximco ,Pharmaceutical,2017
+3830,1685,Samir Mehta,1.3,1966,Torrent Pharma,Pharmaceuticals,2017
+3831,1685,Samvel Karapetyan,1.3,1961,Tashir Group,Real Estate,2017
+3832,1685,Sandro Veronesi,1.3,1931,Calzedonia,Single Brand Retailing,2017
+3833,1685,Silvio Santos,1.3,1939,Grupo Silvio Santos,Media,2017
+3834,1685,Soegiarto Adikoesoemo,1.3,1926,AKR,Chemical Trader,2017
+3835,1685,Stephen Jarislowsky,1.3,1954,Jarislowsky Fraser,Investments,2017
+3836,1685,Stephen Lansdown,1.3,1965,Hargreaves Lansdown,Investments,2017
+3837,1685,Stephen Saad,1.3,1947,Aspen,Pharmaceuticals,2017
+3838,1685,Stewart Rahr,1.3,1956,Kinray,Pharmaceuticals,2017
+3839,1685,Sudhir Mehta,1.3,/,Torrent Pharma,Pharmaceuticals,2017
+3840,1685,Takashi Tada,1.3,1955,Sundrug,Drug Store,2017
+3841,1685,Tang Wee Kit & family,1.3,1944,CK Tang,Multi Brand Retailing,2017
+3842,1685,Terry Mathews,1.3,1953,Mitel Networks,Technology,2017
+3843,1685,Tian Ming,1.3,1950,Meiya Optoelectronic,Electronic device、 optoelectronic,2017
+3844,1685,Tony Jashanmal,1.3,1967,Jashanmal ,Multi Brand Retailing,2017
+3845,1685,Torsten Toeller,1.3,1950,Torsten Toeller Holding ,commercial services,2017
+3846,1685,Vladimir Scherbakov,1.3,1964,Avotor Holding,Automobiles & Auto Components,2017
+3847,1685,Wang Donghai & Wang Yaqian,1.3,1968,Bestsun Energy,Gas、 energy ,2017
+3848,1685,Wei Ying-chiao ,1.3,/,Ting Hsin ,Food & Beverages,2017
+3849,1685,Wei Yin-heng ,1.3,1948,Ting Hsin ,Food & Beverages,2017
+3850,1685,Wu Xushun & family,1.3,1968,Wuhu Shunrong Automobile,Automobiles & Auto Components,2017
+3851,1685,Xiao Chunhong,1.3,1965,Honglicheng,Real Estate,2017
+3852,1685,Yan Jianjun,1.3,1950,Zenitek ,TMT,2017
+3853,1685,Yuan Fugen & family,1.3,1944,Dongshan Precision Manufacturing,Manufacturing,2017
+3854,1685,Zadik Bino ,1.3,/,Paz Oil,Oil,2017
+3855,1685,Zeng Lingshan,1.3,1969,Creat ,Pharmaceuticals,2017
+3856,1685,Zhang Zhirong & family,1.3,1951,"Hengsheng, Rongsheng Heavy Industry",Real Estate,2017
+3857,1685,Zhou Furen,1.3,1964、1965,Xiyang ,Agriculture,2017
+3858,1802,Zhu Jiman & Bai Lihui,1.3,1961,Gloria Pharmaceuticals,Pharmaceuticals,2017
+3859,1802,Abdulsamad Rabiu,1.2,1950,Bua ,Multi Brand Retailing,2017
+3860,1802,Alain Bouchard,1.2,1936,Alimentation Couche Tard,Multi Brand Retailing,2017
+3861,1802,Albert Berner,1.2,1939,Berner Group,Automobiles & Auto Components,2017
+3862,1802,Allan Gray,1.2,/,Allan Gray,Investments,2017
+3863,1802,Anders & Soren Westermann,1.2,1962,WIDEX,Medical Equipments,2017
+3864,1802,Andrei Kosogov,1.2,1936,Vimpelcom,Telecom,2017
+3865,1802,Anne Gittinger,1.2,1986,Nordstrom,Multi Brand Retailing,2017
+3866,1802,Anton Kathrein Jr,1.2,/,Katherein Werkel,Antenna & Satellite Technology,2017
+3867,1802,Barb Van Andel-Gaby,1.2,1939,Amaway,Retailing,2017
+3868,1802,Belmiro de Azevedo,1.2,/,Sonae,Multi Brand Retailing,2017
+3869,1802,Bent Jensen,1.2,1952,Linak Holdings,Manufacturing,2017
+3870,1802,Bhadresh Shah,1.2,1953,AIA Engineering,Construction & Engineering,2017
+3871,1802,Billy Kan,1.2,1955,CHNG,Energy,2017
+3872,1802,Boonchai Bencharongkul,1.2,1944,Total Access Communications,Telecom,2017
+3873,1802,Brandt Louie,1.2,1976,London Drugs,Retail ,2017
+3874,1802,Brian Sheth,1.2,1938,Vista Equity Partners,Investments,2017
+3875,1802,Bruno Steinhoff,1.2,1950,Steinhoff international holdings,Furniture,2017
+3876,1802,Bulent Eczacibasi,1.2,1960,Eczacibasi ,Pharmaceuticals,2017
+3877,1802,"Cargill MacMillan, III.",1.2,1943,Cargill ,Trading,2017
+3878,1802,Charlotte Colket Weber,1.2,1952,Campbell Soup,Food & Beverages,2017
+3879,1802,Chen Miaolin,1.2,1963、/,Zhejiang Kaiyuan ,Real Estate,2017
+3880,1802,Chen Zhilie & Wang Rong,1.2,1938,Evoc,Computer industry ,2017
+3881,1802,Cho Yang Rai,1.2,1962,Hankook Tires,Tires,2017
+3882,1802,Daniel Loeb,1.2,1939,Third Point,Hedge Funds,2017
+3883,1802,Daniel Roullier,1.2,1956,Groupe Roullier,Plant & animal feed,2017
+3884,1802,Danny Tan Chee Sing,1.2,1945,Tropicana,Real Estate,2017
+3885,1802,David Hindawi,1.2,1961,Tanium,Software,2017
+3886,1802,David Van Andel,1.2,1982,Amaway,Retaiing,2017
+3887,1802,Domenico Dolce,1.2,1960,Dolce & Gabbana,Single Brand Retailing,2017
+3888,1802,Donald Graham,1.2,1948,Graham Holding,Mass media,2017
+3889,1802,Edouard Carmignac,1.2,1948,Carmignac Gestion ,Investment,2017
+3890,1802,Edward Stack,1.2,1955,Dick's Sporting Goods,Multi Brand Retailing,2017
+3891,1802,Elaine Wynn,1.2,1943,Wynn Resort,Casinos,2017
+3892,1802,Elena Baturina,1.2,1965,Inteko,Construction,2017
+3893,1802,Eric Sprott,1.2,1947,Sprott ,Investments,2017
+3894,1802,Farhad Moshiri,1.2,1957,USM Holdings,Mining,2017
+3895,1802,Faruk Eczacibasi,1.2,1955,Eczacibasi ,Pharmaceuticals,2017
+3896,1802,Fawzi Al-Kharafi,1.2,/,Kharafi Group,Telecom,2017
+3897,1802,Feng Huanpei & Fan Zhaoxia,1.2,/,Jing Yun Tong,New energy,2017
+3898,1802,Feng Xiaohua,1.2,1956,Nanhua Sugar,Sugar,2017
+3899,1802,Fernando Roig,1.2,1948,Mercadona,Retail,2017
+3900,1802,Frank Stronach,1.2,1933,Magna International,Automobiles & Auto Components,2017
+3901,1802,Fu MeiCheng,1.2,1957,Huace Film & TV,TMT,2017
+3902,1802,Gao Dekang & Mei Dong,1.2,1952,Bosideng ,Textiles,2017
+3903,1802,George Joseph,1.2,1922,Mercury General ,Insurance,2017
+3904,1802,Haim Saban,1.2,1945,Media Nusantara Citra,Entertainment,2017
+3905,1802,Han Tao,1.2,1960,Goldenmax,Manufacturing,2017
+3906,1802,He Zhusheng & family,1.2,1947,Houying ,Manufacturing,2017
+3907,1802,Henadiy Boholyubov,1.2,1963,Privatbank,Banking,2017
+3908,1802,Hiroshi Ishibashi,1.2,1947,Bridgestone ,Tires,2017
+3909,1802,Hou Changcai,1.2,1956,Yuanchang ,Real Estate,2017
+3910,1802,Huang Junkang & family,1.2,1955,Topspring,Real Estate,2017
+3911,1802,Hui Sai Fun,1.2,1922,Central Development,Real Estate,2017
+3912,1802,Idan Ofer,1.2,1956,Israel Corporation,Shipping,2017
+3913,1802,Isaac Larian,1.2,1955,MGA Entertainment,Toy making,2017
+3914,1802,J. Tomilson Hill,1.2,1949,Blackstone Group,Financial Services,2017
+3915,1802,James Clark,1.2,1947,Netscape,Technology,2017
+3916,1802,James Wu & family,1.2,1923,Maxim's Caterers,Catering,2017
+3917,1802,Jan Topholm & family,1.2,/,WIDEX,Medical Equipments,2017
+3918,1802,Jayme Garfinkel & family,1.2,1946,Porto Seguro,Insurance,2017
+3919,1802,Jean Burelle,1.2,1941,Plastic Omnium,Automobiles & Auto Components,2017
+3920,1802,Jerry Reinsdorf ,1.2,1937,Chicago Bulls,Sports,2017
+3921,1802,Jerry Yang,1.2,1969,Yahoo,Technology,2017
+3922,1802,John MacMillan,1.2,/,Cargill ,Trading,2017
+3923,1802,Jonathan Harmsworth & family,1.2,1970,Daily Mail and General Trust,Media,2017
+3924,1802,Jose Llado Fernandez Urrutia,1.2,/,Tecnicas Reunidas,Manufacturing,2017
+3925,1802,Jose Mendes Nogueira & family,1.2,1928,J Mendes,Iron ore mining,2017
+3926,1802,Karsanbhai Patel,1.2,1945,Nirma ,FMCG,2017
+3927,1802,Kazuo Inamori & family,1.2,1933,Kyocera,Electronics,2017
+3928,1802,Konstantin Grigorishin,1.2,1966,Energy Standard,Engineering,2017
+3929,1802,Kuldip R Sahi,1.2,1947,Morguard Group,Real Estate,2017
+3930,1802,Lan Huasheng,1.2,1971,Dasheng,Agriculture,2017
+3931,1802,Laurent Burelle ,1.2,1951,Plastic Omnium,Automobiles & Auto Components,2017
+3932,1802,Lee Myung Hee,1.2,1944,Shinsegae,Multi Brand Retailing,2017
+3933,1802,Leopoldo del Pino y Calvo Sotelo,1.2,1963,Ferrovial,Construction,2017
+3934,1802,Li Denghai,1.2,1949,Denghai Seeds ,Agriculture ,2017
+3935,1802,Lily Safra,1.2,1940,Safra Bank,Banking,2017
+3936,1802,Liu Jianjun,1.2,1960,HuaYu,Mining,2017
+3937,1802,Liu Ruopeng,1.2,1983,Kuang-chi,Super material ,2017
+3938,1802,Liu Zhendong,1.2,/,LDUV,Real Estate,2017
+3939,1802,Liu Zhengguo,1.2,1965,Origin Water,Water Technology,2017
+3940,1802,Manuel Villar,1.2,1950,Starmalls,Retail,2017
+3941,1802,Maria Del Pino Y Calvo Soleto,1.2,1958,Ferrovial,Construction,2017
+3942,1802,Martha MacMillan,1.2,1952,Cargill ,Trading,2017
+3943,1802,Meg Whitman,1.2,1957,Ebay,Online Retail,2017
+3944,1802,Mehmet Aydinlar,1.2,1957,Acibadem Healthcare,Hospitals,2017
+3945,1802,Michael Teel,1.2,1952,Raleys,Retail,2017
+3946,1802,Mohamed Mansour,1.2,1948,Mansour,Automobiles & Auto Components,2017
+3947,1802,Mohannad Al Kharafi,1.2,/,Kharafi Group,Telecom,2017
+3948,1802,Nan Van Andel,1.2,/,Amaway,Retailing,2017
+3949,1802,Nancy Lerner,1.2,1961,MBNA,Financial Services,2017
+3950,1802,Nirav Modi,1.2,1972,Firestar Diamonds,Jewellery,2017
+3951,1802,Niu Yishun,1.2,1955,Hixih ,Tires、 conveyor belts、 electricity,2017
+3952,1802,Norma Lerner,1.2,1937,MBNA,Financial Services,2017
+3953,1802,Orion Hindawi,1.2,1980,Tanium,Software,2017
+3954,1802,Paul Salteri,1.2,1948,Tenix,Construction,2017
+3955,1802,Peter Sondakh ,1.2,1951,Express Transindo Utama,Conglomerate ,2017
+3956,1802,Pierre Papillaud,1.2,1936,Alma group,Food Processing,2017
+3957,1802,Putera Sampoerna & family,1.2,1948,Sampoerna,Tobacco,2017
+3958,1802,Rajju Shroff,1.2,1936,United Phosphorus,Chemicals & Petrochemicals,2017
+3959,1802,Ramesh Genomal & family,1.2,1954,Page Industries,Textiles、 Apparels & Accessories,2017
+3960,1802,Randolph Lerner,1.2,1963,MBNA,Financial Services,2017
+3961,1802,Ranjith & Beljinder Boparan,1.2,/,2 Sisters Food Group,Food & Beverages,2017
+3962,1802,Ravi Jaipuria,1.2,1956,RJ Corp,FMCG,2017
+3963,1802,Richard Hayne & family,1.2,1948,Urban Outfitters ,Textiles,2017
+3964,1802,Rolf Gerling,1.2,1956,Rolf Gerling,Insurance,2017
+3965,1802,Sanjay S Lalbhai,1.2,1955,Arvind ,Textiles、 Apparels & Accessories,2017
+3966,1802,Sefik Yilmaz Dizdar,1.2,1939,LC Waikiki,Fashion Store,2017
+3967,1802,Shin Dong Bin,1.2,1956,Lotte Shopping,Multi Brand Retailing,2017
+3968,1802,Sidney Kimmel,1.2,1928,Jones Group ,Single Brand Retailing,2017
+3969,1802,Stefano Gabbana,1.2,1964,Dolce & Gabbana,Single Brand Retailing,2017
+3970,1802,Stelios Haji-Ioannou,1.2,1968,EasyJets ,Aviation,2017
+3971,1802,Stephen Mandel Jr,1.2,1957,Lone Pine Capital,Hedge Funds,2017
+3972,1802,Steve Case,1.2,1959,AOL,Technology,2017
+3973,1802,Steve Van Andel,1.2,1957,Amaway,Retailing,2017
+3974,1802,Su Meng,1.2,/,Gold Tak Land,Real Estate,2017
+3975,1802,Suat Gunsel,1.2,1954,Yakin Dogu,Real Estate,2017
+3976,1802,Sudhir Ruparelia,1.2,1956,Ruparelia,Banking,2017
+3977,1802,Suzan Sabanci Dincer,1.2,1966,Sabanci,Banking,2017
+3978,1802,Syed Mokhtar AlBukhary,1.2,1952,MMC,Mining,2017
+3979,1802,Tang Ning,1.2,/,Credit Ease,Financial Services,2017
+3980,1802,Thaksin Shinawatra & family,1.2,1950,SC Asset,Financial Services,2017
+3981,1802,Thomas Lee,1.2,1945,Party City,Investments,2017
+3982,1802,Thomas Straumann,1.2,1965,Straumann Holdings,Medical Equipments,2017
+3983,1802,Tsao Te-Feng & Meng Hai-Ti ,1.2,1945、/,Quaker ,Food & Beverages,2017
+3984,1802,Turgay Ciner,1.2,1957,Ciner ,Mining,2017
+3985,1802,Valerie & family,1.2,/,Rosemount Estate,Food & Beverages,2017
+3986,1802,Vikas Oberoi,1.2,1971,Oberoi Realty ,Realty,2017
+3987,1802,Wang Chunsheng & Lyu Li,1.2,/,Anjie Technology,Manufacturing,2017
+3988,1802,Wang Junmin,1.2,1968,Haisco Pharmaceutical,Pharmaceuticals,2017
+3989,1802,Wang Xuexin,1.2,1967,THM,Heavy Industry,2017
+3990,1802,Wang Zhongjun ,1.2,1960,Huayi Bros,Entertainment,2017
+3991,1802,Wei Yin-chun ,1.2,/,Ting Hsin ,Food & Beverages,2017
+3992,1802,Wichai Thongtang,1.2,1947,Bangkok Dusit Medical Services,Health Care,2017
+3993,1802,William Conway Jr,1.2,1950,Carlyle ,Investments,2017
+3994,1802,William MacMillan,1.2,1955,Cargill ,Trading,2017
+3995,1802,Willy Micheal,1.2,1947,Ypsomed,Pharmaceutical ,2017
+3996,1802,Wilma Tisch,1.2,1928,Loews ,Energy,2017
+3997,1802,Xiao Fen,1.2,1962,Fenda,Audio technology,2017
+3998,1802,Xiao Keng & family,1.2,1962,Fenda,Audio technology,2017
+3999,1802,Xu Xin,1.2,/,Capitaltoday,Investments,2017
+4000,1802,Yasseen Mansour,1.2,1962,Mansour,Automobiles & Auto Components,2017
+4001,1802,Yoshikazu Tanaka,1.2,1978,Gree International,Technology,2017
+4002,1802,Youssef Mansour,1.2,1946,Mansour,Automobiles & Auto Components,2017
+4003,1802,Yuriy Kosiuk,1.2,1970,MHP,Food & Beverages,2017
+4004,1802,Zhang Xinghai & Yan Min,1.2,1963,Xiaokang ,Automobiles & Auto Components,2017
+4005,1802,Zhang Xuansong,1.2,1971,Yonghui Superstores,Retail,2017
+4006,1802,Zheng Jianjiang & He Yiju,1.2,1961、/,AUX ,Consumer Electronics,2017
+4007,1802,Zheng Yonggang,1.2,1958,Shanshan ,Manufacturing,2017
+4008,1952,Ahsen Ozokur,1.1,1951,Ulker Biskuvi,Food & Beverages,2017
+4009,1952,Alessandra Garavoglia,1.1,/,Gruppo Campari,Food & Beverages,2017
+4010,1952,Alexander Rovt,1.1,1953,IBE Trade,Real Estate,2017
+4011,1952,Alfredo Harp Helu,1.1,1945,Banamex,Banking,2017
+4012,1952,Andrea Della Valle,1.1,1967,Saks ,Single Brand Retailing,2017
+4013,1952,Andrea Reimann-Ciardelli,1.1,1957,Coty ,Consumer Goods,2017
+4014,1952,Angela Bennett,1.1,1946,Wright Prospecting,Mining,2017
+4015,1952,Antony Ressler,1.1,1962,Ares Management,Finance (Private Equity & investment),2017
+4016,1952,Archbold D. van Beuren & family,1.1,1949,Campbell Soup,Foof and Bevarage,2017
+4017,1952,Asok Kumar Hiranandani,1.1,1955,Royal Group Holdings,Construction,2017
+4018,1952,Ayman Asfari,1.1,1961,Petrofac,Energy,2017
+4019,1952,Balkrishan Goenka,1.1,1967,Welspun,Capital Goods,2017
+4020,1952,Barry Zekelman & family,1.1,1964,Jmc Steel,Steel,2017
+4021,1952,Benedicta Chamberlain & family,1.1,1945,William Grant & Sons,Food & Beverages,2017
+4022,1952,Benjamin de Rothschild & family,1.1,/,Edmond De Rothschild Group,Financial Services,2017
+4023,1952,Brian Higgins,1.1,1966,King Street Capital Management,Hedge Funds,2017
+4024,1952,Bruce A Nordstrom,1.1,1934,Nordstrom,Multi Brand Retailing,2017
+4025,1952,Bruce Cheng Chung-Hua ,1.1,1936,Delta ,Manufacturing ,2017
+4026,1952,Cai Xiaoru,1.1,1979,Tatwah Smartech,TMT,2017
+4027,1952,Cao Kejian,1.1,1962,KaiShan ,Manufacturing,2017
+4028,1952,Chatri Sophonpanich,1.1,1934,Bangkok Life Assurance,Banking,2017
+4029,1952,Che Fengsheng,1.1,1962,Sihuan Pharm,Pharmaceuticals,2017
+4030,1952,Chen Baozhen,1.1,1943,Wangsu Science & Technology,TMT,2017
+4031,1952,Chen Dakui & family,1.1,1951,Zhongda Polyolefin Shrink Film,Manufacturing,2017
+4032,1952,Chen Danian,1.1,1978,Shanda ,TMT,2017
+4033,1952,Chen Jiangtao,1.1,1961,Watertek,TMT,2017
+4034,1952,Chen Jianming,1.1,1956,Sansheng-Hongye ,Shipping,2017
+4035,1952,Chen Runguang & Chen Jianming,1.1,1953,Guangda ,Real estate,2017
+4036,1952,Chen Tei-Fu ,1.1,/,Sunrider,Cosmetics,2017
+4037,1952,Cheng Xianfeng ,1.1,1968,Yifan Xinfu Pharmaceutical,Pharmaceuticals,2017
+4038,1952,Cho Chang-Gul,1.1,1940,Hanssem,Consumer Durables ,2017
+4039,1952,Choo Chong Ngen,1.1,1954,Hotel  81,Hospitality,2017
+4040,1952,Chung Yong-Jin,1.1,1969,Shinsegae,Multi Brand Retailing,2017
+4041,1952,Cui Zhixiang,1.1,1963,Shandong Fangyuan Nonferrous Metals ,Copper ,2017
+4042,1952,Dai Hao,1.1,1964,Zhongfa ,Real Estate,2017
+4043,1952,Ding Xinxin & Zhang Xingjuan,1.1,1958、1963,Yasha Decoration,Decoration,2017
+4044,1952,Ding Yuhua,1.1,1948,Triangle,Tires ,2017
+4045,1952,Djoko Susanto,1.1,1951,Alfamart,Multi Brand Retailing,2017
+4046,1952,Dong Fan,1.1,1970,Jafron Biomedical,Pharmaceuticals,2017
+4047,1952,Duan Yongping,1.1,1961,BBK ,Electronics、 investments ,2017
+4048,1952,Duncan Wen-Shan Wang & family ,1.1,1970,United Daily News ,Media ,2017
+4049,1952,Edmund Ansin,1.1,1937,Sunbeam Television,Entertainment,2017
+4050,1952,Edwin Soeryadjaya,1.1,1950,Adaro Energy,Energy,2017
+4051,1952,Evan Sharp,1.1,1983,Pinterest,Technology,2017
+4052,1952,Francis Biondi,1.1,1965,King Street Capital Management,Hedge Funds,2017
+4053,1952,Friedrich Knapp ,1.1,1952,New Yorker,Retail,2017
+4054,1952,Gao Jisheng & Gao Jinna ,1.1,1952、/,Lander,Real Estate,2017
+4055,1952,Gao Yugen,1.1,1966,Shengli,Manufacturing,2017
+4056,1952,Gao Yunfeng,1.1,1967,Hanslaser,Laser equipment ,2017
+4057,1952,Gary Burrel,1.1,1938,Garmin,Technology,2017
+4058,1952,GV Prasad,1.1,1962,Dr. Reddy's Lab,Pharmaceuticals,2017
+4059,1952,Han Guolong & family,1.1,1955,Citichamp ,Real Estate,2017
+4060,1952,Han Xu  & Zhang Renhua ,1.1,1965、1966,Realcan Pharmaceutical,Pharmaceuticals,2017
+4061,1952,Harsh Goenka,1.1,1959,RPG Enterprises,Diversified,2017
+4062,1952,Helen Johnson-Leipold,1.1,1957,Sc Johnson & Sons,Multi Brand Retailing,2017
+4063,1952,Herbert Fisk Johnson III,1.1,1958,Sc Johnson & Sons,Multi Brand Retailing,2017
+4064,1952,Hua Yong,1.1,1964,Shunwang Technology,TMT,2017
+4065,1952,Huang Nubo,1.1,1956,Zhongkun ,Real Estate,2017
+4066,1952,Ilkka Herlin,1.1,1961,Kone Corporation,Elevators & Escalators production,2017
+4067,1952,Ilona Herlin,1.1,1967,Kone Corporation,Elevators & Escalators production,2017
+4068,1952,Imogene Powers Johnson,1.1,1931,Sc Johnson & Sons,Multi Brand Retailing,2017
+4069,1952,Ion Tiriac,1.1,1940,Tiriac Holdings ,Financial Services,2017
+4070,1952,Jaime Gilinski Bacal,1.1,1958,BanColombia,Investments,2017
+4071,1952,James Cabela,1.1,/,Cabela,Retailing,2017
+4072,1952,Jeffrey Gundlach,1.1,1959,DoubleLine Capital,Investments ,2017
+4073,1952,Jiang Nan,1.1,1963,Shengfeng,Rubber products、 real estate,2017
+4074,1952,John Bloor,1.1,1944,Bloor Holdings ,Automobiles & Auto Components,2017
+4075,1952,Johnson Ko,1.1,1951,Yfcapita,Financial Services,2017
+4076,1952,Jon Ramon Aboitiz & family,1.1,1949,Aboitiz Equity Ventures,Energy,2017
+4077,1952,Jorg Bucherer,1.1,/,Bucherer,Diamonds,2017
+4078,1952,Jose Isaac Peres,1.1,1941,Multiplan,Real Estate,2017
+4079,1952,Ken Grossman,1.1,1955,Sierra Nevada,Brewery,2017
+4080,1952,Koo Bon Moo,1.1,1946,LG Electronics,Electronics,2017
+4081,1952,Kris Gopalakrishnan,1.1,1956,Infosys,Software & Services,2017
+4082,1952,Lev Leviev,1.1,1957,Catoca Diamond Mine,Diamonds,2017
+4083,1952,Li Weiguo,1.1,1965,Oriental Yuhong,Manufacturing,2017
+4084,1952,Li Zhengguo,1.1,1960,Youbo Pharmaceutical,Pharmaceuticals,2017
+4085,1952,Liang Liangsheng,1.1,1951,C-Bons ,Daily chemical products、 hygiene products,2017
+4086,1952,Lim Chap Huat,1.1,1955,Keppel REIT,Real Estate Investment,2017
+4087,1952,Lim Sung-Ki,1.1,1941,Hanmi Science,Pharmaceuticals ,2017
+4088,1952,Lin Qi,1.1,1981,Youzu,TMT,2017
+4089,1952,Lin Rongxin,1.1,1968,San Sheng  ,Real Estate,2017
+4090,1952,Liu Fuhai,1.1,1954,Dahai ,Textiles、 chemical industry ,2017
+4091,1952,Lou Zhongfu & family,1.1,1954,Guangsha ,Construction,2017
+4092,1952,Lu Chuping & Peng Hui,1.1,1964、1968,Dayang ,Technology,2017
+4093,1952,Lu Keping & family,1.1,1944,Jiangsu Sunshine,Textiles,2017
+4094,1952,"Luca Garavoglia,",1.1,1970,Gruppo Campari,Food & Beverages,2017
+4095,1952,Maddalena Garavoglia,1.1,/,Gruppo Campari,Food & Beverages,2017
+4096,1952,Mario Gabelli,1.1,1943,GAMCO,Investments ,2017
+4097,1952,Mark Coombs,1.1,1963,Ashmore Group,Investments,2017
+4098,1952,Mark Dixon,1.1,1961,Regus Group,Office Real estate,2017
+4099,1952,Michael Jordan,1.1,1966,Charlotte Bobcats,Sports,2017
+4100,1952,Michael Price,1.1,1953,Mfp Asset Management,Investments,2017
+4101,1952,Miriam Blocher,1.1,1978,EMS Chemie,Chemicals & Petrochemicals,2017
+4102,1952,Mitchell Jacobson,1.1,1952,MSC Industrial Direct,Manufacturing,2017
+4103,1952,Mofatraj Munot,1.1,1945,Kalpataru  ,Realty,2017
+4104,1952,Mohammed Al Issa & family,1.1,1925,Savola Group,Investments,2017
+4105,1952,Monika Schoeller,1.1,1940,Verlagsgruppe Georg Von Holtzbrinck ,Entertainment,2017
+4106,1952,Nadhmi Auchi,1.1,1940,General Mediterranean,Real Estate,2017
+4107,1952,Nasser Khalili,1.1,1947,Art,Art,2017
+4108,1952,Niklas Herlin,1.1,1965,Kone Corporation,Elevators & Escalators production,2017
+4109,1952,Or Wai Sheun,1.1,1952,Polytec Asset,Real Estate、Energy,2017
+4110,1952,Paul Fireman,1.1,1945,Fireman Capital Partners / Reebok,Private Equity investment / Sporting Apparal,2017
+4111,1952,Pawan Kant Munjal,1.1,1955,Hero Motocorp,Automobiles & Auto Components,2017
+4112,1952,Peng Xing,1.1,1970,Fapai ,Textiles,2017
+4113,1952,Peter Spuhler,1.1,1960,Stadler Rail,Automobiles & Auto Components,2017
+4114,1952,Prem Watsa,1.1,1951,Fairfax Holdings,Insurance,2017
+4115,1952,Qiu Guogen & Luo Yi,1.1,1969,Chongyang ,Investments,2017
+4116,1952,Qiu Jianping & Wang Lingling,1.1,1962、1961,GreatStar Industrial,Manufacturing,2017
+4117,1952,Radhakishan Damani,1.1,1956,Avenue Supermarts,Retailing,2017
+4118,1952,Richard Peery,1.1,1939,Real Estate Investments,Real Estate,2017
+4119,1952,Rit Thirakomen & family,1.1,1952,MK Restaurant Group,Food (Restaurant),2017
+4120,1952,Ronald Joyce,1.1,1931,Tim Horton Donut ,Food & Beverages,2017
+4121,1952,Sanford Diller,1.1,1930,Prometheus Real Estate Group,Real Estate,2017
+4122,1952,Sanjiv Goenka,1.1,1962,Spencer Retail,Retailing,2017
+4123,1952,Sara Blakely,1.1,1972,Spanx,Single Brand Retailing,2017
+4124,1952,Sevket Sabanci,1.1,1937,Sabanci,Banking,2017
+4125,1952,Shao Qinxiang & family,1.1,1954,Garden ,Manufacturing,2017
+4126,1952,Shaul Shani,1.1,1956,ECI Telecom,Technology,2017
+4127,1952,Shi Guilu & family,1.1,1965,Rongmin,Real estate,2017
+4128,1952,Shi Yonglei&family,1.1,1974,Laiyifen,Food & Beverages,2017
+4129,1952,Somporn Juangroongruangkit,1.1,1951,Thai Summit Group,Automobiles & Auto Components,2017
+4130,1952,Stefan Von Holtzbrinck,1.1,1965,Verlagsgruppe Georg Von Holtzbrinck ,Entertainment,2017
+4131,1952,Su Zhigang,1.1,1958,Chime Long,Other services,2017
+4132,1952,Suman Kant Munjal,1.1,1954,Hero Motocorp,Automobiles & Auto Components,2017
+4133,1952,Sunil Kant Munjal,1.1,1958,Hero Motocorp,Automobiles & Auto Components,2017
+4134,1952,Thomas Kaplan,1.1,1963,Nova Gold Resources,Investments,2017
+4135,1952,Vasily Anisimov,1.1,1952,Metalloinvest,Mining,2017
+4136,1952,Vladimir Bogdanov,1.1,1952,Surgutneftegas,Energy,2017
+4137,1952,Vladimir Kim,1.1,1961,Kazakhmys,Mining,2017
+4138,1952,Wan Long,1.1,1940,Shuanghui,Food processing,2017
+4139,1952,Wang Chou-Hsiong  ,1.1,1943,Feng Tay ,Manufacturing ,2017
+4140,1952,Wang Haipeng,1.1,1961,MYS,Packaging products ,2017
+4141,1952,Wang Junhao,1.1,1972,JuneYao ,Investments,2017
+4142,1952,Wang Qunbin,1.1,1969,Fosun ,Investments,2017
+4143,1952,Wang Yanqing & Ni Yalan,1.1,1966、/,Lead,TMT,2017
+4144,1952,Wang Yonghong,1.1,1972,ZhongHong ,Real Estate,2017
+4145,1952,Wang Zhenghua & Wang Yu,1.1,1944、1970,Spring Airlines,Aviation,2017
+4146,1952,Wang Zhenhua & Wang Xiaosong,1.1,1962,Xincheng ,Real Estate,2017
+4147,1952,Wang Zhentao & Wang Chen,1.1,1965、/,Aokang ,Textiles,2017
+4148,1952,William Ackman,1.1,1967,Pershing Square Capital Management,Investments,2017
+4149,1952,Winnie Johnson-Marquart,1.1,1960,Sc Johnson & Sons,Multi Brand Retailing,2017
+4150,1952,Wu Pao-Tien & family ,1.1,1951,Li Pao ,Real Estate ,2017
+4151,1952,Wu Shaoxun,1.1,1956,Jingjiu ,Liquor,2017
+4152,1952,Xu Pengming,1.1,1974,JinmaoTextile Chemicals,Chemicals & Petrochemicals,2017
+4153,1952,Yang Aihua & family,1.1,1961,Baoxin,Retail,2017
+4154,1952,Yang Jianxin & Fan Meihua,1.1,1969、/,KJT,E-commerce,2017
+4155,1952,Yang Wenlong & family,1.1,1962,Renhe ,Pharmaceuticals,2017
+4156,1952,Ying Shuling,1.1,1981,Yingxiong,TMT,2017
+4157,1952,Zhang Anqiang,1.1,1956,Duolun,Automobiles & Auto Components,2017
+4158,1952,Zhang Baoquan & Wang Qiuyang ,1.1,1957、1967,Jindian ,Real Estate,2017
+4159,1952,Zhang Changhong,1.1,1958,Dazhihui,TMT,2017
+4160,1952,Zhang Daocai & family,1.1,1950,Sanhua  ,Manufacturing,2017
+4161,1952,Zhang Jingzhang & family,1.1,1937,Haitian  ,Manufacturing,2017
+4162,1952,Zhang Simin & Wang Jinsong,1.1,1962、/,Neptunus,Pharmaceuticals、 real estate,2017
+4163,1952,Zhang Songqiao,1.1,1964,C C Land Holdings Ltd,Real estate、 investments ,2017
+4164,1952,Zhao Xiaoqiang,1.1,1967,Meisheng Culture & Creative,Textiles,2017
+4165,1952,Zhou Chuanyou,1.1,1964,Zhongjin ,Mining,2017
+4166,1952,Zhou Jian,1.1,/,UB Tech,IT,2017
+4167,1952,Zhou Mingjie & Xu Su,1.1,1957、1960,Ocean's King ,Lamps and lanterns,2017
+4168,1952,Zhu Wenchen,1.1,1966,Furen Medicine ,Pharmaceuticals、 liquor,2017
+4169,1952,Zuo Zongshen & family,1.1,1953,Zongshen ,Motorcycles、 Real estate,2017
+4170,2114,Achal Anil Bakeri & family,1,1961,Symphony,Consumer Durables,2017
+4171,2114,Ai Lihua & family,1,1958,Aishi,Manufacturing,2017
+4172,2114,Alexander Lebedev,1,1960,Aeroflot,Investments,2017
+4173,2114,Ana Lucia de Mattos Barretto Villela,1,1974,Itau Unibanco,Banking,2017
+4174,2114,Ana Maria Brescia Cafferata,1,1925,Grupo Brescia,Mining,2017
+4175,2114,Analjit Singh,1,1955,Max India,Financial Services,2017
+4176,2114,Anant Asavabhokin & family,1,1951,Land & Houses ,Construction,2017
+4177,2114,Andreas E.Rihs & family,1,1945,Sonova ,Hearing aid,2017
+4178,2114,Anne Graff,1,/,Graff Diamonds,Diamonds,2017
+4179,2114,Anthony Langley,1,1955,Langley Holdings ,Manufacturing,2017
+4180,2114,Antonio Luiz Seabra ,1,1944,Natura Cosmetic,Cosmetics,2017
+4181,2114,Anu Aga,1,1943,Thermax ,Capital Goods,2017
+4182,2114,Ao Xiaoqiang,1,1964,SDL Technology ,Manufacturing,2017
+4183,2114,Azad Moopen,1,1954,DM Healthcare,Healthcare,2017
+4184,2114,Beda Diethelm,1,1944,Sonova ,Hearing aid,2017
+4185,2114,Beny Steinmetz,1,1957,OCTEA,Diamonds,2017
+4186,2114,Bernd Freier,1,1957,S.Oliver Group,Retail,2017
+4187,2114,Bill Adderley & family,1,1949,Dunelm ,Consumer Products,2017
+4188,2114,Brunello Cucinelli,1,1954,Brunello Cucinelli ,Textiles,2017
+4189,2114,Ceasar Beltrao De Almeida & family,1,1965,Ecorodovias,Logistics,2017
+4190,2114,Charles Bronfman & family,1,1932,Seagram,Food & Beverages,2017
+4191,2114,Chen Yansheng & Chen Dongqiong,1,1970、1970,Rastar,Car model,2017
+4192,2114,Chen Yidan,1,1971,Tencent,TMT,2017
+4193,2114,Chizuko & Michio Matsui,1,/,Matsui Securities,Financial Services,2017
+4194,2114,Cho Jung-Ho,1,1959,Meritz Financial,Financial Services,2017
+4195,2114,Chung Mong-Joon,1,1952,Hyundai  ,Shipping,2017
+4196,2114,Cui Weixing,1,1970,Deppon,Logitc and Shipping,2017
+4197,2114,Darwin Deason,1,1942,Xerox Acquistion,Technology,2017
+4198,2114,David Einhorn,1,1969,Green Light Capital,Hedge Funds,2017
+4199,2114,David Murdock,1,1924,Dole Foods,Food & Beverages,2017
+4200,2114,Dinesh Nandwana,1,1965,Vakranjee Software,Software & Services,2017
+4201,2114,Dona Bertarelli,1,1968,Serono,Health care,2017
+4202,2114,Donald Friese,1,1941,CRH,Building Materials ,2017
+4203,2114,Donald R Sobey,1,1937,Empire,Conglomerate (food retail & corporate investments),2017
+4204,2114,Douglas Hsu Hsu-Tung   ,1,1941,Far Eastern ,Financial Services ,2017
+4205,2114,Erwin Franz Mueller,1,1933,Mueller,Pharmaceutical,2017
+4206,2114,Fernando Belmont,1,1944,Yanbal International,Cosmetics,2017
+4207,2114,Francisco Deusmar de Queiros,1,1949,Pague Menos,Pharmaceuticals,2017
+4208,2114,Gaston Glock,1,1932,Glock,Firearms,2017
+4209,2114,Guilherme Paulus,1,1950,CVC Brasil,Entertainment,2017
+4210,2114,Henry Engelhardt,1,1958,Admiral Group,Insurance,2017
+4211,2114,Herb Chambers,1,1946,Herb Chambers Companies,Automobiles & Auto Components,2017
+4212,2114,Hirokazu Sugiara & family,1,1951,Sugi Holdings,Pharmaceuticals,2017
+4213,2114,Howard  Jenkins,1,1952,Publix,Retailing,2017
+4214,2114,Howard Marks,1,1947,Oaktree Capital,Investments,2017
+4215,2114,Huang Hongsheng & Lin Weiping,1,1956、1958,Skyworth ,Home appliances ,2017
+4216,2114,Ian Wood,1,1945,Wood Group,Energy,2017
+4217,2114,Isara Vongkusolkit & family,1,1949,Mitr Phol Sugar,Sugar ,2017
+4218,2114,Jacques Gaston Murray,1,1921,Andrew Sykes Group,Multi Brand Retailing,2017
+4219,2114,Jaran Chiaravanont,1,1931,Charoen Pokphand ,Conglomerate,2017
+4220,2114,Jeffrey Katzenberg,1,1951,Dreamworks Animation,Entertainment,2017
+4221,2114,Jiang Xipei ,1,1963,Jiangsu Far East ,TMT,2017
+4222,2114,Jin Baofang,1,1952,Jinglong,Solar,2017
+4223,2114,John Edson,1,1933,Bayliner Marine ,Shipping,2017
+4224,2114,Jon Huntsman & family,1,1940,Huntsman corporation,Chemicals & Petrochemicals,2017
+4225,2114,Joop van den Ende,1,1944,Stage Entertainment,Entertainment,2017
+4226,2114,Joy Alukkas,1,1957,Joyalukkas,Jewellery,2017
+4227,2114,K Satish Reddy ,1,1968,Dr. Reddy's Lab,Pharmaceuticals,2017
+4228,2114,Kang Jingwei,1,/,Cogobuy,E-commerce,2017
+4229,2114,Kim Nam-Jung,1,1973,Dongwon Enterprise,Marine Logistics,2017
+4230,2114,Kirill Shamalov,1,1983,Sibur,Petrochemicals ,2017
+4231,2114,Koh Wee Meng,1,1964,Global Premium,Real Estate,2017
+4232,2114,Koo Bon Sik,1,1959,Heesung Electronics,Manufacturing,2017
+4233,2114,Lachman Das Mittal,1,1932,Sonalika,Automobiles & Auto Components,2017
+4234,2114,Langes Swarovski,1,1944,Swarovski ,Crystal,2017
+4235,2114,Lee Hae-Jin ,1,1968,Naver Corp,Internet content service / Gaming,2017
+4236,2114,Li Binlan,1,1962,A.Best,Retail ,2017
+4237,2114,Li Fuchen & family,1,1946,Ng Fung,Food,2017
+4238,2114,Li Weiwei,1,1977,Wuhu Shunrong Automobile,Automobiles & Auto Components,2017
+4239,2114,Liu Shaobai & Huang Xiaofen,1,1962、1963,Kingwong,Electric,2017
+4240,2114,Liu Wei,1,1965,PCI,TMT,2017
+4241,2114,Liu Zaiwang & Fu Haixia,1,/,Jiangho ,Construction,2017
+4242,2114,Lu Feng,1,/,Wind,TMT,2017
+4243,2114,Lu Yonghua & Mao Caihong,1,1963,Linyang Electronics ,Manufacturing,2017
+4244,2114,Lynsi Torres,1,1983,In N Out Burgers,Food & Beverages,2017
+4245,2114,Lyu Hui & Chen Ningning,1,1949、1971,Pioneer Metals ,Iron & Steel,2017
+4246,2114,Mark Bamford,1,1948,JCB,Construction equipment,2017
+4247,2114,Massimo Moratty,1,1946,Saras,Oil,2017
+4248,2114,Megdet Rahimkulov,1,1946,VTB,Investments,2017
+4249,2114,Mehmet Nazif Gunal,1,1948,Mng,Investments,2017
+4250,2114,Michael Ashcroft,1,1948,Michael Ashcroft Associates,Investments,2017
+4251,2114,Michael Steinhardt,1,1941,WisdomTree Investments,Fund Management,2017
+4252,2114,Mohammed Ibrahim,1,1948,Celtel,Telecom,2017
+4253,2114,Montri Jiaravanont,1,1932,Charoen Pokphand ,Conglomerate,2017
+4254,2114,Morris Kahn,1,1930,Amdocs ,Technology,2017
+4255,2114,Onsi Sawiris,1,1930,Orascom Construction,Construction,2017
+4256,2114,Ou Zonghong & Xu Lixiang,1,/、1971,Rongxin ,Real Estate,2017
+4257,2114,Paul Foster ,1,1958,Western Refining,Energy,2017
+4258,2114,Raghuvinder Kataria,1,1950,Kataria,Investments,2017
+4259,2114,Rajeev Juneja,1,1966,Mankind Pharma,Pharmaceuticals,2017
+4260,2114,Ramesh Juneja,1,1956,Mankind Pharma,Pharmaceuticals,2017
+4261,2114,Rana Kapoor,1,1958,Yes Bank,Financial Services,2017
+4262,2114,Ranjan Pai,1,1974,Manipal Education & Medical ,Other Services,2017
+4263,2114,Richard Desmond,1,1953,Northern & Shell,Entertainment,2017
+4264,2114,Robert Fayaz Mouwad,1,/,Mouawad,Diamonds,2017
+4265,2114,Robert Tsao Hsing-Cheng  ,1,1947,-,Art,2017
+4266,2114,Rosa Brescia Cafferata,1,1927,Grupo Brescia,Mining,2017
+4267,2114,Rostam Azizi,1,1965,Cavalry Holdings,Investments,2017
+4268,2114,Ru Jiyong & family,1,1973,Der International Home Furnishing,Manufacturing,2017
+4269,2114,Saleh Kamel,1,1942,Al Baraka Bank,Banking,2017
+4270,2114,Sergei Kislov ,1,1961,Yug Rusi,Food & Beverages,2017
+4271,2114,Shang Jiyong,1,1968,Wanda ,Tire、 cable、 chemical,2017
+4272,2114,Shen Hanbiao & Wang Miaoyu,1,1972、1976,Holike,Manufacturing,2017
+4273,2114,Shen Huayuan,1,1954,China Club,TMT,2017
+4274,2114,Sheng Baijiao,1,1952,Belle ,Shoes ,2017
+4275,2114,Soichiro Fukutake,1,1947,Benesse Holdings,Educational Services,2017
+4276,2114,Song Weiping & Xia Yibo,1,1958、/,Greentown,Real Estate,2017
+4277,2114,Stephen Feinberg,1,1961,Cerberus Capital Management,Private Equity,2017
+4278,2114,Su Yen-Hui & family ,1,1927,Hotai Motor ,Manufacturing ,2017
+4279,2114,Sue Ann Hamm,1,/,Divorce Settlement,Divorce Settlement,2017
+4280,2114,Summerfield Johnston Jr,1,1933,The Coca-Cola,Beverages,2017
+4281,2114,Sun Mengquan & family,1,1950,Luhua ,Edible oils,2017
+4282,2114,Surin Upatkoon,1,1950,InTouch,Telecommunications,2017
+4283,2114,Takao Yasuda,1,1950,Don Quijote,Multi Brand Retailing,2017
+4284,2114,Tang Jian & Liu Cuiying,1,1956、1957,Jieshun Science and Technology,Technology development of smart card and computer software,2017
+4285,2114,Teruyo Yanai,1,/,Fast Retailing,Multi Brand Retailing,2017
+4286,2114,Thomas Tull,1,1971,Legendary Entertainment,Media,2017
+4287,2114,Thongma Vijitpongpun,1,1959,Pruksa Real Estate,Real Estate,2017
+4288,2114,Todd Wagner,1,1961,Broadcast.Com,Entertainment,2017
+4289,2114,TS Kalyanaraman,1,1948,Kalyan Jewellers,Jewellery,2017
+4290,2114,Tu Huilong,1,1959,Haiya Commercial ,Real estate、 investments ,2017
+4291,2114,Victor Fung & family,1,1946,Li & Fung,Trading,2017
+4292,2114,Vidya Chhabria & family,1,1957,Jumbo ,Multi Brand Retailing,2017
+4293,2114,Vito Rodriguez Rodriguez ,1,1939,Gloria,Food & Beverages,2017
+4294,2114,Vivian Que Azcona & family,1,/,Mercury Drug,Retail (Drug Store),2017
+4295,2114,Walter Frey,1,1944,Emil Frey Group,Automobiles & Auto Components,2017
+4296,2114,Wan Lianbu & family,1,1965,Kingenta Ecological Engineering,Fertilizer ,2017
+4297,2114,Wang Bufeng,1,1965,Real Force ,Coal、 new energy,2017
+4298,2114,Wang Jia & Yan Li,1,1969、1968,Venustech,TMT,2017
+4299,2114,Wang Jianguo,1,1960,Five Star Appliance,Investments,2017
+4300,2114,Wang Mingxiang & Zhou Yifeng,1,1978,Oriental Energy ,Energy,2017
+4301,2114,William Fisher,1,1958,GAP,Single Brand Retailing,2017
+4302,2114,William Koch,1,1943,Oxbow Corporation,Energy,2017
+4303,2114,Wu Chung-Yi ,1,1959,GSK ,Manufacturing ,2017
+4304,2114,Xiao Wenhui,1,1957,Macrolink ,Mining,2017
+4305,2114,Xu Hang,1,1962,Mindray Medical,Medical equipment、 real estate,2017
+4306,2114,Yang Xuegang & Lu Xiaomei ,1,1965、/,Risun,Mining,2017
+4307,2114,Yu Peidi & Yu Li,1,1960,Dongfu ,Real Estate,2017
+4308,2114,Zang Jianjun,1,/,Huaxin,Energy,2017
+4309,2114,Zeng Baobao,1,1971,Fantasia  ,Real estate,2017
+4310,2114,Zhang Desheng ,1,1949,Wanma ,TMT,2017
+4311,2114,Zhu Min & Xu Yuqing,1,1948、1949,Cybernaut,Investments ,2017
+4312,2114,Zhuo Jun,1,1966,Kingwong,Electric,2017
+4313,2114,Zuo Hongbo & Zhe Shuxia,1,1965、1963,Aurora,Manufacturing,2017

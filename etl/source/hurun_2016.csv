@@ -1,0 +1,101 @@
+Rank,Wealth(US$),Name,Sex,Birth,Companies,Industry,year
+1,$ 80000 M,Bill Gates ,Male,1956,Microsoft,Investments,2016
+2,$ 68000 M,Warren Buffett brothers,Male,1931,Berkshire Hathaway,Investments,2016
+3,$ 64000 M,Amancio Ortega brothers,Male,1937,Inditex,Single Brand Retailing,2016
+4,$ 53000 M,Jeff Bezos ,Male,1964,Amazon,Online Retail,2016
+5,$ 50000 M,Carlos Slim Helu family,Male,1940,America Movil,Telecom,2016
+6,$ 47000 M,Mark Zuckerberg ,Male,1985,Facebook,Technology,2016
+7,$ 46000 M,Larry Ellison ,Male,1945,Oracle,Technology,2016
+8,$ 44000 M,Charles Koch ,Male,1936,Koch Industries,Energy,2016
+8,$ 44000 M,David Koch ,Male,1941,Koch Industries,Energy,2016
+10,$ 37000 M,Bernard Arnault ,Male,1950,LVMH,Single Brand Retailing,2016
+10,$ 37000 M,Michael Bloomberg ,Male,1943,Bloomberg,Media,2016
+12,$ 36000 M,Dieter Schwarz ,Male,1939,Schwarz Group,Multi Brand Retailing,2016
+13,$ 34000 M,Larry Page ,Male,1974,Google,Technology,2016
+14,$ 33000 M,Liliane Bettencourt ,Female,1923,L'Oreal,Cosmetics,2016
+14,$ 33000 M,Sergey Brin ,Male,1974,Google,Technology,2016
+16,$ 31000 M,Jim Walton ,Male,1949,Wal-Mart,Multi Brand Retailing,2016
+17,$ 30000 M,Alice Walton ,Female,1950,Wal-Mart,Multi Brand Retailing,2016
+18,$ 29000 M,Robson Walton ,Male,1945,Wal-Mart,Multi Brand Retailing,2016
+19,$ 28000 M,Ingvar Kamprad family,Male,1927,Ikea,Furniture Manufacturing,2016
+20,$ 27000 M,Jorge Paulo Lemann ,Male,1940,Ambev,Food & Beverages,2016
+21,$ 26000 M,Wang Jianlin ,Male,1954,Wanda,"Real estate, entertainment",2016
+21,$ 26000 M,Mukesh Ambani ,Male,1958,Reliance Industries,Energy,2016
+23,$ 25000 M,Li Ka-shing ,Male,1928,Cheung Kong Holdings,Real Estate,2016
+23,$ 25000 M,Bertrand Puech ,Male,1936,Hermes,Single Brand Retailing,2016
+23,$ 25000 M,Christy Walton family,Female,1956,Wal-Mart,Multi Brand Retailing,2016
+23,$ 25000 M,George Soros ,Male,1931,Soros Fund Management,Hedge Funds,2016
+27,$ 24000 M,Lee Shau Kee ,Male,1928,Henderson Land,Real Estate,2016
+27,$ 24000 M,Gérard Mulliez family,Male,1931,Auchan,Multi Brand Retailing,2016
+27,$ 24000 M,Jacqueline Mars ,Female,1940,Mars,Food & Beverages,2016
+27,$ 24000 M,Steve Ballmer ,Male,1956,Microsoft,Investments,2016
+27,$ 24000 M,Forrest Mars Jr ,Male,1931,Mars,Food & Beverages,2016
+27,$ 24000 M,John Mars ,Male,1935,Mars,Food & Beverages,2016
+33,$ 23000 M,Leonardo Del Vecchio ,Male,1936,Luxottica,Eye Wear,2016
+33,$ 23000 M,Leonardo Del Vecchio ,Male,1936,Luxottica,Eye Wear,2016
+33,$ 23000 M,Phil Knight ,Male,1938,Nike,Footwear Retail,2016
+36,$ 21000 M,Ma Yun family,Male,1964,Alibaba,IT,2016
+36,$ 21000 M,Sheldon Adelson ,Male,1934,Las Vegas Sands,Environment,2016
+38,$ 20000 M,Georg ?Schaeffler son,Male,/,Schaeffler Group,Manufacturing,2016
+38,$ 20000 M,Maria Franca Fissolo  Family,Female,,Ferrero Rocher,Food & Beverages,2016
+38,$ 20000 M,Carl Icahn ,Male,1937,Icahn Enterprises,Investments,2016
+41,$ 19000 M,Ma Huateng ,Male,1971,Tencent,"IT, entertainment",2016
+41,$ 19000 M,Zong Qinghou family,Male,1945,Wahaha,Drinks,2016
+41,$ 19000 M,Stefan Persson ,Male,1948,H&M;,Single Brand Retailing,2016
+41,$ 19000 M,Anne Cox Chambers ,Female,1920,Cox Enterprise,Media,2016
+41,$ 19000 M,Paul Allen ,Male,1953,Microsoft,Investments,2016
+46,$ 18000 M,Karl Albrecht ,Male,1921,Aldi Sud,Multi Brand Retailing,2016
+46,$ 18000 M,Dilip Shanghvi ,Male,1955,Sun Pharma,Pharmaceuticals,2016
+48,$ 16000 M,S P Hinduja family,Male,1935,Hinduja Group,Manufacturing,2016
+48,$ 16000 M,Rinat Akhmetov ,Male,1967,System Capital Management,Steel,2016
+48,$ 16000 M,Ray Dalio ,Male,1949,Bridgewater Associates,Hedge Funds,2016
+48,$ 16000 M,Michael Dell ,Male,1966,Dell,Technology,2016
+48,$ 16000 M,Donald Bren ,Male,1933,Irvine Company,Real Estate,2016
+48,$ 16000 M,Elaine Marshall Family,Female,,Koch Industries,Energy,2016
+54,$ 15000 M,Galen Weston  Family,Male,,George Weston ?,Single Brand Retailing,2016
+54,$ 15000 M,Robert Kuok ,Male,1923,Kuok Group,Diversified,2016
+54,$ 15000 M,Serge Dassault family,Male,1926,Dassault System,Aviation Technology,2016
+54,$ 15000 M,Michael Otto family,Male,1944,Otto Group,Multi Brand Retailing,2016
+54,$ 15000 M,Tadashi Yanai family,Male,1950,Fast Retailing,Multi Brand Retailing,2016
+54,$ 15000 M,Alwaleed Bin Talal Alsaud ,Male,1956,Kingdom Holding Company,Investments,2016
+54,$ 15000 M,Salman bin Abdulaziz Al Saud ,Male,,/,Oil & Gas,2016
+54,$ 15000 M,Gerald Cavendish Grosvenor family,Male,1951,Grosvenor,Real Estate,2016
+54,$ 15000 M,Leonard Blavatnik ,Male,1958,Lyondellbasell,Energy,2016
+63,$ 14000 M,Lei Jun ,Male,1969,Xiaomi Technology,"Mobile phone, investments",2016
+63,$ 14000 M,Yan Hao son,Male,1986,China Pacific Construction,Roads,2016
+63,$ 14000 M,Abigail Johnson ,Female,1961,Fidelity,Investments,2016
+63,$ 14000 M,Laurene Powell Jobs family,Female,1963,Apple,Technology,2016
+63,$ 14000 M,Ronald Perelman ,Male,1943,Scientific Game,Investments,2016
+63,$ 14000 M,Thomas Peterffy ,Male,1944,Interactive Brokers,Financial Services,2016
+63,$ 14000 M,James Simons ,Male,1939,Renaissance Technologies,Hedge Funds,2016
+70,$ 13000 M,Joseph Safra ,Male,1939,Grupo Safra,Banking,2016
+70,$ 13000 M,Haji Hassanal Bolkiah ,Male,1946,Brunei Investment Agency,/,2016
+70,$ 13000 M,Li Yanhong ,Male,1968,Baidu,IT,2016
+70,$ 13000 M,Pallonji Mistry ,Male,1929,Tata Sons,Construction,2016
+70,$ 13000 M,Stefano Pessina ,Male,1941,Walgreen,Pharmaceuticals,2016
+70,$ 13000 M,Horst Paulmann family,Male,1924,Sm Prime Holding,Multi Brand Retailing,2016
+70,$ 13000 M,Charoen Sirivadhanabhakdi ,Male,1944,Thai Beverage,Food & Beverages,2016
+70,$ 13000 M,Charles Ergen ,Male,1953,Dish Networks,Entertainment,2016
+70,$ 13000 M,Stephen Schwarzman ,Male,1947,Blackstone Group,Investments,2016
+79,$ 12000 M,Georgina Rinehart ,Female,1955,Roy Hill Iron Ore Mine,Mining,2016
+79,$ 12000 M,Emilio Alves Odebrecht Family,Male,,Odebrecht,Petrochemical,2016
+79,$ 12000 M,Marcel Herrmann Telles ,Male,1951,3G Capital,Investments,2016
+79,$ 12000 M,Susanne Klatten ,Female,1962,BMW,Automobile,2016
+79,$ 12000 M,Shiv Nadar ,Male,1946,Hcl Technologies,Technology,2016
+79,$ 12000 M,Masayoshi Son ,Male,1955,Softbank,Telecom,2016
+79,$ 12000 M,Charlene Carvalho ,Female,1955,Heineken,Food & Beverages,2016
+79,$ 12000 M,Viktor Vekselberg ,Male,1957,Renova,Energy,2016
+79,$ 12000 M,Ernesto Bertarelli family,Male,1965,Serono,Pharmaceuticals,2016
+79,$ 12000 M,Gennady Timchenko ,Male,1952,Gunvor,Energy,2016
+79,$ 12000 M,Bhumibol Adulyadej? ,Male,1928,CPB Holdings,/,2016
+79,$ 12000 M,Patrick Soon-Shiong ,Male,1952,Nant Works,Pharmaceuticals,2016
+91,$ 11000 M,Xu Jiayin ,Male,1958,Evergrande,"Real estate, investments",2016
+91,$ 11000 M,Stefan Quandt ,Male,1967,BMW,Automobile,2016
+91,$ 11000 M,Massimiliana Landini Aleotti Family,Female,1944,Menarini,Pharmaceuticals,2016
+91,$ 11000 M,Vladimir Potanin ,Male,1961,Interros,Steel,2016
+91,$ 11000 M,Lee Kun Hee ,Male,1942,Samsung,Electronics,2016
+91,$ 11000 M,Khalif bin zayed an Nahyas ,Male,1948,SBK Holdings,/,2016
+91,$ 11000 M,Hans Rausing ,Male,1925,Tetra Pak,Packaging,2016
+91,$ 11000 M,Andrew Beal ,Male,1953,Beal Bank,Investments,2016
+91,$ 11000 M,Jack Taylor family,Male,1922,Enterprise Rent A Car,Logistics,2016
+91,$ 11000 M,Steve Cohen ,Male,1956,Sac Capital,Hedge Funds,2016

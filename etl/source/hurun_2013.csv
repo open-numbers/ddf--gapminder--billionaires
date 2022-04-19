@@ -1,0 +1,101 @@
+Rank,Wealth(US$),Name,Sex,Birth,Companies,Industry,year
+1,$ 66000 M,Carlos Slim Helu family,Male,1940,America Movil,Telecom,2013
+2,$ 58000 M,Warren Buffett brothers,Male,1931,Berkshire Hathaway,Investments,2013
+3,$ 55000 M,Amancio Ortega brothers,Male,1937,Inditex,Single Brand Retailing,2013
+4,$ 54000 M,Bill Gates ,Male,1956,Microsoft,Investments,2013
+5,$ 51000 M,Bernard Arnault ,Male,1950,LVMH,Single Brand Retailing,2013
+6,$ 43000 M,Larry Ellison ,Male,1945,Oracle,Technology,2013
+7,$ 32000 M,Li Ka-shing ,Male,1928,Cheung Kong Holdings,Real Estate,2013
+8,$ 31000 M,Charles Koch ,Male,1936,Koch Industries,Energy,2013
+8,$ 31000 M,David Koch ,Male,1941,Koch Industries,Energy,2013
+10,$ 30000 M,Liliane Bettencourt ,Female,1923,L'Oreal,Cosmetics,2013
+11,$ 29000 M,Alwaleed Bin Talal Alsaud ,Male,1956,Kingdom Holding Company,Investments,2013
+11,$ 29000 M,Christy Walton family,Female,1956,Wal-Mart,Multi Brand Retailing,2013
+13,$ 28500 M,Alice Walton ,Female,1950,Wal-Mart,Multi Brand Retailing,2013
+13,$ 28500 M,Jim Walton ,Male,1949,Wal-Mart,Multi Brand Retailing,2013
+13,$ 28500 M,Robson Walton ,Male,1945,Wal-Mart,Multi Brand Retailing,2013
+16,$ 28000 M,Karl Albrecht ,Male,1921,Aldi Sud,Multi Brand Retailing,2013
+17,$ 26000 M,Jeff Bezos ,Male,1964,Amazon,Online Retail,2013
+18,$ 25000 M,Ingvar Kamprad family,Male,1927,Ikea,Furniture Manufacturing,2013
+19,$ 24000 M,Bertrand Puech ,Male,1936,Hermes,Single Brand Retailing,2013
+19,$ 24000 M,Stefan Persson ,Male,1948,H&M;,Single Brand Retailing,2013
+21,$ 23000 M,Lee Shau Kee ,Male,1928,Henderson Land,Real Estate,2013
+21,$ 23000 M,Sheldon Adelson ,Male,1934,Las Vegas Sands,Environment,2013
+23,$ 22000 M,Wolfgang Porsche family,Male,1943,BMW,Automobile,2013
+24,$ 21500 M,Larry Page ,Male,1974,Google,Technology,2013
+25,$ 21000 M,Rinat Akhmetov ,Male,1967,System Capital Management,Steel,2013
+25,$ 21000 M,Sergey Brin ,Male,1974,Google,Technology,2013
+27,$ 20500 M,Gérard Mulliez family,Male,1931,Auchan,Multi Brand Retailing,2013
+27,$ 20500 M,Mukesh Ambani ,Male,1958,Reliance Industries,Energy,2013
+29,$ 20000 M,Iris Fontbona family,Female,1943,Quinenco,Mining,2013
+29,$ 20000 M,Michael Bloomberg ,Male,1943,Bloomberg,Media,2013
+29,$ 20000 M,Michele Ferrero family,Male,1927,Ferrero Rocher,Food & Beverages,2013
+29,$ 20000 M,Thomas、Raymond Kwok family,Male、Male,1951、1952,Sun Hung Kai Properties,Real Estate,2013
+33,$ 19000 M,Alisher Usmanov ,Male,1954,Megafon,Steel,2013
+33,$ 19000 M,David Thomson family,Male,1958,Thomson Reuters,Media,2013
+33,$ 19000 M,Robert Kuok ,Male,1923,Kuok Group,Real Estate,2013
+36,$ 18000 M,Alberto Bailleres Gonzalez family,Male,1932,Industrias Penoles,Mining,2013
+36,$ 18000 M,Berthold Jr Albrecht、Theo Jr Albrecht brothers,Male、Male,/、/,Aldi Nord,Multi Brand Retailing,2013
+36,$ 18000 M,Cheng Yu-tung ,Male,1925,New World / Chow Tai Fook,Jewellery,2013
+36,$ 18000 M,Lakshmi N Mittal ,Male,1951,Arcelor Mittal,Steel,2013
+36,$ 18000 M,Michael Otto family,Male,1944,Otto Group,Multi Brand Retailing,2013
+36,$ 18000 M,Viktor Vekselberg ,Male,1957,Renova,Energy,2013
+42,$ 17000 M,Carl Icahn ,Male,1937,Icahn Enterprises,Investments,2013
+42,$ 17000 M,George Soros ,Male,1931,Soros Fund Management,Hedge Funds,2013
+42,$ 17000 M,Georgina Rinehart ,Female,1955,Roy Hill Iron Ore Mine,Mining,2013
+42,$ 17000 M,German Larrea Mota Velasco family,Male,1943,Grupo Mexico,Mining,2013
+42,$ 17000 M,Jorge Paulo Lemann ,Male,1940,Ambev,Food & Beverages,2013
+42,$ 17000 M,Mark Zuckerberg ,Male,1985,Facebook,Technology,2013
+42,$ 17000 M,Vladimir Lisin ,Male,1956,Novolipetsk Steel,Steel,2013
+49,$ 16000 M,Dieter Schwarz ,Male,1939,Schwarz Group,Multi Brand Retailing,2013
+49,$ 16000 M,Leonardo Del Vecchio ,Male,1936,Luxottica,Eye Wear,2013
+51,$ 15500 M,Aliko Dangote ,Male,1958,Dangote Cement,Cement Manufacturing,2013
+51,$ 15500 M,Leonard Blavatnik ,Male,1958,Lyondellbasell,Energy,2013
+53,$ 15000 M,Forrest Mars Jr ,Male,1931,Mars,Food & Beverages,2013
+53,$ 15000 M,Joseph Safra ,Male,1939,Grupo Safra,Banking,2013
+53,$ 15000 M,Vladimir Potanin ,Male,1961,Interros,Steel,2013
+56,$ 14500 M,Jacqueline Mars ,Female,1940,Mars,Food & Beverages,2013
+56,$ 14500 M,John Mars ,Male,1935,Mars,Food & Beverages,2013
+58,$ 14000 M,Birgit Rausing family,Female,1924,Tetra Pack,Packaging,2013
+58,$ 14000 M,Francois Pinault family,Male,1936,PPR,Multi Brand Retailing,2013
+58,$ 14000 M,Luis Carlos Sarmiento ,Male,1933,Grupo Aval,Banking,2013
+58,$ 14000 M,Mikhail Fridman ,Male,1965,Alfa Group,Energy,2013
+58,$ 14000 M,Steve Ballmer ,Male,1956,Microsoft,Investments,2013
+58,$ 14000 M,Vagit Alekperov ,Male,1950,Lukoil,Energy,2013
+64,$ 13000 M,Alexey Mordashov ,Male,1965,Severstal,Steel,2013
+64,$ 13000 M,Antonio Ermirio de Moraes family,Male,1929,Votorantim Participacoes,Energy,2013
+64,$ 13000 M,Mikhail Prokhorov ,Male,1966,Polyus Gold,Mining,2013
+64,$ 13000 M,S P Hinduja family,Male,1935,Hinduja Group,Manufacturing,2013
+64,$ 13000 M,Serge Dassault family,Male,1926,Dassault System,Aviation Technology,2013
+64,$ 13000 M,Susanne Klatten ,Female,1962,BMW,Automobile,2013
+64,$ 13000 M,Tadashi Yanai family,Male,1950,Fast Retailing,Multi Brand Retailing,2013
+64,$ 13000 M,Zong Qinghou family,Male,1945,Wahaha,Drinks,2013
+72,$ 12500 M,Donald Bren ,Male,1933,Irvine Company,Real Estate,2013
+72,$ 12500 M,John Paulson ,Male,1956,Paulson & Co Investments,Hedge Funds,2013
+72,$ 12500 M,Mohammed Al Amoudi ,Male,1946,Corral Petroleum Holding,Energy,2013
+72,$ 12500 M,Phil Knight ,Male,1938,Nike,Footwear Retail,2013
+72,$ 12500 M,Stefan Quandt ,Male,1967,BMW,Automobile,2013
+72,$ 12500 M,Wang Jianlin ,Male,1954,Wanda,"Real estate, entertainment",2013
+78,$ 12000 M,Alejandro Santo Domingo Davila ,Male,1978,Sab Miller,Food & Beverages,2013
+78,$ 12000 M,Anne Cox Chambers ,Female,1920,Cox Enterprise,Media,2013
+78,$ 12000 M,Dhanin Chearavanont family,Male,1939,Charoen Pokphand Foods,Food & Beverages,2013
+78,$ 12000 M,Harold Hamm ,Male,1946,Continental Resources,Energy,2013
+78,$ 12000 M,James Simons ,Male,1939,Renaissance Technologies,Hedge Funds,2013
+78,$ 12000 M,Lui Che Woo ,Male,1929,Galaxy Entertainment,Entertainment,2013
+78,$ 12000 M,Paul Allen ,Male,1953,Microsoft,Investments,2013
+78,$ 12000 M,Ricardo Salinas Pliego family,Male,1956,Grupo Elektra,Multi Brand Retailing,2013
+78,$ 12000 M,Ronald Perelman ,Male,1943,Scientific Game,Investments,2013
+87,$ 11500 M,Ananda Krishnan ,Male,1938,Maxis Communication,Telecom,2013
+87,$ 11500 M,Michael Dell ,Male,1966,Dell,Technology,2013
+87,$ 11500 M,Roman Abramovich ,Male,1966,Evraz,Steel,2013
+90,$ 11000 M,Andrey Melnichenko ,Male,1972,Suek,Energy,2013
+90,$ 11000 M,Eike Batista ,Male,1956,OGX,Energy,2013
+90,$ 11000 M,Ernesto Bertarelli family,Male,1965,Serono,Pharmaceuticals,2013
+90,$ 11000 M,Hans Rausing ,Male,1925,Tetra Pack,Packaging,2013
+90,$ 11000 M,Jack Taylor family,Male,1922,Enterprise Rent A Car,Logistics,2013
+90,$ 11000 M,Laurene Powell Jobs family,Female,1963,Apple,Technology,2013
+90,$ 11000 M,Lee Kun Hee ,Male,1942,Samsung,Electronics,2013
+97,$ 10600 M,Abigail Johnson ,Female,1961,Fidelity,Investments,2013
+97,$ 10600 M,Ray Dalio ,Male,1949,Bridgewater Associates,Hedge Funds,2013
+99,$ 10500 M,Azim Premji ,Male,1945,Wipro,Technology,2013
+99,$ 10500 M,Charles Ergen ,Male,1953,Dish Networks,Entertainment,2013

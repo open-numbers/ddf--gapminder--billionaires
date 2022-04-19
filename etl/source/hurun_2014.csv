@@ -1,0 +1,101 @@
+Rank,Wealth(US$),Name,Sex,Birth,Companies,Industry,year
+1,$ 68000 M,Bill Gates ,Male,1956,Microsoft,Investments,2014
+2,$ 64000 M,Warren Buffett brothers,Male,1931,Berkshire Hathaway,Investments,2014
+3,$ 62000 M,Amancio Ortega brothers,Male,1937,Inditex,Single Brand Retailing,2014
+4,$ 60000 M,Carlos Slim Helu family,Male,1940,America Movil,Telecom,2014
+5,$ 48000 M,Larry Ellison ,Male,1945,Oracle,Technology,2014
+6,$ 46000 M,Bernard Arnault ,Male,1950,LVMH,Single Brand Retailing,2014
+7,$ 37000 M,Jeff Bezos ,Male,1964,Amazon,Online Retail,2014
+8,$ 36500 M,Sheldon Adelson ,Male,1934,Las Vegas Sands,Environment,2014
+9,$ 36000 M,Charles Koch ,Male,1936,Koch Industries,Energy,2014
+9,$ 36000 M,David Koch ,Male,1941,Koch Industries,Energy,2014
+11,$ 34000 M,Liliane Bettencourt ,Female,1923,L'Oreal,Cosmetics,2014
+12,$ 33000 M,Li Ka-shing ,Male,1928,Cheung Kong Holdings,Real Estate,2014
+13,$ 32500 M,Alice Walton ,Female,1950,Wal-Mart,Multi Brand Retailing,2014
+14,$ 32000 M,Stefan Persson ,Male,1948,H&M;,Single Brand Retailing,2014
+14,$ 32000 M,Jim Walton ,Male,1949,Wal-Mart,Multi Brand Retailing,2014
+14,$ 32000 M,Robson Walton ,Male,1945,Wal-Mart,Multi Brand Retailing,2014
+14,$ 32000 M,Christy Walton family,Female,1956,Wal-Mart,Multi Brand Retailing,2014
+18,$ 31000 M,Mark Zuckerberg ,Male,1985,Facebook,Technology,2014
+18,$ 31000 M,Larry Page ,Male,1974,Google,Technology,2014
+20,$ 30000 M,Sergey Brin ,Male,1974,Google,Technology,2014
+21,$ 29000 M,Karl Albrecht ,Male,1921,Aldi Sud,Multi Brand Retailing,2014
+21,$ 29000 M,Alwaleed Bin Talal Alsaud ,Male,1956,Kingdom Holding Company,Investments,2014
+23,$ 28000 M,Dieter Schwarz ,Male,1939,Schwarz Group,Multi Brand Retailing,2014
+24,$ 27000 M,Ingvar Kamprad family,Male,1927,Ikea,Furniture Manufacturing,2014
+24,$ 27000 M,Michael Bloomberg ,Male,1943,Bloomberg,Media,2014
+26,$ 25000 M,Lui Che Woo ,Male,1929,Galaxy Entertainment,Entertainment,2014
+26,$ 25000 M,Aliko Dangote ,Male,1958,Dangote Cement,Cement Manufacturing,2014
+26,$ 25000 M,Wang Jianlin ,Male,1954,Wanda,"Real estate, entertainment",2014
+29,$ 24000 M,Gérard Mulliez family,Male,1931,Auchan,Multi Brand Retailing,2014
+30,$ 23000 M,David Thomson family,Male,1958,Thomson Reuters,Media,2014
+31,$ 22000 M,Michele Ferrero family,Male,1927,Ferrero Rocher,Food & Beverages,2014
+31,$ 22000 M,Rinat Akhmetov ,Male,1967,System Capital Management,Steel,2014
+31,$ 22000 M,Bertrand Puech ,Male,1936,Hermes,Single Brand Retailing,2014
+34,$ 21000 M,Lee Shau Kee ,Male,1928,Henderson Land,Real Estate,2014
+35,$ 20000 M,Zong Qinghou family,Male,1945,Wahaha,Drinks,2014
+35,$ 20000 M,Haji Hassanal Bolkiah ,Male,1946,-,/,2014
+35,$ 20000 M,Theo Jr Albrecht brothers,Male,/,Aldi Nord,Multi Brand Retailing,2014
+38,$ 19000 M,Tadashi Yanai family,Male,1950,Fast Retailing,Multi Brand Retailing,2014
+38,$ 19000 M,George Soros ,Male,1931,Soros Fund Management,Hedge Funds,2014
+40,$ 18500 M,Alisher Usmanov ,Male,1954,Megafon,Steel,2014
+41,$ 18000 M,Jacqueline Mars ,Female,1940,Mars,Food & Beverages,2014
+41,$ 18000 M,John Mars ,Male,1935,Mars,Food & Beverages,2014
+41,$ 18000 M,Forrest Mars Jr ,Male,1931,Mars,Food & Beverages,2014
+41,$ 18000 M,Leonard Blavatnik ,Male,1958,Lyondellbasell,Energy,2014
+41,$ 18000 M,Leonardo Del Vecchio ,Male,1936,Luxottica,Eye Wear,2014
+41,$ 18000 M,Mukesh Ambani ,Male,1958,Reliance Industries,Energy,2014
+41,$ 18000 M,Khalif bin zayed an Nahyas ,Male,1948,Yao Family Wines,/,2014
+48,$ 17500 M,Carl Icahn ,Male,1937,Icahn Enterprises,Investments,2014
+49,$ 17000 M,Cheng Yu-tung ,Male,1925,New World / Chow Tai Fook,Jewellery,2014
+49,$ 17000 M,Lakshmi N Mittal ,Male,1951,Arcelor Mittal,Steel,2014
+49,$ 17000 M,Masayoshi Son ,Male,1955,Softbank,Telecom,2014
+49,$ 17000 M,Steve Ballmer ,Male,1956,Microsoft,Investments,2014
+53,$ 16500 M,Phil Knight ,Male,1938,Nike,Footwear Retail,2014
+54,$ 16000 M,Robert Kuok ,Male,1923,Kuok Group,Real Estate,2014
+54,$ 16000 M,Georgina Rinehart ,Female,1955,Roy Hill Iron Ore Mine,Mining,2014
+54,$ 16000 M,Viktor Vekselberg ,Male,1957,Renova,Energy,2014
+54,$ 16000 M,Charles Ergen ,Male,1953,Dish Networks,Entertainment,2014
+58,$ 15500 M,Jorge Paulo Lemann ,Male,1940,Ambev,Food & Beverages,2014
+58,$ 15500 M,Michael Otto family,Male,1944,Otto Group,Multi Brand Retailing,2014
+58,$ 15500 M,Iris Fontbona family,Female,1943,Quinenco,Mining,2014
+61,$ 15000 M,Mohammed bin Rashid Al Maktoum ,Male,1949,Brunei Investment Agency,Energy,2014
+61,$ 15000 M,Susanne Klatten ,Female,1962,BMW,Automobile,2014
+61,$ 15000 M,Mikhail Fridman ,Male,1965,Alfa Group,Energy,2014
+64,$ 14500 M,Leonid Mikhelson ,Male,1955,Novatek,Energy,2014
+64,$ 14500 M,Ronald Perelman ,Male,1943,Scientific Game,Investments,2014
+64,$ 14500 M,Stefan Quandt ,Male,1967,BMW,Automobile,2014
+64,$ 14500 M,Joseph Safra ,Male,1939,Grupo Safra,Banking,2014
+64,$ 14500 M,German Larrea Mota Velasco family,Male,1943,Grupo Mexico,Mining,2014
+64,$ 14500 M,Serge Dassault family,Male,1926,Dassault System,Aviation Technology,2014
+70,$ 14000 M,Ma Huateng ,Male,1971,Tencent,"IT, entertainment",2014
+70,$ 14000 M,Harold Hamm ,Male,1946,Continental Resources,Energy,2014
+70,$ 14000 M,Paul Allen ,Male,1953,Microsoft,Investments,2014
+70,$ 14000 M,Donald Bren ,Male,1933,Irvine Company,Real Estate,2014
+70,$ 14000 M,Francois Pinault family,Male,1936,PPR,Multi Brand Retailing,2014
+70,$ 14000 M,Vladimir Potanin ,Male,1961,Interros,Steel,2014
+70,$ 14000 M,Laurene Powell Jobs family,Female,1963,Apple,Technology,2014
+77,$ 13500 M,Dilip Shanghvi ,Male,1955,Sun Pharma,Pharmaceuticals,2014
+77,$ 13500 M,Abigail Johnson ,Female,1961,Fidelity,Investments,2014
+77,$ 13500 M,Mohammed Al Amoudi ,Male,1946,Corral Petroleum Holding,Energy,2014
+77,$ 13500 M,Azim Premji ,Male,1945,Wipro,Technology,2014
+81,$ 13000 M,James Simons ,Male,1939,Renaissance Technologies,Hedge Funds,2014
+81,$ 13000 M,John Paulson ,Male,1956,Paulson & Co Investments,Hedge Funds,2014
+81,$ 13000 M,Rupert Murdoch family,Male,1936,Cencosud,Media,2014
+81,$ 13000 M,Anne Cox Chambers ,Female,1920,Cox Enterprise,Media,2014
+85,$ 12500 M,Gennady Timchenko ,Male,1952,Gunvor,Energy,2014
+85,$ 12500 M,Jack Taylor family,Male,1922,Enterprise Rent A Car,Logistics,2014
+85,$ 12500 M,Alejandro Santo Domingo Davila ,Male,1978,Sab Miller,Food & Beverages,2014
+85,$ 12500 M,Antonio Ermirio de Moraes family,Male,1929,Votorantim Participacoes,Energy,2014
+85,$ 12500 M,Luis Carlos Sarmiento ,Male,1933,Grupo Aval,Banking,2014
+85,$ 12500 M,Vagit Alekperov ,Male,1950,Lukoil,Energy,2014
+85,$ 12500 M,Vladimir Lisin ,Male,1956,Novolipetsk Steel,Steel,2014
+85,$ 12500 M,Ananda Krishnan ,Male,1938,Maxis Communication,Telecom,2014
+93,$ 12000 M,Pallonji Mistry ,Male,1929,Tata Sons,Construction,2014
+93,$ 12000 M,Johanna Quandt ,Female,1926,BMW,Automobile,2014
+93,$ 12000 M,Andrey Melnichenko ,Male,1972,Suek,Energy,2014
+93,$ 12000 M,Ernesto Bertarelli family,Male,1965,Serono,Pharmaceuticals,2014
+93,$ 12000 M,S P Hinduja family,Male,1935,Hinduja Group,Manufacturing,2014
+93,$ 12000 M,Eric Schmidt ,Male,1955,Google,Technology,2014
+99,$ 11500 M,Elaine Marshall Family,Female,1943,Koch Industries,Energy,2014
+99,$ 11500 M,Nobutada Saji family,Male,1945,Suntory Holdings,Food & Beverages,2014

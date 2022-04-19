@@ -1,0 +1,84 @@
+Rank,Wealth,Name,Sex,Birth,Companies,Industry,year
+1,$ 55000 Million,Carlos Slim Helu family,Male,1940,America Movil,Telecom,2012
+2,$ 50000 Million,Bill Gates ,Male,1956,Microsoft,Investments,2012
+3,$ 48000 Million,Warren Buffett brothers,Male,1931,Berkshire Hathaway,Investments,2012
+4,$ 42000 Million,Bernard Arnault ,Male,1950,LVMH,Single Brand Retailing,2012
+5,$ 37000 Million,Larry Ellison ,Male,1945,Oracle,Technology,2012
+6,$ 36000 Million,Amancio Ortega brothers,Male,1937,Inditex,Single Brand Retailing,2012
+7,$ 30000 Million,Eike Batista ,Male,1956,OGX,Energy,2012
+8,$ 26000 Million,Sheldon Adelson ,Male,1934,Las Vegas Sands,Environment,2012
+8,$ 26000 Million,Karl Albrecht ,Male,1921,Aldi Sud,Multi Brand Retailing,2012
+8,$ 26000 Million,Mark Zuckerberg ,Male,1985,Facebook,Technology,2012
+11,$ 25000 Million,Mukesh Ambani ,Male,1958,Reliance Industries,Energy,2012
+11,$ 25000 Million,Robson Walton ,Male,1945,Wal-Mart,Multi Brand Retailing,2012
+13,$ 24000 Million,Li Ka-shing ,Male,1928,Cheung Kong Holdings,Real Estate,2012
+13,$ 24000 Million,Liliane Bettencourt ,Female,1923,L'Oreal,Cosmetics,2012
+13,$ 24000 Million,Charles Koch ,Male,1936,Koch Industries,Energy,2012
+13,$ 24000 Million,David Koch ,Male,1941,Koch Industries,Energy,2012
+17,$ 23000 Million,David Thomson family,Male,1958,Thomson Reuters,Media,2012
+18,$ 22000 Million,Stefan Persson ,Male,1948,H&M;,Single Brand Retailing,2012
+19,$ 21000 Million,Azim Premji ,Male,1945,Wipro,Technology,2012
+19,$ 21000 Million,Alwaleed Bin Talal Alsaud ,Male,1956,Kingdom Holding Company,Investments,2012
+19,$ 21000 Million,Jim Walton ,Male,1949,Wal-Mart,Multi Brand Retailing,2012
+22,$ 20500 Million,Alice Walton ,Female,1950,Wal-Mart,Multi Brand Retailing,2012
+23,$ 20000 Million,Iris Fontbona family,Female,1943,Quinenco,Mining,2012
+23,$ 20000 Million,Michele Ferrero family,Male,1927,Ferrero Rocher,Food & Beverages,2012
+25,$ 19500 Million,Thomas、Raymond Kwok family,Male、Male,1951、1952,Sun Hung Kai Properties,Real Estate,2012
+25,$ 19500 Million,Lakshmi N Mittal ,Male,1951,Arcelor Mittal,Steel,2012
+27,$ 19000 Million,Oleg Deripaska ,Male,1966,Rusal,Steel,2012
+27,$ 19000 Million,Alisher Usmanov ,Male,1954,Megafon,Steel,2012
+27,$ 19000 Million,Rinat Akhmetov ,Male,1967,System Capital Management,Steel,2012
+27,$ 19000 Million,Michael Bloomberg ,Male,1943,Bloomberg,Media,2012
+27,$ 19000 Million,Christy Walton family,Female,1956,Wal-Mart,Multi Brand Retailing,2012
+32,$ 18500 Million,Lee Shau Kee ,Male,1928,Henderson Land,Real Estate,2012
+33,$ 18000 Million,Michael Otto family,Male,1944,Otto Group,Multi Brand Retailing,2012
+33,$ 18000 Million,Aliko Dangote ,Male,1958,Dangote Cement,Cement Manufacturing,2012
+35,$ 17500 Million,Jeff Bezos ,Male,1964,Amazon,Online Retail,2012
+35,$ 17500 Million,Sergey Brin ,Male,1974,Google,Technology,2012
+35,$ 17500 Million,Larry Page ,Male,1974,Google,Technology,2012
+38,$ 16000 Million,Alexey Mordashov ,Male,1965,Severstal,Steel,2012
+38,$ 16000 Million,Vagit Alekperov ,Male,1950,Lukoil,Energy,2012
+40,$ 15500 Million,German Larrea Mota Velasco family,Male,1943,Grupo Mexico,Mining,2012
+41,$ 15000 Million,Jorge Paulo Lemann ,Male,1940,Ambev,Food & Beverages,2012
+41,$ 15000 Million,Berthold Jr Albrecht、Theo Jr Albrecht brothers,Male、Male,/、/,Aldi Nord,Multi Brand Retailing,2012
+41,$ 15000 Million,Susanne Klatten ,Female,1962,BMW,Automobile,2012
+41,$ 15000 Million,Robert Kuok ,Male,1923,Kuok Group,Real Estate,2012
+41,$ 15000 Million,Roman Abramovich ,Male,1966,Evraz,Steel,2012
+41,$ 15000 Million,Michael Dell ,Male,1966,Dell,Technology,2012
+47,$ 14500 Million,Vladimir Lisin ,Male,1956,Novolipetsk Steel,Steel,2012
+47,$ 14500 Million,Birgit Rausing family,Female,1924,Tetra Pack,Packaging,2012
+49,$ 14000 Million,Cheng Yu-tung ,Male,1925,New World / Chow Tai Fook,Jewellery,2012
+49,$ 14000 Million,Francois Pinault family,Male,1936,PPR,Multi Brand Retailing,2012
+49,$ 14000 Million,Mikhail Fridman ,Male,1965,Alfa Group,Energy,2012
+49,$ 14000 Million,Vladimir Potanin ,Male,1961,Interros,Steel,2012
+49,$ 14000 Million,Steve Ballmer ,Male,1956,Microsoft,Investments,2012
+49,$ 14000 Million,Anne Cox Chambers ,Female,1920,Cox Enterprise,Media,2012
+55,$ 13000 Million,Leonardo Del Vecchio ,Male,1936,Luxottica,Eye Wear,2012
+55,$ 13000 Million,Ananda Krishnan ,Male,1938,Maxis Communication,Telecom,2012
+55,$ 13000 Million,John Paulson ,Male,1956,Paulson & Co Investments,Hedge Funds,2012
+55,$ 13000 Million,George Soros ,Male,1931,Soros Fund Management,Hedge Funds,2012
+59,$ 12500 Million,Viktor Vekselberg ,Male,1957,Renova,Energy,2012
+60,$ 12000 Million,Joseph Safra ,Male,1939,Grupo Safra,Banking,2012
+60,$ 12000 Million,John Fredriksen ,Male,1944,Frontline,Energy,2012
+60,$ 12000 Million,Savitri Jindal family,Female,1950,Jindal Steel & Power,Steel,2012
+60,$ 12000 Million,Shashi、Ravi Ruia ,Male、Male,1943、/,Essar Energy,Energy,2012
+60,$ 12000 Million,Vagit Alekperov ,Male,1950,Lukoil,Energy,2012
+60,$ 12000 Million,Mohammed Al Amoudi ,Male,1946,Corral Petroleum Holding,Energy,2012
+60,$ 12000 Million,Leonard Blavatnik ,Male,1958,Lyondellbasell,Energy,2012
+67,$ 11500 Million,Rupert Murdoch family,Male,1936,Cencosud,Media,2012
+67,$ 11500 Million,Alberto Bailleres Gonzalez family,Male,1932,Industrias Penoles,Mining,2012
+67,$ 11500 Million,Carl Icahn ,Male,1937,Icahn Enterprises,Investments,2012
+70,$ 11000 Million,Luis Carlos Sarmiento ,Male,1933,Grupo Aval,Banking,2012
+70,$ 11000 Million,Johanna Quandt ,Female,1926,BMW,Automobile,2012
+70,$ 11000 Million,Stefan Quandt ,Male,1967,BMW,Automobile,2012
+70,$ 11000 Million,Phil Knight ,Male,1938,Nike,Footwear Retail,2012
+70,$ 11000 Million,Forrest Mars Jr ,Male,1931,Mars,Food & Beverages,2012
+70,$ 11000 Million,Jacqueline Mars ,Female,1940,Mars,Food & Beverages,2012
+70,$ 11000 Million,John Mars ,Male,1935,Mars,Food & Beverages,2012
+70,$ 11000 Million,James Simons ,Male,1939,Renaissance Technologies,Hedge Funds,2012
+78,$ 10500 Million,Eliodoro、Bernardo、Patricia Matte ,Male、Male、Male,/、/、/,Empresas Cmpc,Forestry,2012
+78,$ 10500 Million,Zong Qinghou family,Male,1945,Wahaha,Drinks,2012
+78,$ 10500 Million,Klaus-Michael Kuhne ,Male,1937,Kuehne & Nagel,Shipping,2012
+78,$ 10500 Million,Hans Rausing ,Male,1925,Tetra Pack,Packaging,2012
+82,$ 10000 Million,Ernesto Bertarelli family,Male,1965,Serono,Pharmaceuticals,2012
+82,$ 10000 Million,Gerald Cavendish Grosvenor family,Male,1951,Grosvenor,Real Estate,2012
