@@ -1,4 +1,4 @@
-person,name,country,state,headquarters,source,industry,image_uri,squareImage,age,gender,last_name
+person,name,country,state,headquarters,source,industry,image_uri,square_image,age,gender,last_name
 a_jayson_adair,A. Jayson Adair,United States,Texas,TX,damaged cars,Automotive,no-pic,https://specials-images.forbesimg.com/imageserve/5fb529400560bf6784deea95/416x416.jpg?background=000000&cropX1=887&cropX2=1362&cropY1=707&cropY2=1183,52.0,M,Adair
 a_jerrold_perenchio,A. Jerrold Perenchio,United States,California,CA,"Univision; television; television, Univision",Media; Media & Entertainment,no-pic; a-jerrold-perenchio,http://specials-images.forbesimg.com/imageserve/57e1245e4bbe6f6781c5289f/416x416.jpg?background=000000&cropX1=61&cropX2=686&cropY1=116&cropY2=741,91.0,M,Perenchio
 abdul_aziz_al_ghurair,Abdul Aziz Al Ghurair,United Arab Emirates,,,banking,Finance,no-pic; abdul-aziz-al-ghurair,,67.0,M,Al Ghurair
