@@ -608,9 +608,6 @@
                         "name": "name"
                     },
                     {
-                        "name": "country"
-                    },
-                    {
                         "name": "state"
                     },
                     {
@@ -856,15 +853,6 @@
                     "person"
                 ],
                 "value": "company",
-                "resources": [
-                    "ddf--entities--person"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "person"
-                ],
-                "value": "country",
                 "resources": [
                     "ddf--entities--person"
                 ]
