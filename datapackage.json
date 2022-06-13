@@ -8,7 +8,7 @@
     "description": "Forbes billionaires dataset",
     "author": "Gapminder",
     "license": "CC-BY-4.0",
-    "created": "2022-02-11T17:01:54.855341+00:00",
+    "created": "2022-06-13T03:38:59.169871+00:00",
     "translations": [],
     "version": "0.0.1",
     "resources": [
@@ -55,8 +55,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--income_level--by--person--year",
-            "path": "ddf--datapoints--income_level--by--person--year.csv",
+            "name": "ddf--datapoints--daily_income--by--person--year",
+            "path": "ddf--datapoints--daily_income--by--person--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -66,7 +66,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "income_level"
+                        "name": "annual_income"
                     }
                 ],
                 "primaryKey": [
@@ -76,23 +76,52 @@
             }
         },
         {
-            "name": "ddf--datapoints--worth--by--person--year",
-            "path": "ddf--datapoints--worth--by--person--year.csv",
+            "name": "ddf--datapoints--population--by--geo--year--income_group",
+            "path": "ddf--datapoints--population--by--geo--year--income_group.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "person"
+                        "name": "geo"
                     },
                     {
                         "name": "year"
                     },
                     {
-                        "name": "worth"
+                        "name": "income_group"
+                    },
+                    {
+                        "name": "population"
                     }
                 ],
                 "primaryKey": [
-                    "person",
-                    "year"
+                    "geo",
+                    "year",
+                    "income_group"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--population_extrapolated--by--geo--time--income_group",
+            "path": "ddf--datapoints--population_extrapolated--by--geo--time--income_group.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "income_group"
+                    },
+                    {
+                        "name": "population"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time",
+                    "income_group"
                 ]
             }
         },
@@ -108,19 +137,58 @@
                         "name": "name"
                     },
                     {
-                        "name": "age"
-                    },
-                    {
-                        "name": "gender"
-                    },
-                    {
                         "name": "country"
+                    },
+                    {
+                        "name": "state"
+                    },
+                    {
+                        "name": "headquarters"
                     },
                     {
                         "name": "source"
                     },
                     {
                         "name": "industry"
+                    },
+                    {
+                        "name": "image_uri"
+                    },
+                    {
+                        "name": "age"
+                    },
+                    {
+                        "name": "gender"
+                    },
+                    {
+                        "name": "last_name"
+                    },
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "birth"
+                    },
+                    {
+                        "name": "birth_1"
+                    },
+                    {
+                        "name": "birth_2"
+                    },
+                    {
+                        "name": "birth_3"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "permanent_country"
+                    },
+                    {
+                        "name": "company"
+                    },
+                    {
+                        "name": "birth_comb"
                     }
                 ],
                 "primaryKey": "person"
@@ -171,6 +239,60 @@
                 "primaryKey": [
                     "person"
                 ],
+                "value": "birth",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
+                "value": "birth_1",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
+                "value": "birth_2",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
+                "value": "birth_3",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
+                "value": "birth_comb",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
+                "value": "company",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
                 "value": "country",
                 "resources": [
                     "ddf--entities--person"
@@ -189,7 +311,43 @@
                 "primaryKey": [
                     "person"
                 ],
+                "value": "geo",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
+                "value": "headquarters",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
+                "value": "image_uri",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
                 "value": "industry",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
+                "value": "last_name",
                 "resources": [
                     "ddf--entities--person"
                 ]
@@ -207,7 +365,34 @@
                 "primaryKey": [
                     "person"
                 ],
+                "value": "permanent_country",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
+                "value": "sex",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
                 "value": "source",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
+                "value": "state",
                 "resources": [
                     "ddf--entities--person"
                 ]
@@ -221,27 +406,30 @@
                 ],
                 "value": "annual_income",
                 "resources": [
-                    "ddf--datapoints--annual_income--by--person--year"
+                    "ddf--datapoints--annual_income--by--person--year",
+                    "ddf--datapoints--daily_income--by--person--year"
                 ]
             },
             {
                 "primaryKey": [
-                    "person",
-                    "year"
+                    "geo",
+                    "income_group",
+                    "time"
                 ],
-                "value": "income_level",
+                "value": "population",
                 "resources": [
-                    "ddf--datapoints--income_level--by--person--year"
+                    "ddf--datapoints--population_extrapolated--by--geo--time--income_group"
                 ]
             },
             {
                 "primaryKey": [
-                    "person",
+                    "geo",
+                    "income_group",
                     "year"
                 ],
-                "value": "worth",
+                "value": "population",
                 "resources": [
-                    "ddf--datapoints--worth--by--person--year"
+                    "ddf--datapoints--population--by--geo--year--income_group"
                 ]
             }
         ],
