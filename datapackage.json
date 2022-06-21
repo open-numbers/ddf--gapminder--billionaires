@@ -8,7 +8,7 @@
     "description": "Forbes billionaires dataset",
     "author": "Gapminder",
     "license": "CC-BY-4.0",
-    "created": "2022-06-13T06:17:43.036330+00:00",
+    "created": "2022-06-21T05:45:56.247285+00:00",
     "translations": [],
     "version": "0.0.1",
     "resources": [
@@ -632,9 +632,6 @@
                         "name": "last_name"
                     },
                     {
-                        "name": "geo"
-                    },
-                    {
                         "name": "birth"
                     },
                     {
@@ -657,6 +654,12 @@
                     },
                     {
                         "name": "birth_comb"
+                    },
+                    {
+                        "name": "countries"
+                    },
+                    {
+                        "name": "names"
                     }
                 ],
                 "primaryKey": "person"
@@ -859,6 +862,15 @@
             },
             {
                 "primaryKey": [
+                    "person"
+                ],
+                "value": "countries",
+                "resources": [
+                    "ddf--entities--person"
+                ]
+            },
+            {
+                "primaryKey": [
                     "geo"
                 ],
                 "value": "description",
@@ -898,15 +910,6 @@
                     "person"
                 ],
                 "value": "gender",
-                "resources": [
-                    "ddf--entities--person"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "person"
-                ],
-                "value": "geo",
                 "resources": [
                     "ddf--entities--person"
                 ]
@@ -1669,6 +1672,15 @@
                 "value": "name_short",
                 "resources": [
                     "ddf--entities--geo--world_6region"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person"
+                ],
+                "value": "names",
+                "resources": [
+                    "ddf--entities--person"
                 ]
             },
             {
