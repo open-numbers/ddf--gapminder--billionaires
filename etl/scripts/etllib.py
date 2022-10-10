@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import os
 import numpy as np
 import pandas as pd
 from ddf_utils.str import to_concept_id
@@ -49,6 +50,9 @@ def check_groups(frame):
     return frame
 
 
-def get_data_file(year):
-    fn = f"../source/{year}.csv"
+def get_data_file(year, subdir=None):
+    if subdir:
+        fn = os.path.join('../source', subdir, f'{year}.csv')
+    else:
+        fn = os.path.join('../source', f'{year}.csv')
     return pd.read_csv(fn)
