@@ -28,7 +28,7 @@ def is_broken_year_range(frame):
 def combine_values(frame):
     values = dict()
     for c in frame.columns:
-        values[c] = '; '.join(frame[c].dropna().astype(str).unique())
+        values[c] = '; '.join(frame[c].dropna().map(lambda x: str(x).strip())[::-1].drop_duplicates().values)
     return pd.Series(values)
 
 
