@@ -8,7 +8,7 @@
     "description": "Forbes billionaires dataset",
     "author": "Gapminder",
     "license": "CC-BY-4.0",
-    "created": "2022-10-29T08:32:00.000000+00:00",
+    "created": "2023-03-14T08:25:47.496598+00:00",
     "translations": [],
     "version": "2.1.0",
     "resources": [
@@ -146,6 +146,27 @@
                     "geo",
                     "time",
                     "income_group"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--worth--by--person--time",
+            "path": "ddf--datapoints--worth--by--person--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "person"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "worth"
+                    }
+                ],
+                "primaryKey": [
+                    "person",
+                    "time"
                 ]
             }
         },
@@ -2085,6 +2106,16 @@
                 "value": "population_extrapolated",
                 "resources": [
                     "ddf--datapoints--population_extrapolated--by--geo--time--income_group"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "person",
+                    "time"
+                ],
+                "value": "worth",
+                "resources": [
+                    "ddf--datapoints--worth--by--person--time"
                 ]
             }
         ],
