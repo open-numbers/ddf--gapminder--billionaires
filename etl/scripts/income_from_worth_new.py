@@ -90,25 +90,61 @@ interest_rate_from_worth(1594709333.3333335)  # 0.03
 interest_rate_from_worth(7126992908.388232)  # 0.33
 
 # checking the plot
-xs = np.linspace(1000, 10000, 10000)
+xs = np.logspace(2, 6, 10000)
 xs_ = [bracket_number_from_income_robin(x * 1e6 * 0.03 / 365, integer=False) for x in xs]
-ys = [interest_rate_from_worth(x * 1e6) for x in xs]
+ys1 = [interest_rate_from_worth(x * 1e6) for x in xs]
 
 import matplotlib.pyplot as plt
+plt.rcParams['font.size'] = 12
+plt.rcParams['figure.dpi'] = 196
 
-plt.plot(xs_, ys)
+plt.plot(xs_, ys1)
 plt.show()
+
+# Alternative: Use a sigmoid function.
+def sigmoid(x, a=1, b=0, max_val=1, min_val=0):
+    scaled_x = (x - b) * a
+    return (max_val - min_val) / (1 + np.exp(-scaled_x)) + min_val
+
+# the midpoint
+mid = (599 + 653) / 2 + 1
+mid
+
+xs2 = np.linspace(500, 1000, 1000)
+ys2 = sigmoid(xs2, a=1/9, b=mid, max_val=33, min_val=3) / 100
+
+ys2[:100]
+
+plt.plot(xs_, ys1)
+plt.plot(xs2, ys2)
+plt.show()
+
+def interest_rate_from_worth_alt(w):
+    bn = bracket_number_from_income_robin(w * 0.03 / 365, integer=False)
+    return sigmoid(bn, a=1/9, b=mid, max_val=33, min_val=3) / 100
+
+
+xs = np.logspace(2, 6, 10000)
+xs_ = [bracket_number_from_income_robin(x * 1e6 * 0.03 / 365, integer=False) for x in xs]
+ys2 = [interest_rate_from_worth_alt(x * 1e6) for x in xs]
+
+
+plt.plot(xs_, ys1)
+plt.plot(xs_, ys2)
+plt.show()
+
+
 
 # looks good.
 # now we can go from worth to rates and income
 
 output = worth.with_columns(
     # would be speed up by changing the function into expression. pl.when()
-    (pl.col('worth') * 1e6).apply(interest_rate_from_worth).alias('rates')
+    (pl.col('worth') * 1e6).map_elements(interest_rate_from_worth_alt).alias('rates')
 ).with_columns([
     (pl.col('worth') * pl.col('rates') * 1e6).cast(pl.Int64).alias('annual_income'),
     (pl.col('worth') * pl.col('rates') * 1e6 / 365).cast(pl.Int64).alias('daily_income'),
-    (pl.col('worth') * 1e6 * 0.03 / 365).apply(bracket_number_from_income_robin).alias('bracket_0_3')
+    (pl.col('worth') * 1e6 * 0.03 / 365).map_elements(bracket_number_from_income_robin).alias('bracket_0_3')
 ])
 
 output
