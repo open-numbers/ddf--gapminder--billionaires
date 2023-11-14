@@ -121,7 +121,7 @@ plt.show()
 
 def interest_rate_from_worth_alt(w):
     bn = bracket_number_from_income_robin(w * 0.03 / 365, integer=False)
-    return sigmoid(bn, a=1/9, b=mid, max_val=33, min_val=3) / 100
+    return sigmoid(bn, a=1/10, b=mid, max_val=33, min_val=3) / 100
 
 
 xs = np.logspace(2, 6, 10000)
