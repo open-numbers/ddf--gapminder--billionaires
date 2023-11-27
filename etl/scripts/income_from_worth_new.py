@@ -119,7 +119,7 @@ mid = (599 + 653) / 2 + 1
 mid
 
 # steepness
-steepness = 1/20
+steepness = 1/18
 
 xs2 = np.linspace(500, 1000, 1000)
 ys2 = sigmoid(xs2, a=steepness, b=mid, max_val=max_val*100, min_val=min_val*100) / 100
