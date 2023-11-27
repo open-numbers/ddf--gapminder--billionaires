@@ -115,7 +115,7 @@ def sigmoid(x, a=1, b=0, max_val=1, min_val=0):
     return (max_val - min_val) / (1 + np.exp(-scaled_x)) + min_val
 
 # the midpoint
-mid = (599 + 653) / 2 + 1
+mid = (599 + 750) / 2 + 1
 mid
 
 # steepness
