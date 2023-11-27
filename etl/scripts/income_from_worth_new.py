@@ -119,13 +119,11 @@ mid = (599 + 653) / 2 + 1
 mid
 
 # steepness
-steepness = 1/15
+steepness = 1/20
 
 xs2 = np.linspace(500, 1000, 1000)
 ys2 = sigmoid(xs2, a=steepness, b=mid, max_val=max_val*100, min_val=min_val*100) / 100
-
-ys2[:100]
-
+# ys2[:20]
 plt.plot(xs_, ys1)
 plt.plot(xs2, ys2)
 plt.show()
