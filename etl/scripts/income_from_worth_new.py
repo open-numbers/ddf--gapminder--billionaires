@@ -15,6 +15,9 @@ brackets 599 to 653, like the black dashed line show in this graph
 income mountains with this incremental rate and we'll see what income
 Mr. Musk ends up on now!
 
+Update:
+https://gapminder.slack.com/archives/C020AAUCB6H/p1700726047067889?thread_ts=1700094154.474099&cid=C020AAUCB6H
+I think about it that way I think we should use 20% as our standard TOP-return (instead of 30%) for the future scenario.
 """
 
 import numpy as np
@@ -65,34 +68,36 @@ w599, w653
 bracket_number_from_income_robin(w599 * 0.03 / 365)  # 600
 bracket_number_from_income_robin(w653 * 0.03 / 365)  # 654
 
-# now compute the slope in log scale
-# we know that (x = w599, y = 0.03), (x = w653, y = 0.33)
+# now create a function to calculate the rate of capital return from worth.
 logw599 = np.log(w599)
 logw653 = np.log(w653)
-
-# y = ax + b
-a = 0.3 / (logw653 - logw599)
-b = 0.03 - (a * logw599)
-
-a, b
+max_val = 0.2
+min_val = 0.03
 
 
-def interest_rate_from_worth(w):
-    if np.log(w) < logw599:
-        return 0.03
-    elif np.log(w) >= logw653:
-        return 0.33
+def interest_rate_from_worth_linear(w,
+                                    min_threshold=logw599,
+                                    max_threshold=logw653,
+                                    min_val=min_val,
+                                    max_val=max_val):
+    logw = np.log(w)
+    if logw < min_threshold:
+        y = min_val
+    elif logw > max_threshold:
+        y = max_val
     else:
-        return a * np.log(w) + b
+        y = ((logw - min_threshold) /
+             (max_threshold - min_threshold)) * (max_val - min_val) + min_val
+    return y
 
 
-interest_rate_from_worth(1594709333.3333335)  # 0.03
-interest_rate_from_worth(7126992908.388232)  # 0.33
+interest_rate_from_worth_linear(1594709333.3333335)  # should equal min_val
+interest_rate_from_worth_linear(7126992908.388232)  # should equal max_val
 
 # checking the plot
 xs = np.logspace(2, 6, 10000)
 xs_ = [bracket_number_from_income_robin(x * 1e6 * 0.03 / 365, integer=False) for x in xs]
-ys1 = [interest_rate_from_worth(x * 1e6) for x in xs]
+ys1 = [interest_rate_from_worth_linear(x * 1e6) for x in xs]
 
 import matplotlib.pyplot as plt
 plt.rcParams['font.size'] = 12
@@ -101,6 +106,9 @@ plt.rcParams['figure.dpi'] = 196
 plt.plot(xs_, ys1)
 plt.show()
 
+# The turn in this curve is so abrupt that it causes the generated
+# data to change a lot at the turning point, so we need a better way
+# to do it.
 # Alternative: Use a sigmoid function.
 def sigmoid(x, a=1, b=0, max_val=1, min_val=0):
     scaled_x = (x - b) * a
@@ -110,8 +118,11 @@ def sigmoid(x, a=1, b=0, max_val=1, min_val=0):
 mid = (599 + 653) / 2 + 1
 mid
 
+# steepness
+steepness = 1/15
+
 xs2 = np.linspace(500, 1000, 1000)
-ys2 = sigmoid(xs2, a=1/9, b=mid, max_val=33, min_val=3) / 100
+ys2 = sigmoid(xs2, a=steepness, b=mid, max_val=max_val*100, min_val=min_val*100) / 100
 
 ys2[:100]
 
@@ -121,18 +132,20 @@ plt.show()
 
 def interest_rate_from_worth_alt(w):
     bn = bracket_number_from_income_robin(w * 0.03 / 365, integer=False)
-    return sigmoid(bn, a=1/12, b=mid, max_val=33, min_val=3) / 100
+    return sigmoid(bn, a=steepness, b=mid, max_val=max_val, min_val=min_val)
 
 
 xs = np.logspace(2, 6, 10000)
 xs_ = [bracket_number_from_income_robin(x * 1e6 * 0.03 / 365, integer=False) for x in xs]
 ys2 = [interest_rate_from_worth_alt(x * 1e6) for x in xs]
 
+import seaborn as sns
+sns.set_style('whitegrid')
 
-plt.plot(xs_, ys1)
-plt.plot(xs_, ys2)
+plt.plot(xs_, ys1, label='old')
+plt.plot(xs_, ys2, label='new')
+plt.legend()
 plt.show()
-
 
 
 # looks good.
