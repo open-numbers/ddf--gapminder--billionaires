@@ -115,13 +115,13 @@ def sigmoid(x, a=1, b=0, max_val=1, min_val=0):
     return (max_val - min_val) / (1 + np.exp(-scaled_x)) + min_val
 
 # the midpoint
-mid = (599 + 700) / 2 + 1
+mid = (550 + 750) / 2 + 1
 mid
 
 # steepness
-steepness = 1/30
+steepness = 1/20
 
-xs2 = np.linspace(500, 1000, 1000)
+xs2 = np.linspace(500, 850, 1000)
 ys2 = sigmoid(xs2, a=steepness, b=mid, max_val=max_val*100, min_val=min_val*100) / 100
 # ys2[:20]
 plt.plot(xs_, ys1)
