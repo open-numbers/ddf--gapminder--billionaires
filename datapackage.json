@@ -8,7 +8,7 @@
     "description": "Forbes billionaires dataset",
     "author": "Gapminder",
     "license": "CC-BY-4.0",
-    "created": "2023-03-14T08:25:47.496598+00:00",
+    "created": "2024-08-21T02:38:16.649002+00:00",
     "translations": [],
     "version": "3.1.0",
     "resources": [
@@ -54,7 +54,9 @@
                         "name": "unit"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": [
+                    "concept"
+                ]
             }
         },
         {
@@ -245,7 +247,9 @@
                         "name": "west_and_rest"
                     }
                 ],
-                "primaryKey": "country"
+                "primaryKey": [
+                    "country"
+                ]
             }
         },
         {
@@ -266,7 +270,9 @@
                         "name": "rank"
                     }
                 ],
-                "primaryKey": "g77_and_oecd_countries"
+                "primaryKey": [
+                    "g77_and_oecd_countries"
+                ]
             }
         },
         {
@@ -296,7 +302,9 @@
                         "name": "unicode_region_subtag"
                     }
                 ],
-                "primaryKey": "global"
+                "primaryKey": [
+                    "global"
+                ]
             }
         },
         {
@@ -317,7 +325,9 @@
                         "name": "rank"
                     }
                 ],
-                "primaryKey": "income_3groups"
+                "primaryKey": [
+                    "income_3groups"
+                ]
             }
         },
         {
@@ -338,7 +348,9 @@
                         "name": "rank"
                     }
                 ],
-                "primaryKey": "income_groups"
+                "primaryKey": [
+                    "income_groups"
+                ]
             }
         },
         {
@@ -359,7 +371,9 @@
                         "name": "rank"
                     }
                 ],
-                "primaryKey": "landlocked"
+                "primaryKey": [
+                    "landlocked"
+                ]
             }
         },
         {
@@ -380,7 +394,9 @@
                         "name": "rank"
                     }
                 ],
-                "primaryKey": "main_religion_2008"
+                "primaryKey": [
+                    "main_religion_2008"
+                ]
             }
         },
         {
@@ -398,7 +414,9 @@
                         "name": "is--un_sdg_ldc"
                     }
                 ],
-                "primaryKey": "un_sdg_ldc"
+                "primaryKey": [
+                    "un_sdg_ldc"
+                ]
             }
         },
         {
@@ -419,7 +437,9 @@
                         "name": "is--un_sdg_region"
                     }
                 ],
-                "primaryKey": "un_sdg_region"
+                "primaryKey": [
+                    "un_sdg_region"
+                ]
             }
         },
         {
@@ -437,7 +457,9 @@
                         "name": "is--unhcr_region"
                     }
                 ],
-                "primaryKey": "unhcr_region"
+                "primaryKey": [
+                    "unhcr_region"
+                ]
             }
         },
         {
@@ -455,7 +477,9 @@
                         "name": "is--unicef_region"
                     }
                 ],
-                "primaryKey": "unicef_region"
+                "primaryKey": [
+                    "unicef_region"
+                ]
             }
         },
         {
@@ -473,7 +497,9 @@
                         "name": "is--west_and_rest"
                     }
                 ],
-                "primaryKey": "west_and_rest"
+                "primaryKey": [
+                    "west_and_rest"
+                ]
             }
         },
         {
@@ -515,7 +541,9 @@
                         "name": "shape_lores_svg"
                     }
                 ],
-                "primaryKey": "world_4region"
+                "primaryKey": [
+                    "world_4region"
+                ]
             }
         },
         {
@@ -545,7 +573,9 @@
                         "name": "shape_lores_svg"
                     }
                 ],
-                "primaryKey": "world_6region"
+                "primaryKey": [
+                    "world_6region"
+                ]
             }
         },
         {
@@ -599,7 +629,9 @@
                         "name": "world_6region"
                     }
                 ],
-                "primaryKey": "geo"
+                "primaryKey": [
+                    "geo"
+                ]
             }
         },
         {
@@ -614,7 +646,9 @@
                         "name": "name"
                     }
                 ],
-                "primaryKey": "income_group"
+                "primaryKey": [
+                    "income_group"
+                ]
             }
         },
         {
@@ -683,7 +717,9 @@
                         "name": "names"
                     }
                 ],
-                "primaryKey": "person"
+                "primaryKey": [
+                    "person"
+                ]
             }
         }
     ],
