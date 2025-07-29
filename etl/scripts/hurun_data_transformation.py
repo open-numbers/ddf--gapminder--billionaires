@@ -32,7 +32,7 @@ def load_hurun_data(source_dir="../source/hurun"):
     hurun_data = {}
     for file_path in glob.glob(f"{source_dir}/*.csv"):
         year = int(os.path.basename(file_path).replace(".csv", ""))
-        hurun_data[year] = pd.read_csv(file_path)
+        hurun_data[year] = pd.read_csv(file_path, na_values=["未知"], keep_default_na=True)
         print(f"Loaded {year} data: {hurun_data[year].shape}")
     return hurun_data
 
@@ -121,11 +121,6 @@ def standardize_wealth_values(hurun_data):
                 transformed_df["wealth_billion"] = transformed_df[
                     "hs_Rank_Global_Wealth_USD"
                 ]
-            elif "hs_Rank_Global_Wealth" in df.columns:
-                # This is in different units - needs to be converted
-                transformed_df["wealth_billion"] = (
-                    transformed_df["hs_Rank_Global_Wealth"] / 73
-                )  # Approximate conversion
             else:
                 print(f"  Warning: No wealth column found for {year}")
 
@@ -137,16 +132,6 @@ def standardize_wealth_values(hurun_data):
 def extract_country_info(hurun_data):
     """Extract and standardize country information."""
     transformed_data = {}
-    country_columns = {
-        # Pre-2017: No country info
-        # 2017-2018: No clear country info
-        # 2019+: Multiple country-related columns
-        "post_2019": [
-            "hs_Character_Permanent_En",
-            "hs_Character_Nationality",
-            "hs_Character_BirthPlace_En",
-        ]
-    }
 
     for year, df in sorted(hurun_data.items()):
         print(f"Extracting country info for {year}...")
@@ -157,15 +142,62 @@ def extract_country_info(hurun_data):
             if pd.isnull(value) or not isinstance(value, str):
                 return np.nan
 
-            # Special cases
+            # Special cases for regions
             if "Hong Kong" in value:
                 return "Hong Kong"
             if "Taiwan" in value or "Taipei" in value:
                 return "Taiwan"
+            if "Singapore" in value:
+                return "Singapore"
 
             # Normal case: Country is the first part before any dash
             parts = value.split("-")
-            country = parts[0].strip() if parts else value
+            country = parts[0].strip()
+
+            # Manual mapping for known problematic values
+            country_map = {
+                # China provinces/cities
+                "Anhui": "China",
+                "Hebei": "China",
+                "Guangdong": "China",
+                "Sichuan": "China",
+                "Hunan": "China",
+                "Tibet": "China",
+                "Shanxi": "China",
+                "Shandong": "China",
+                "Yunnan": "China",
+                "Jiangsu": "China",
+                "Henan": "China",
+                "Beijing": "China",
+                "Shanghai": "China",
+                "ChinaChangsha": "China",
+                "Fujian": "China",
+                "Hubei": "China",
+                "Nei Mongol": "China",
+                "Zhejiang": "China",
+                # India cities
+                "Vadodara": "India",
+                "Chandigarh": "India",
+                "Kolkata": "India",
+                "Bikaner": "India",
+                "Kozhikode": "India",
+                "Bengaluru": "India",
+                "New Delhi": "India",
+                "Hyderabad": "India",
+                "Ahmedabad": "India",
+                "Chennai": "India",
+                # US locations
+                "Santa Clara": "United States",
+                # Other malformed
+                "United StatesNew Jersey": "United States",
+            }
+
+            if country in country_map:
+                return country_map[country]
+
+            # If no dash, it might be a valid country or a warning case
+            if len(parts) < 2:
+                print(f"WARNING: country not in correct format - {value}")
 
             # Fix common issues
             if country == "USA":
@@ -184,14 +216,6 @@ def extract_country_info(hurun_data):
                 transformed_df["country"] = transformed_df[
                     "hs_Character_Permanent_En"
                 ].apply(extract_country)
-
-            # Use Nationality as fallback
-            mask = transformed_df["country"].isnull()
-            if "hs_Character_Nationality" in df.columns and mask.any():
-                # Note: Nationality appears to be a numeric code, not a string
-                # Would need a lookup table to convert codes to country names
-                # For now, we'll leave this as null
-                pass
 
             # Use BirthPlace as last resort
             mask = transformed_df["country"].isnull()
@@ -219,6 +243,10 @@ def standardize_person_info(hurun_data):
         "2017-2018": "NameEn",
         "2019+": "hs_Character_Fullname_En",
     }
+    chinese_name_columns = {
+        # Define the Chinese name column for each year range
+        "2019+": "hs_Character_Fullname_Cn"
+    }
 
     # Map to track assigned person_id values
     person_id_map = {}
@@ -245,6 +273,16 @@ def standardize_person_info(hurun_data):
         # Generate person_id from name
         # Note: We'll need to handle duplicates later
         transformed_df["name"] = transformed_df[name_col]
+
+        # Add Chinese name if available
+        if year >= 2019:
+            chinese_name_col = chinese_name_columns["2019+"]
+            if chinese_name_col in df.columns:
+                transformed_df["chinese_name"] = transformed_df[chinese_name_col]
+            else:
+                transformed_df["chinese_name"] = np.nan
+        else:
+            transformed_df["chinese_name"] = np.nan
 
         # Clean name: remove family/brothers suffixes for ID generation
         def clean_name_for_id(name):
@@ -358,7 +396,7 @@ def handle_duplicate_people(transformed_data):
             # Group by original ID and assign suffixes
             for i, (orig_id, id_group) in enumerate(group.groupby("original_id")):
                 if i > 0:  # Skip the first group (keeps original id)
-                    new_id = f"{person_id}_{i+1}"
+                    new_id = f"{person_id}_{i + 1}"
                     print(
                         f"    Assigning {new_id} to records with original_id {orig_id}"
                     )
@@ -374,7 +412,7 @@ def handle_duplicate_people(transformed_data):
                 group.groupby("hs_Rank_Global_ComName_En")
             ):
                 if i > 0 and not pd.isnull(company):  # Skip the first group and nulls
-                    new_id = f"{person_id}_{i+1}"
+                    new_id = f"{person_id}_{i + 1}"
                     print(f"    Assigning {new_id} to records with company {company}")
                     duplicate_map[(person_id, company)] = new_id
 
@@ -385,7 +423,7 @@ def handle_duplicate_people(transformed_data):
             if len(unique_records) > 1:
                 for i, (idx, record) in enumerate(unique_records.iterrows()):
                     if i > 0:  # Skip the first record
-                        new_id = f"{person_id}_{i+1}"
+                        new_id = f"{person_id}_{i + 1}"
                         print(f"    Assigning {new_id} to record {idx}")
                         duplicate_map[(person_id, idx)] = new_id
 
@@ -420,6 +458,7 @@ def create_unified_dataset(transformed_data):
     key_columns = [
         "person_id",
         "name",
+        "chinese_name",
         "year",
         "wealth_billion",
         "country",
@@ -432,6 +471,7 @@ def create_unified_dataset(transformed_data):
         "hs_Character_Birthday",
         "hs_Rank_Global_Industry_En",
         "hs_Rank_Global_ComName_En",
+        "hs_Rank_Global_ComHeadquarters_En",
     ]
 
     # Combine data from all years
@@ -478,10 +518,17 @@ def create_unified_dataset(transformed_data):
         else:
             year_df["company"] = np.nan
 
+        # Add headquarter if available
+        if "hs_Rank_Global_ComHeadquarters_En" in year_df.columns:
+            year_df["headquarter"] = year_df["hs_Rank_Global_ComHeadquarters_En"]
+        else:
+            year_df["headquarter"] = np.nan
+
         # Select the columns we want
         final_cols = [
             "person_id",
             "name",
+            "chinese_name",
             "year",
             "wealth_billion",
             "country",
@@ -489,6 +536,7 @@ def create_unified_dataset(transformed_data):
             "gender",
             "industry",
             "company",
+            "headquarter",
             "original_id",
         ]
 
@@ -501,6 +549,13 @@ def create_unified_dataset(transformed_data):
 
     # Combine all years
     combined = pd.concat(all_data, ignore_index=True)
+
+    # Replace "未知" (unknown) with NaN
+    combined = combined.replace("未知", np.nan)
+
+    # If birth year and gender are both missing, nullify country
+    mask = combined["birth_year"].isnull() & combined["gender"].isnull()
+    combined.loc[mask, "country"] = np.nan
 
     # Handle duplicated person-year combinations
     dupes = combined.duplicated(subset=["person_id", "year"], keep=False)
@@ -548,25 +603,22 @@ def create_datapoint_entities(combined_data, output_dir="../intermediate/hurun")
         entity = {
             "person": person_id,
             "name": recent["name"],
+            "chinese_name": recent["chinese_name"],
             "gender": recent["gender"],
             "birth_year": recent["birth_year"],
             "country": recent["country"],
             "industry": recent["industry"],
             "company": recent["company"],
+            "headquarter": recent["headquarter"],
         }
-
-        # For fields that might be missing in recent record, look at other years
-        for field in ["birth_year", "gender", "country", "industry", "company"]:
-            if pd.isnull(entity[field]):
-                # Try to find a non-null value in any year
-                non_null = group[~group[field].isnull()]
-                if len(non_null) > 0:
-                    entity[field] = non_null.iloc[0][field]
 
         person_entities.append(entity)
 
     # Convert to DataFrame
     entities_df = pd.DataFrame(person_entities)
+
+    # Sort by person ID
+    entities_df = entities_df.sort_values(by="person")
 
     # Save entities
     entities_file = os.path.join(output_dir, "ddf--entities--person.csv")

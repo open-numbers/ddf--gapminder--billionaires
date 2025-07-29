@@ -52,11 +52,15 @@ def transform_forbes_data(source_dir, output_dir):
                 "source": row.get("source", ""),
                 "industry": row.get("industry", ""),
                 "title": row.get("title", ""),
-                "image_uri": pd.NA if image_uri == "no-pic" else image_uri,
+                "image_uri": pd.NA if not image_uri.startswith("no-pic") else image_uri,
             }
 
     datapoints_df = pd.DataFrame(datapoints_list).dropna(subset=["worth"])
     entities_df = pd.DataFrame(list(entities_map.values()))
+
+    # Sort data before saving
+    datapoints_df = datapoints_df.sort_values(by=["person", "year"])
+    entities_df = entities_df.sort_values(by="person")
 
     datapoints_df.to_csv(
         os.path.join(output_dir, "ddf--datapoints--worth--by--person--year.csv"),
