@@ -20,7 +20,7 @@ def main():
         print("please specify a year to continue download")
         sys.exit(127)
     if args[1] == 'all':
-        for i in range(2002, 2024):
+        for i in range(2002, 2026):
             print(f"downloading forbes {i}")
             df = get_data(i)
             df.to_csv(f'../source/forbes/{i}.csv', index=False)

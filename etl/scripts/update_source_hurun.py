@@ -8,6 +8,8 @@ import copy
 
 url_tmpl = 'https://www.hurun.net/en-US/Rank/HsRankDetailsList?num={}&search=&offset={}&limit=200'
 urlnum = {
+    2025: 'ND77BFWM',
+    2024: 'A3I4FTLA',
     2023: 'GJD3W34B',
     2022: 'GJD3WF1Q',
     # 2021: 'IH8GTUI9',
