@@ -17,14 +17,14 @@ Key tasks:
 6. Merge data into a unified DDF structure
 """
 
+import glob
 import os
 import re
-import pandas as pd
-import numpy as np
-import glob
 import unicodedata
 from collections import defaultdict
-from datetime import datetime
+
+import numpy as np
+import pandas as pd
 
 
 def load_hurun_data(source_dir="../source/hurun"):
@@ -62,6 +62,34 @@ def to_concept_id(name):
     return name
 
 
+def extract_wealth(x):
+    """Extract wealth in Billion from input value
+
+    input value can be form of:
+
+    - $ 10000 M
+    - $ 10000 Million
+    - $ 1.0  <- if no unit, assume it's Billion
+    """
+    if not isinstance(x, str):
+        return np.nan
+
+    # Extract numeric value
+    match = re.search(r"(\d+)", x)
+    if not match:
+        return np.nan
+
+    value = float(match.group(1))
+
+    # Convert to billions based on unit
+    if "M" in x:
+        return value / 1000  # Convert millions to billions
+    elif "B" in x:
+        return value
+    else:
+        return value  # Assume billion if no unit specified
+
+
 def standardize_wealth_values(hurun_data):
     """Standardize wealth values across different year formats."""
     transformed_data = {}
@@ -81,46 +109,19 @@ def standardize_wealth_values(hurun_data):
                 print(f"  Warning: No wealth column found for {year}")
                 transformed_data[year] = transformed_df
                 continue
-
             # Extract numeric value and convert to billions
-            def extract_wealth(x):
-                if not isinstance(x, str):
-                    return np.nan
+            transformed_df["wealth_billion"] = transformed_df[wealth_col].apply(extract_wealth)
 
-                # Extract numeric value
-                match = re.search(r"(\d+)", x)
-                if not match:
-                    return np.nan
-
-                value = float(match.group(1))
-
-                # Convert to billions based on unit
-                if "Million" in x:
-                    return value / 1000  # Convert millions to billions
-                elif "Billion" in x:
-                    return value
-                else:
-                    return value / 1000  # Assume millions if no unit specified
-
-            transformed_df["wealth_billion"] = transformed_df[wealth_col].apply(
-                extract_wealth
-            )
-
-        # 2017-2018: Simple numeric values
-        elif 2017 <= year <= 2018:
+        # 2017+: Simple numeric values
+        elif year >= 2017:
+            # 2017-2018
             if "Wealth" in df.columns:
                 # These appear to be already in billions
                 transformed_df["wealth_billion"] = transformed_df["Wealth"]
-            else:
-                print(f"  Warning: No wealth column found for {year}")
-
-        # 2019+: Multiple wealth columns
-        else:
-            if "hs_Rank_Global_Wealth_USD" in df.columns:
+            # 2019
+            elif "hs_Rank_Global_Wealth_USD" in df.columns:
                 # This appears to be in billions already
-                transformed_df["wealth_billion"] = transformed_df[
-                    "hs_Rank_Global_Wealth_USD"
-                ]
+                transformed_df["wealth_billion"] = transformed_df["hs_Rank_Global_Wealth_USD"]
             else:
                 print(f"  Warning: No wealth column found for {year}")
 
@@ -213,9 +214,9 @@ def extract_country_info(hurun_data):
         if year >= 2019:
             # Extract country from permanent residence
             if "hs_Character_Permanent_En" in df.columns:
-                transformed_df["country"] = transformed_df[
-                    "hs_Character_Permanent_En"
-                ].apply(extract_country)
+                transformed_df["country"] = transformed_df["hs_Character_Permanent_En"].apply(
+                    extract_country
+                )
 
             # Use BirthPlace as last resort
             mask = transformed_df["country"].isnull()
@@ -234,7 +235,59 @@ def extract_country_info(hurun_data):
     return transformed_data
 
 
-def standardize_person_info(hurun_data):
+def standardize_company_info(hurun_data):
+    """Standardize company information across different year formats."""
+    transformed_data = {}
+
+    for year, df in sorted(hurun_data.items()):
+        print(f"Standardizing company info for {year}...")
+        transformed_df = df.copy()
+
+        # Add standardized company column
+        if year <= 2016:
+            company_col = "Companies"
+        elif 2017 <= year <= 2018:
+            company_col = "CNameEn"
+        else:
+            company_col = "hs_Rank_Global_ComName_En"
+
+        if company_col in df.columns:
+            transformed_df["company"] = transformed_df[company_col]
+        else:
+            transformed_df["company"] = np.nan
+
+        transformed_data[year] = transformed_df
+
+    return transformed_data
+
+
+def standardize_industry_info(hurun_data):
+    """Standardize industry information across different year formats."""
+    transformed_data = {}
+
+    for year, df in sorted(hurun_data.items()):
+        print(f"Standardizing industry info for {year}...")
+        transformed_df = df.copy()
+
+        # Add standardized industry column
+        if year <= 2016:
+            industry_col = "Industry"
+        elif 2017 <= year <= 2018:
+            industry_col = "IndustryEn"
+        else:
+            industry_col = "hs_Rank_Global_Industry_En"
+
+        if industry_col in df.columns:
+            transformed_df["industry"] = transformed_df[industry_col]
+        else:
+            transformed_df["industry"] = np.nan
+
+        transformed_data[year] = transformed_df
+
+    return transformed_data
+
+
+def standardize_person_name_id(hurun_data):
     """Standardize person information and create consistent identification."""
     transformed_data = {}
     name_columns = {
@@ -247,10 +300,6 @@ def standardize_person_info(hurun_data):
         # Define the Chinese name column for each year range
         "2019+": "hs_Character_Fullname_Cn"
     }
-
-    # Map to track assigned person_id values
-    person_id_map = {}
-    name_count = defaultdict(int)
 
     for year, df in sorted(hurun_data.items()):
         print(f"Standardizing person info for {year}...")
@@ -322,7 +371,7 @@ def get_birth_year(df):
                 return np.nan
             try:
                 return int(date_str.split("-")[0])
-            except:
+            except ValueError:
                 return np.nan
 
         return df["hs_Character_Birthday"].apply(extract_year)
@@ -338,8 +387,10 @@ def get_birth_year(df):
                 return np.nan
             try:
                 age = int(row["hs_Character_Age"])
-                return int(row["year"]) - age
-            except:
+                # Use the year from the dataframe if available, otherwise assume current processing year
+                year = getattr(row, "year", 2020)  # fallback year
+                return int(year) - age
+            except ValueError:
                 return np.nan
 
         return df.apply(calc_birth_year, axis=1)
@@ -348,16 +399,30 @@ def get_birth_year(df):
     return pd.Series([np.nan] * len(df))
 
 
+def add_birth_year_column(transformed_data):
+    """Add birth_year column to all datasets."""
+    print("Adding birth_year column...")
+
+    for year, df in transformed_data.items():
+        if "birth_year" not in df.columns:
+            df["birth_year"] = get_birth_year(df)
+
+    return transformed_data
+
+
 def handle_duplicate_people(transformed_data):
     """
     Handle cases where multiple people have the same name but are different individuals.
+    Priority order: 1. original_id, 2. birth_year, 3. company, 4. sequential numbering
     """
     print("Handling duplicate people across years...")
 
     # Combine data from all years for analysis
     all_data = []
     for year, df in transformed_data.items():
-        all_data.append(df)
+        df_copy = df.copy()
+        df_copy["year"] = year
+        all_data.append(df_copy)
 
     if not all_data:
         print("  No data to process")
@@ -365,87 +430,84 @@ def handle_duplicate_people(transformed_data):
 
     combined = pd.concat(all_data, ignore_index=True)
 
-    # Identify potential duplicates based on person_id
-    duplicates = combined.groupby("person_id")
-
-    # Track which person_ids need suffixes
-    duplicate_map = {}
-
-    for person_id, group in duplicates:
-        # Skip if only one record per year (same person across years)
-        years = group["year"].unique()
-        if len(years) == len(group):
-            continue
-
-        # Check if there are duplicates within the same year
-        has_duplicates_in_year = False
-        for year in years:
+    # Find person_ids that have duplicates within the same year
+    duplicate_person_ids = set()
+    for person_id, group in combined.groupby("person_id"):
+        for year in group["year"].unique():
             year_group = group[group["year"] == year]
             if len(year_group) > 1:
-                has_duplicates_in_year = True
+                duplicate_person_ids.add(person_id)
                 break
 
-        if not has_duplicates_in_year:
-            continue
-
+    # Process each duplicate person_id
+    duplicate_map = {}
+    for person_id in duplicate_person_ids:
+        group = combined[combined["person_id"] == person_id]
         print(f"  Found duplicates for: {person_id}")
 
-        # Look for distinguishing features
-        # First, check if they have different original IDs
+        # Determine distinguishing feature in priority order
+        distinguishing_col = None
         if "original_id" in group.columns and group["original_id"].nunique() > 1:
-            # Group by original ID and assign suffixes
-            for i, (orig_id, id_group) in enumerate(group.groupby("original_id")):
-                if i > 0:  # Skip the first group (keeps original id)
-                    new_id = f"{person_id}_{i + 1}"
-                    print(
-                        f"    Assigning {new_id} to records with original_id {orig_id}"
-                    )
-                    duplicate_map[(person_id, orig_id)] = new_id
+            distinguishing_col = "original_id"
+        elif "birth_year" in group.columns and group["birth_year"].nunique() > 1:
+            distinguishing_col = "birth_year"
+        elif "company" in group.columns and group["company"].nunique() > 1:
+            distinguishing_col = "company"
 
-        # If no original ID or all same, try using company
-        elif (
-            "hs_Rank_Global_ComName_En" in group.columns
-            and group["hs_Rank_Global_ComName_En"].nunique() > 1
-        ):
-            # Group by company and assign suffixes
-            for i, (company, company_group) in enumerate(
-                group.groupby("hs_Rank_Global_ComName_En")
-            ):
-                if i > 0 and not pd.isnull(company):  # Skip the first group and nulls
+        if distinguishing_col:
+            # Use the distinguishing column to create unique IDs
+            unique_values = group[distinguishing_col].dropna().astype(str).sort_values().unique()
+            for i, value in enumerate(unique_values):
+                if i > 0:  # Skip the first (keeps original ID)
                     new_id = f"{person_id}_{i + 1}"
-                    print(f"    Assigning {new_id} to records with company {company}")
-                    duplicate_map[(person_id, company)] = new_id
-
-        # If no clear distinguishing feature, append index
+                    print(f"    Assigning {new_id} to records with {distinguishing_col}={value}")
+                    duplicate_map[(person_id, distinguishing_col, value)] = new_id
         else:
-            # Just assign sequential numbers
-            unique_records = group.drop_duplicates(subset=["name", "country", "year"])
-            if len(unique_records) > 1:
-                for i, (idx, record) in enumerate(unique_records.iterrows()):
-                    if i > 0:  # Skip the first record
-                        new_id = f"{person_id}_{i + 1}"
-                        print(f"    Assigning {new_id} to record {idx}")
-                        duplicate_map[(person_id, idx)] = new_id
+            # Sequential numbering as last resort
+            print(f"    Using sequential numbering for {person_id}")
+            # Group by year and assign sequential numbers within each year
+            for year in group["year"].unique():
+                year_group = group[group["year"] == year]
+                if len(year_group) > 1:
+                    # Sort for consistency
+                    year_group = year_group.sort_values(["name", "original_id"])
+                    for i, _ in enumerate(year_group.iterrows()):
+                        if i > 0:  # Skip the first record
+                            new_id = f"{person_id}_{i + 1}"
+                            print(f"    Assigning {new_id} to record in year {year}")
+                            # Use year and index as key
+                            duplicate_map[(person_id, "sequential", f"{year}_{i}")] = new_id
 
     # Apply the duplicate mapping to each year's data
     for year, df in transformed_data.items():
         print(f"  Applying duplicate handling to {year}...")
 
-        # Update person_id based on duplicate_map
-        for (old_id, key), new_id in duplicate_map.items():
-            if isinstance(key, (int, float, str)):  # Original ID or company
-                if "original_id" in df.columns:
-                    mask = (df["person_id"] == old_id) & (df["original_id"] == key)
-                    df.loc[mask, "person_id"] = new_id
-                elif "hs_Rank_Global_ComName_En" in df.columns:
-                    mask = (df["person_id"] == old_id) & (
-                        df["hs_Rank_Global_ComName_En"] == key
-                    )
-                    df.loc[mask, "person_id"] = new_id
-            else:  # Index-based
-                # Can't easily apply index-based updates in split data
-                # Would need to track global indices
-                pass
+        for (old_id, method, key), new_id in duplicate_map.items():
+            if method == "original_id":
+                mask = (df["person_id"] == old_id) & (df["original_id"].astype(str) == key)
+            elif method == "birth_year":
+                mask = (df["person_id"] == old_id) & (df["birth_year"].astype(str) == key)
+            elif method == "company":
+                mask = (df["person_id"] == old_id) & (df["company"].astype(str) == key)
+            elif method == "sequential":
+                # For sequential, key is "year_index"
+                parts = key.split("_")
+                if len(parts) == 2 and parts[0] == str(year):
+                    # Find the nth occurrence in this year
+                    year_mask = df["person_id"] == old_id
+                    year_records = df[year_mask].sort_values(["name", "original_id"])
+                    if len(year_records) > int(parts[1]):
+                        idx = year_records.iloc[int(parts[1])].name
+                        mask = df.index == idx
+                    else:
+                        continue
+                else:
+                    continue
+            else:
+                continue
+
+            if mask.any():
+                df.loc[mask, "person_id"] = new_id
 
     return transformed_data
 
@@ -465,18 +527,9 @@ def create_unified_dataset(transformed_data):
         "original_id",
     ]
 
-    # Additional columns to extract if available
-    optional_columns = [
-        "hs_Character_Gender_Lang",
-        "hs_Character_Birthday",
-        "hs_Rank_Global_Industry_En",
-        "hs_Rank_Global_ComName_En",
-        "hs_Rank_Global_ComHeadquarters_En",
-    ]
-
     # Combine data from all years
     all_data = []
-    for year, df in sorted(transformed_data.items()):
+    for _, df in sorted(transformed_data.items()):
         year_df = df.copy()
 
         # Ensure all key columns exist
@@ -497,26 +550,6 @@ def create_unified_dataset(transformed_data):
             year_df["gender"] = year_df["hs_Character_Gender_Lang"]
         else:
             year_df["gender"] = np.nan
-
-        # Add industry if available
-        if "Industry" in year_df.columns:
-            year_df["industry"] = year_df["Industry"]
-        elif "IndustryEn" in year_df.columns:
-            year_df["industry"] = year_df["IndustryEn"]
-        elif "hs_Rank_Global_Industry_En" in year_df.columns:
-            year_df["industry"] = year_df["hs_Rank_Global_Industry_En"]
-        else:
-            year_df["industry"] = np.nan
-
-        # Add company if available
-        if "Companies" in year_df.columns:
-            year_df["company"] = year_df["Companies"]
-        elif "CNameEn" in year_df.columns:
-            year_df["company"] = year_df["CNameEn"]
-        elif "hs_Rank_Global_ComName_En" in year_df.columns:
-            year_df["company"] = year_df["hs_Rank_Global_ComName_En"]
-        else:
-            year_df["company"] = np.nan
 
         # Add headquarter if available
         if "hs_Rank_Global_ComHeadquarters_En" in year_df.columns:
@@ -578,16 +611,12 @@ def create_datapoint_entities(combined_data, output_dir="../intermediate/hurun")
 
     # 1. Create datapoints: wealth by person and year
     datapoints = combined_data[["person_id", "year", "wealth_billion"]].copy()
-    datapoints = datapoints.rename(
-        columns={"person_id": "person", "wealth_billion": "wealth"}
-    )
+    datapoints = datapoints.rename(columns={"person_id": "person", "wealth_billion": "wealth"})
     # Drop rows with missing wealth or person_id
     datapoints = datapoints.dropna(subset=["wealth", "person"])
 
     # Save datapoints
-    datapoints_file = os.path.join(
-        output_dir, "ddf--datapoints--wealth--by--person--year.csv"
-    )
+    datapoints_file = os.path.join(output_dir, "ddf--datapoints--wealth--by--person--year.csv")
     datapoints.sort_values(by=["person", "year"]).to_csv(datapoints_file, index=False)
     print(f"  Saved datapoints to {datapoints_file}")
 
@@ -641,21 +670,28 @@ def process_hurun_data():
     # Step 2: Extract country information
     transformed_data = extract_country_info(transformed_data)
 
-    # Step 3: Standardize person information
-    transformed_data = standardize_person_info(transformed_data)
+    # Step 3: Standardize company information
+    transformed_data = standardize_company_info(transformed_data)
 
-    # Step 4: Handle duplicate people
+    # Step 4: Standardize industry information
+    transformed_data = standardize_industry_info(transformed_data)
+
+    # Step 5: Standardize person information
+    transformed_data = standardize_person_name_id(transformed_data)
+
+    # Step 6: Add birth year column
+    transformed_data = add_birth_year_column(transformed_data)
+
+    # Step 7: Handle duplicate people
     transformed_data = handle_duplicate_people(transformed_data)
 
-    # Step 5: Create unified dataset
+    # Step 8: Create unified dataset
     combined_data = create_unified_dataset(transformed_data)
 
-    # Step 6: Create DDF files
+    # Step 9: Create DDF files
     if combined_data is not None:
         datapoints, entities = create_datapoint_entities(combined_data)
-        print(
-            f"Created {len(datapoints)} datapoints and {len(entities)} person entities"
-        )
+        print(f"Created {len(datapoints)} datapoints and {len(entities)} person entities")
 
     print("=== Transformation Complete ===")
 
