@@ -1,0 +1,20 @@
+{
+  "unified_persons": [
+    {
+      "unified_id": "zong_qinghou",
+      "hurun_ids": ["zong_qinghou", "zong_qinghou_family"],
+      "forbes_ids": ["zong_qinghou"]
+    },
+    {
+      "unified_id": "ma_yun",
+      "hurun_ids": ["ma_yun"],
+      "forbes_ids": ["jack_ma"]
+    },
+    {
+      "unified_id": "elon_musk",
+      "hurun_ids": ["elon_musk"],
+      "forbes_ids": ["elon_musk"]
+    }
+  ],
+  "notes": "This expanded example shows how to handle different naming conventions (Chinese vs Western) as seen with Ma Yun/Jack Ma case"
+}

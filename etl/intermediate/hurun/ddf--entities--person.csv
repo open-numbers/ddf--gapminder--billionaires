@@ -1872,10 +1872,10 @@ huang_jingkang,Huang Jingkang,,,,,Real estate,Lvgem,
 huang_jinxiang,Huang Jinxiang,黄金祥,Male,1965.0,China,Chemicals,Guangxin,China-Xuancheng
 huang_junkang,Huang Junkang,黄俊康,Male,1955.0,Hong Kong,Real Estate,Topspring,China-Shenzhen
 huang_kangjing,Huang Kangjing,黄康境,Male,1962.0,China,Estate Holding,Lvgem,Guangdong-Shenzhen
-huang_li,Huang Li,黄立,Male,1963.0,China,Semiconductors,Guide Electrics,Hubei-Wuhan
-huang_li_2,Huang Li & family,,,,,Electronics,Guide Electrics,
-huang_li_3,Huang Li,黄晟,Male,1989.0,China,Semiconductors,Guide Electrics,Hubei-Wuhan
-huang_li_4,Huang Li & Family,,,,,Electronics,Guide Electrics,
+huang_li,Huang Li,黄晟,Male,1989.0,China,Semiconductors,Guide Electrics,Hubei-Wuhan
+huang_li_2,Huang Li & Family,,,,,Electronics,Guide Electrics,
+huang_li_3,Huang Li,黄立,Male,1963.0,China,Semiconductors,Guide Electrics,Hubei-Wuhan
+huang_li_4,Huang Li & family,,,,,Electronics,Guide Electrics,
 huang_lianxi,Huang Lianxi,黄联禧,Male,1963.0,China,Construction & Engineering,Lesso,Guangdong-Foshan
 huang_lianxi_zuo_xiaoping,Huang Lianxi & Zuo Xiaoping,,,,,Plastic pipes and fittings ,L&S,
 huang_maoru,Huang Maoru,黄茂如,Male,1965.0,China,Investments,Maoye,Guangdong-Shenzhen
@@ -2157,8 +2157,8 @@ jia_tianjiang,Jia Tianjiang,贾天将,Male,1962.0,China,Metals & Mining,Tianyuan
 jia_tianjiang_dong_jufeng,Jia Tianjiang & Dong Jufeng,,,,,"Manufacturing, non-ferrous metals",Tianyuan Manganese,
 jia_yueting,Jia Yueting,,,,,Entertainment,Letv,
 jian_jun,Jian Jun,简军,Female,1963.0,China,Healthcare,Imeik,Beijing-Beijing
-jiang_bin,Jiang Bin,姜滨,Male,1966.0,China,Semiconductors,GoerTek,Shandong-Weifang
-jiang_bin_2,Jiang Bin,江斌,Male,1967.0,China,Healthcare,Kingdomway,China-Xiamen
+jiang_bin,Jiang Bin,江斌,Male,1967.0,China,Healthcare,Kingdomway,China-Xiamen
+jiang_bin_2,Jiang Bin,姜滨,Male,1966.0,China,Semiconductors,GoerTek,Shandong-Weifang
 jiang_bin_hu_shuangmei,Jiang Bin & Hu Shuangmei,,,,,Acoustics and multimedia products ,GoerTek,
 jiang_biwang,Jiang Biwang,江必旺,Male,1965.0,China,Industrial Products,Nanomicro,China-Suzhou
 jiang_chengzhi,Jiang Chengzhi,蒋承志,Male,1986.0,China,Industrial Products,Smarter Energy,China-Wuxi
@@ -2172,10 +2172,10 @@ jiang_long_2,Jiang Long,蒋龙,Male,1979.0,China,Consumer Goods,RELX,Guangdong-S
 jiang_nan,Jiang Nan,江南,Male,1963.0,China,Hospitality,Shengfeng,Guangdong-Guangzhou
 jiang_nanchun,Jiang Nanchun,江南春,Male,1973.0,China,Media & Entertainment,FocusMedia,Shanghai-Shanghai
 jiang_rensheng,Jiang Rensheng,蒋仁生,Male,1953.0,China,Healthcare,Zhifei,Chongqing-Chongqing
-jiang_wei,Jiang Wei,姜伟,Male,1961.0,China,Pharmaceuticals,Bailing ,Guizhou-Guiyang
-jiang_wei_2,Jiang Wei,蒋伟,Male,,China,Healthcare,Haohai,Shanghai-Shanghai
+jiang_wei,Jiang Wei,蒋伟,Male,,China,Healthcare,Haohai,Shanghai-Shanghai
+jiang_wei_2,Jiang Wei & Family,,,,,Pharmaceuticals,Bailing ,
 jiang_wei_3,Jiang Wei & family,,,,,Pharmaceuticals,Bailing ,
-jiang_wei_4,Jiang Wei & Family,,,,,Pharmaceuticals,Bailing ,
+jiang_wei_4,Jiang Wei,姜伟,Male,1961.0,China,Pharmaceuticals,Bailing ,Guizhou-Guiyang
 jiang_weiping,Jiang Weiping,蒋卫平,Male,1955.0,China,Metals & Mining,Tianqi,Sichuan-Suining
 jiang_weiping_zhang_jing,Jiang Weiping & Zhang Jing,,,,,Mining,Tianqi ,
 jiang_xipei,Jiang Xipei,蒋锡培,Male,1963.0,China,Industrial Products,Smarter Energy,China-Wuxi
@@ -2193,10 +2193,10 @@ jigneshbhai_desai,Jigneshbhai Desai,Jigneshbhai Desai,,,,Financial Services,NJ I
 jill_foss_watson,Jill Foss Watson,吉尔·福斯·沃森,Female,1968.0,United States,Financial Services,Credit Acceptance,USA
 jim_breyer,Jim Breyer,吉姆·布雷耶,Male,,United States,Investments,Investments,USA
 jim_crane,Jim Crane,Jim Crane,Male,1954.0,United States,Transportation & Logistics,Crane Worldwide Logistics,USA
-jim_davis,Jim Davis & family,,,,,Multi Brand Retailing,New Balance,
-jim_davis_2,Jim Davis,吉姆·戴维斯,Male,,United States,Software & Services,Allegis,USA
-jim_davis_3,Jim Davis,吉姆·戴维斯,,,,Software & Services,Allegis,USA-Cockeysville
-jim_davis_4,Jim Davis & Family,,,,,Multi Brand Retailing,New Balance,
+jim_davis,Jim Davis & Family,,,,,Multi Brand Retailing,New Balance,
+jim_davis_2,Jim Davis & family,,,,,Multi Brand Retailing,New Balance,
+jim_davis_3,Jim Davis,吉姆·戴维斯,Male,,United States,Software & Services,Allegis,USA
+jim_davis_4,Jim Davis,吉姆·戴维斯,,,,Software & Services,Allegis,USA-Cockeysville
 jim_irving,Jim Irving,Jim Irving,,,,Energy,Irving,Canada
 jim_kavanaugh,Jim Kavanaugh,Jim Kavanaugh,Male,1963.0,United States,Software & Services,World Wide Technology,USA
 jim_kennedy,Jim Kennedy,吉姆·肯尼迪,Male,,United States,Media & Entertainment,Cox Enterprises,USA
@@ -2211,6 +2211,7 @@ jin_baofang,Jin Baofang,靳保芳,Male,1952.0,China,Energy,JA Solar,Hebei-Xingta
 jin_chengcheng,Jin Chengcheng,金成成,Male,1986.0,,Automobile & Auto Components,Huguang,Jiangsu-Suzhou
 jin_huiming,Jin Huiming,金惠明,Male,1953.0,China,Real Estate,Dahua,Shanghai-Shanghai
 jin_lei,Jin Lei,金磊,Male,1954.0,,Healthcare,Balance Medical,Beijing-Beijing
+jin_lei_2,Jin Lei,金磊,Male,1954.0,,Healthcare,Changchun High-tech Industries,China-Changchun
 jin_liang,Jin Liang,金亮,Male,1977.0,China,Green Energy,Titan Wind Energy,China-Suzhou
 jin_liguo,Jin Liguo,金立国,Male,1973.0,China,Industrial Products,Yiheda,China-Shenzhen
 jin_sook_chang,Jin Sook Chang,张金淑,Female,,United States,Single Brand Retailing,Forever 21,
@@ -2554,9 +2555,9 @@ kochouseph_chittilappilly_sheela_kochouseph,Kochouseph Chittilappilly & Sheela K
 koh_tuck_lye,Koh Tuck Lye,许达来,Male,1971.0,China,Consumer Goods,Xiaomi,Beijing-Beijing
 koh_wee_meng,Koh Wee Meng,Koh Wee Meng,,,,Retail,Fragrance Group,USA
 koji_yanai,Koji Yanai,柳井浩二,Male,,Japan,Retail,Fast Retailing,Japan-Yamaguchi
-kommer_damen,Kommer Damen,科默·达曼,Male,,Netherlands,Construction & Engineering,Damen Shipyards,Netherlands
-kommer_damen_2,Kommer Damen,,,,,Logistics & Shipping,Damen Shipyards,
-kommer_damen_3,Kommer Damen,,,,,Construction & Engineering,Damen Shipyards,
+kommer_damen,Kommer Damen,,,,,Construction & Engineering,Damen Shipyards,
+kommer_damen_2,Kommer Damen,科默·达曼,Male,,Netherlands,Construction & Engineering,Damen Shipyards,Netherlands
+kommer_damen_3,Kommer Damen,,,,,Logistics & Shipping,Damen Shipyards,
 kon_bon_joon,Kon Bon Joon,具光谟,Male,,South Korea,Consumer Goods,LG,South Korea-Seoul
 kong_jianmin,Kong Jianmin,孔健岷,Male,1969.0,China,Real Estate,KWG,China-Guangzhou
 kong_lingyong,Kong Lingyong,孔令涌,Male,1978.0,China,Specialty Chemicals,Dynanonic,China-Shenzhen
@@ -2697,10 +2698,10 @@ leonard_blavatnik,Leonard Blavatnik,莱恩·布拉瓦特尼克,Male,1957.0,Unite
 leonard_lauder,Leonard Lauder,伦纳德·劳德,Male,1933.0,United States,Consumer Goods,Estee Lauder,USA
 leonard_schleifer,Leonard Schleifer,伦纳德·施莱弗,Male,,United States,Healthcare,Regeneron,USA
 leonard_stern,Leonard Stern,伦纳德·斯特恩,Male,1938.0,United States,Real Estate,Hartz Mountain Industries,USA
-leonardo_del_vecchio,Leonardo Del Vecchio,,,,,Luxury Goods,Luxottica,
-leonardo_del_vecchio_2,Leonardo Del Vecchio,莱昂纳多·戴尔·维吉奥,Male,1935.0,Italy,Luxury Goods,EssilorLuxottica,Italy-Milan
+leonardo_del_vecchio,Leonardo Del Vecchio ,,Male,1936.0,,Eye Wear,Luxottica,
+leonardo_del_vecchio_2,Leonardo Del Vecchio,,,,,Luxury Goods,Luxottica,
 leonardo_del_vecchio_3,Leonardo Del Vecchio,,,,,Luxury Goods,Luxottica,
-leonardo_del_vecchio_4,Leonardo Del Vecchio ,,Male,1936.0,,Eye Wear,Luxottica,
+leonardo_del_vecchio_4,Leonardo Del Vecchio,莱昂纳多·戴尔·维吉奥,Male,1935.0,Italy,Luxury Goods,EssilorLuxottica,Italy-Milan
 leonardo_maria_del_vecchio,Leonardo Maria del Vecchio,Leonardo Maria del Vecchio,Male,1996.0,Italy,Consumer Goods,EssilorLuxottica,France
 leonid_boguslavsky,Leonid Boguslavsky,Leonid Boguslavsky,Male,1952.0,Russia,Investments,RTP Global,Italy
 leonid_fedun,Leonid Fedun,列昂尼德·费敦,Male,1956.0,Russia,Energy,Lukoil,Russia
@@ -2748,10 +2749,10 @@ li_hejun,Li Hejun,李河君,Male,1967.0,China,Solar Energy,Hanergy,
 li_hong,Li Hong,李红,Female,1970.0,China,Software & Services,Zwsoft,China-Guangzhou
 li_hongjing,Li Hongjing,李红京,Male,1968.0,China,Software & Services,Autel,China-Shenzhen
 li_hongxin,Li Hongxin,李洪信,Male,1953.0,China,Paper & Forest Products,Sunpaper,Shandong-Jining
-li_hua,Li Hua,李华,Male,1966.0,China,Financial Services,Futu Holdings,Hong Kong-Hong Kong
-li_hua_2,Li Hua,李华,Male,1978.0,Hong Kong,Financial Services,Futu Holdings,China-Hong Kong
+li_hua,Li Hua,李华,Male,1978.0,Hong Kong,Financial Services,Futu Holdings,China-Hong Kong
+li_hua_2,Li Hua & Family,,,,,Real Estate,Excellence ,
 li_hua_3,Li Hua & family,,,,,Real Estate,Excellence ,
-li_hua_4,Li Hua & Family,,,,,Real Estate,Excellence ,
+li_hua_4,Li Hua,李华,Male,1966.0,China,Financial Services,Futu Holdings,Hong Kong-Hong Kong
 li_huanchang,Li Huanchang,李焕昌,Male,1969.0,,Machinery,Changhong,China-Shenzhen
 li_hui,Li Hui,李晖,Male,1975.0,China,Professional Services,Fengyuzhu,China-Shanghai
 li_jianli,Li Jianli,励建立,Male,1972.0,,Industrial Products,Kedali,Guangdong-Shenzhen
@@ -2781,9 +2782,9 @@ li_min_2,Li Min,李民,Male,1971.0,China,Industrial Products,Hiuv,China-Shanghai
 li_ming,Li Ming,李明,Male,1963.0,China,Investments,Yate,Gansu-Longnan
 li_ni,Li Ni,李旎,Male,1986.0,,Entertainment,Bilibili,Shanghai-Shanghai
 li_ning,Li Ning,李宁,Male,1963.0,China,Consumer Goods,Li-ning,Beijing-Beijing
-li_ping,Li Ping,李平,Male,1968.0,China,Energy,CATL,Fujian-Ningde
-li_ping_2,Li Ping,李平,Male,1964.0,China,Metals & Mining,Teamgo,China-Guangdong-Guangzhou
-li_ping_3,Li Ping,李萍,Female,,China,Real Estate,XinHu,China-Zhejiang-Hangzhou
+li_ping,Li Ping,李萍,Female,,China,Real Estate,XinHu,China-Zhejiang-Hangzhou
+li_ping_2,Li Ping,李平,Male,1968.0,China,Energy,CATL,Fujian-Ningde
+li_ping_3,Li Ping,李平,Male,1964.0,China,Metals & Mining,Teamgo,China-Guangdong-Guangzhou
 li_qiang,Li Qiang ,李强,Male,,China,Consumer Goods,Pechion,China-Shanghai
 li_qiangzhong,Li Qiangzhong,李强忠,Male,,,Food Processing,Haitian,Guangdong-Foshan
 li_qilin,Li Qilin,李麒麟,Male,1987.0,China,Consumer Goods,Li-ning,Beijing-Beijing
@@ -3013,10 +3014,10 @@ liu_shui,Liu Shui,,,,,Ecological gardening,Techand,
 liu_sichuan,Liu Sichuan,刘思川,Male,,China,"Pharmaceuticals, Medicine Circulation ",Kelun Pharmaceutical,Sichuan-Chengdu
 liu_tianwen,Liu Tianwen,刘天文,Male,1963.0,China,Software & Services,Isoftstone,Beijing-Beijing
 liu_tieying,Liu Tieying,刘铁鹰,Male,,China,Healthcare,Zhifei,Chongqing-Chongqing
-liu_wei,Liu Wei,刘伟,Male,1965.0,China,Software & Services,PCI-Suntek,Guangdong-Guangzhou
+liu_wei,Liu Wei,刘伟,Male,1987.0,China,Media & Entertainment,Mihoyo,China-Shanghai
 liu_wei_2,Liu Wei,,,,,TMT,PCI,
-liu_wei_3,Liu Wei,刘伟,Male,1987.0,China,Media & Entertainment,Mihoyo,China-Shanghai
-liu_wei_4,Liu Wei,,,,,TMT,PCI,
+liu_wei_3,Liu Wei,,,,,TMT,PCI,
+liu_wei_4,Liu Wei,刘伟,Male,1965.0,China,Software & Services,PCI-Suntek,Guangdong-Guangzhou
 liu_weihong,Liu Weihong,刘洧宏,Female,1981.0,China,Food & Beverages,ChaPanda,Sichuan-Chengdu
 liu_weiping,Liu Weiping,刘卫平,Male,1979.0,China,Food & Beverages,Weilong,Henan-Luohe
 liu_xianbing,Liu Xianbing,刘先兵,,,,Industrial Products,Kema Tech,Jiangsu-Suzhou
@@ -3122,7 +3123,8 @@ lukas_henrich_lundin,Lukas Henrich Lundin,,,,,Oil&Gas,Nemesia,
 lukas_henrik_lundin,Lukas Henrik Lundin,卢卡斯·亨里希·伦丁,Male,,Switzerland,Oil & Gas,Nemesia,Switzerland-Geneva
 lukas_walton,Lukas Walton,卢卡斯·沃尔顿,Male,,United States,Retail,Walmart,USA
 luke_and_brian_comer,Luke And Brian Comer,卢克和布莱恩·科默,Male,,Monaco,Real Estate,Comer Group,
-lun_ruixiang,Lun Ruixiang,伦瑞祥,Male,1967.0,Hong Kong,Estate Holding,Huijing,China-Hong Kong
+lun_ruixiang,Lun Ruixiang,伦瑞祥,Male,1967.0,Hong Kong,Developer,Huijing,China-Hong Kong
+lun_ruixiang_2,Lun Ruixiang,伦瑞祥,Male,1967.0,Hong Kong,Estate Holding,Huijing,China-Hong Kong
 luo_jie,Luo Jie,罗结,Male,,Taiwan,Manufacturing ,Cheng Shin Rubber ,Chinese Taipei-Changhua
 luo_jinhong,Luo Jinhong,骆锦红,Female,1967.0,China,Energy,EVE Energy,Guangdong-Huizhou
 luo_liguo,Luo Liguo,罗立国,Male,1956.0,China,Metals & Mining,Hoshine,Zhejiang-Ningbo
@@ -4156,11 +4158,11 @@ robert_kraft,Robert Kraft,罗伯特·卡夫,Male,1941.0,United States,Media & En
 robert_kuok,Robert Kuok,郭鹤年,Male,,Hong Kong,Food & Beverages,Kuok Brothers,Malaysia
 robert_langer,Robert Langer,Robert Langer,Male,1949.0,United States,Healthcare,Moderna,USA-Boston
 robert_mcnair,Robert Mcnair,,,,,Sports,Houston Texans,
-robert_miller,Robert Miller,,,,,Computer & Electronics Retail,Future Electronics,
-robert_miller_2,Robert Miller,罗伯特·米勒,Male,,Canada,Retail,Future Electronics,Canada-Montreal
-robert_miller_3,Robert Miller,Robert Miller,Male,1934.0,Hong Kong,Retail,Future Electronics,Canada
-robert_miller_4,Robert Miller,,,,,Retail,DFS Group,
-robert_miller_5,Robert Miller,,,,,Computer & Electronics Retail,Future Electronics,
+robert_miller,Robert Miller,Robert Miller,Male,1934.0,Hong Kong,Retail,Future Electronics,Canada
+robert_miller_2,Robert Miller,,,,,Retail,DFS Group,
+robert_miller_3,Robert Miller,,,,,Computer & Electronics Retail,Future Electronics,
+robert_miller_4,Robert Miller,,,,,Computer & Electronics Retail,Future Electronics,
+robert_miller_5,Robert Miller,罗伯特·米勒,Male,,Canada,Retail,Future Electronics,Canada-Montreal
 robert_muglia,Robert Muglia,Robert Muglia,Male,1960.0,United States,Software & Services,Snowflake,USA
 robert_ng,Robert Ng,黄志祥,Male,,Singapore,Real Estate,Far East,Singapore
 robert_p_stiller,Robert P Stiller,罗伯特·斯蒂勒,Male,,United States,Food & Beverages,Keurig Dr Pepper,USA
@@ -4374,8 +4376,8 @@ sekar_vembu,Sekar Vembu,塞卡·温卜,Male,,India,Software & Services,Zoho,Indi
 selcuk_bayraktar,Selcuk Bayraktar,Selcuk Bayraktar,,,,Aerospace & Defence,Baykar,Turkey
 semahat_arsel,Semahat Arsel,塞马哈特·阿塞尔,Female,,Turkey,Energy,Koc,Turkey
 seo_jung_jin,Seo Jung Jin,徐廷珍,Male,1957.0,South Korea,Healthcare,Celltrion,South Korea
-serena_simmons,Serena Simmons,塞雷娜·西蒙斯,Female,,United States,Chemicals,Valhi ,USA-Dallas
-serena_simmons_2,Serena Simmons,,,,,Chemicals & Petrochemicals,Valhi ,
+serena_simmons,Serena Simmons,,,,,Chemicals & Petrochemicals,Valhi ,
+serena_simmons_2,Serena Simmons,塞雷娜·西蒙斯,Female,,United States,Chemicals,Valhi ,USA-Dallas
 serge_dassault,Serge Dassault & Family,,,,,Aviation,Dassault System,
 serge_dassault_family,Serge Dassault family,,Male,1926.0,,Aviation Technology,Dassault System,
 serge_godin,Serge Godin,谢尔盖·戈丁,Male,,Canada,Software & Services,CGI,Canada
@@ -4856,9 +4858,9 @@ thomas_wu_dong_liang,Thomas Wu Dong-Liang,吴东亮,Male,,Taiwan,Financial Servi
 thongma_vijitpongpun,Thongma Vijitpongpun,汤格玛·维吉波旁,Male,,Thailand,Real Estate,Pruksa Real Estate,Thailand-Bangkok
 thor_bjorgolfsson,Thor Bjorgolfsson,Thor Bjorgolfsson,Male,1968.0,United Kingdom,Telecommunications,Play,UK
 thumbay_moideen,Thumbay Moideen,桑巴伊·莫迪恩,Male,,United Arab Emirates,Healthcare,Thumbay,
-tian_ming,Tian Ming,田明,Male,1953.0,China,Industrial Products,Meyer,Anhui-Hefei
-tian_ming_2,Tian Ming,,,,,Electronic device、 optoelectronic,Meiya Optoelectronic,
-tian_ming_3,Tian Ming,,,,,"Electronic device, optoelectronic",Meiya Optoelectronic,
+tian_ming,Tian Ming,,,,,"Electronic device, optoelectronic",Meiya Optoelectronic,
+tian_ming_2,Tian Ming,田明,Male,1953.0,China,Industrial Products,Meyer,Anhui-Hefei
+tian_ming_3,Tian Ming,,,,,Electronic device、 optoelectronic,Meiya Optoelectronic,
 tiger_woods,Tiger Woods,泰格 伍兹,Male,1976.0,United States,Media & Entertainment,Golf,USA
 tilman_fertitta,Tilman Fertitta,蒂尔曼·费蒂塔,Male,1957.0,United States,Media & Entertainment,Landry's,USA
 tim_cook,Tim Cook,Tim Cook,Male,1961.0,United States,Consumer Goods,Apple,USA
@@ -4933,10 +4935,10 @@ tseng_shin_yi,Tseng Shin- Yi,,,,,Oil & Gas,Chang Chun,
 tsoi_hoi_shan,Tsoi Hoi Shan,蔡海山,Male,1978.0,Hong Kong,Healthcare,United Laboratories,Hong Kong-Hong Kong
 tu_guoshen,Tu Guoshen,,,,,Investments ,Zhongheng Huizhi Investment,
 tu_huilong,Tu Huilong,涂辉龙,Male,1959.0,China,Real Estate,Haiya,Guangdong-Shenzhen
-tu_jianhua,Tu Jianhua,涂建华,Male,1963.0,China,Productivity software,Glodon,China-Beijing
-tu_jianhua_2,Tu Jianhua,涂建华,Male,1969.0,China,Software & Services,Glodon,China-Beijing
-tu_jianhua_3,Tu Jianhua,,,,,Motorcycles、 Real estate,Longcin ,
-tu_jianhua_4,Tu Jianhua,,,,,"Motorcycles, Real estate",Longcin ,
+tu_jianhua,Tu Jianhua,,,,,"Motorcycles, Real estate",Longcin ,
+tu_jianhua_2,Tu Jianhua,,,,,Motorcycles、 Real estate,Longcin ,
+tu_jianhua_3,Tu Jianhua,涂建华,Male,1963.0,China,Productivity software,Glodon,China-Beijing
+tu_jianhua_4,Tu Jianhua,涂建华,Male,1969.0,China,Software & Services,Glodon,China-Beijing
 tu_yongjun,Tu Yongjun,屠永军,Male,1963.0,China,Pharmaceuticals,Tianyu Pharmaceutical,China-Taizhou
 tuncay_ozilhan,Tuncay Ozilhan,通凯·厄齐尔汗,Male,1947.0,Turkey,Food & Beverages,Anadolu ,
 tung_chee_chen,Tung Chee Chen,董建成,Male,,Hong Kong,Transportation & Logistics,OOCL,Hong Kong-Hong Kong
@@ -4960,10 +4962,10 @@ v_c_burman,V C Burman,,,,,FMCG,Dabur,
 vadim_moshkovich,Vadim Moshkovich,瓦迪姆·莫斯科维奇,Male,,Russia,Agriculture,Rusagro,Russia
 vadim_novinsky,Vadim Novinsky,Vadim Novinsky,Male,1964.0,Ukraine,Metals & Mining,Metinvest,Ukraine
 vadim_yakunin,Vadim Yakunin,Vadim Yakunin,Male,1963.0,Russia,Healthcare,Protek,Taiwan
-vagit_alekperov,Vagit Alekperov,,,,,Energy,Lukoil,
-vagit_alekperov_2,Vagit Alekperov,瓦吉特·阿列克佩罗夫,Male,1950.0,Russia,Energy,Lukoil,Russia
+vagit_alekperov,Vagit Alekperov ,,Male,1950.0,,Energy,Lukoil,
+vagit_alekperov_2,Vagit Alekperov,,,,,Energy,Lukoil,
 vagit_alekperov_3,Vagit Alekperov,,,,,Energy,Lukoil,
-vagit_alekperov_4,Vagit Alekperov ,,Male,1950.0,,Energy,Lukoil,
+vagit_alekperov_4,Vagit Alekperov,瓦吉特·阿列克佩罗夫,Male,1950.0,Russia,Energy,Lukoil,Russia
 vajarachai_chiaravanond,Vajarachai Chiaravanond,瓦贾拉猜·奇拉瓦诺德,Male,,Thailand,Food & Beverages,CP Group,
 valentin_gapontsev,Valentin Gapontsev,瓦伦丁·加庞塞夫,Male,,United States,Medical Devices,IPG Photonics,
 valentin_kipyatkov,Valentin Kipyatkov,Valentin Kipyatkov,Male,1976.0,Cyprus,Software & Services,JetBrains,Czech Republic
@@ -5090,9 +5092,9 @@ wang_huiwen,Wang Huiwen,王慧文,Male,1978.0,China,Transportation & Logistics,M
 wang_ji,Wang Ji,王佶,Male,1971.0,China,Gaming,Century Huatong Automotive Part,China-Shaoxing
 wang_jia,Wang Jia,王佳,Male,1969.0,China,Software & Services,Venustech,China-Beijing
 wang_jia_yan_li,Wang Jia & Yan Li,,,,,TMT,Venustech,
-wang_jian,Wang Jian,汪建,Male,1954.0,China,Healthcare,Bgi Genomics,Guangdong-Shenzhen
-wang_jian_2,Wang Jian,,,,,Genetic testing,BGI,
-wang_jian_3,Wang Jian,,,,,Investments,HNA,
+wang_jian,Wang Jian,,,,,Genetic testing,BGI,
+wang_jian_2,Wang Jian,,,,,Investments,HNA,
+wang_jian_3,Wang Jian,汪建,Male,1954.0,China,Healthcare,Bgi Genomics,Guangdong-Shenzhen
 wang_jiandong,Wang Jiandong,王建东,Male,1972.0,,Metals & Mining,CSCEC Rongdong,China-Hebei-Handan
 wang_jianfeng,Wang Jianfeng,王剑峰,Male,1970.0,China,Automobile & Auto Components,Joyson,Zhejiang-Ningbo
 wang_jianguo,Wang Jianguo,汪建国,Male,1960.0,China,Investments,Five Star Appliance,Jiangsu-Nanjing
@@ -5106,9 +5108,9 @@ wang_jing,Wang Jing,王靖,Male,,China,Telecom,Xinwei,Beijing-Beijing
 wang_jinhua,Wang Jinhua,王锦华,Male,1963.0,China,Metals & Mining,China Kings Resources Group,Zhejiang-Hangzhou
 wang_jinsong,Wang Jinsong,王劲松,Female,,China,Healthcare,Neptunus,China-Guangdong-Shenzhen
 wang_jinyu,Wang Jinyu,王金玉,Female,1974.0,China,Biotechnology,Bioeasy,China-Shenzhen
-wang_jun,Wang Jun,王俊,Male,1976.0,China,Medical Devices,iCarbonX、 Bgi Genomics,China-Shenzhen
-wang_jun_2,Wang Jun,王军,Male,1965.0,China,Petrochemicals,Wantong,Shandong-Dongying
-wang_jun_3,Wang Jun,,,,,Genetic testing,BGI,
+wang_jun,Wang Jun,,,,,Genetic testing,BGI,
+wang_jun_2,Wang Jun,王俊,Male,1976.0,China,Medical Devices,iCarbonX、 Bgi Genomics,China-Shenzhen
+wang_jun_3,Wang Jun,王军,Male,1965.0,China,Petrochemicals,Wantong,Shandong-Dongying
 wang_junhao,Wang Junhao,王均豪,Male,1972.0,China,Investments,JuneYao,Shanghai-Shanghai
 wang_junhua,Wang Junhua,王华君,Male,1970.0,China,Containers & Packaging,Yuto Packaging,Guangdong-Shenzhen
 wang_junhua_wu_lanlan,Wang Junhua & Wu Lanlan,,,,,Packaging,Yuto Packaging Technology,
@@ -5157,9 +5159,9 @@ wang_shuo,Wang Shuo,王硕,Male,1990.0,United States,Software & Services,Deel,US
 wang_shusheng,Wang Shusheng,王树生,Male,1954.0,China,"Logistics, Airline",DTW Logistics,Beijing-Beijing
 wang_suqin,Wang Suqin,王素勤,Female,1965.0,China,Energy,Weiming Environment Protection,Zhejiang-Wenzhou
 wang_tao,Wang Tao,汪滔,Male,1980.0,China,Consumer Goods,DJI,Guangdong-Shenzhen
-wang_wei,Wang Wei,王卫,Male,1970.0,Hong Kong,Transportation & Logistics,SF,Guangdong-Shenzhen
-wang_wei_2,Wang Wei,,,,,Express delivery,SF Express,
-wang_wei_3,Wang Wei,王维,Male,1981.0,China,Software & Services,Xingyun,Guangdong-Shenzhen
+wang_wei,Wang Wei,王维,Male,1981.0,China,Software & Services,Xingyun,Guangdong-Shenzhen
+wang_wei_2,Wang Wei,王卫,Male,1970.0,Hong Kong,Transportation & Logistics,SF,Guangdong-Shenzhen
+wang_wei_3,Wang Wei,,,,,Express delivery,SF Express,
 wang_wei_4,Wang Wei,,,,,Express delivery,SF Express,
 wang_weidong,Wang Weidong,王维东,Male,1977.0,China,Machinery,Yinghe Technology,China-Shenzhen
 wang_weixiu,Wang Weixiu,王伟修,Male,1950.0,China,Telecommunications,Zhongji Innolight,Shandong-Yantai
@@ -5472,12 +5474,14 @@ xu_xiang,Xu Xiang,徐翔,Male,,China,Energy,Daquan,Jiangsu-Zhenjiang
 xu_xiaoju,Xu Xiaoju,许小菊,Female,1980.0,China,Machinery,Yinghe Technology,China-Shenzhen
 xu_xiaoping,Xu Xiaoping,徐小平,Male,1956.0,China,Investments,Zhenge,China-Beijing
 xu_xiaoqun,Xu Xiaoqun,徐晓群,Female,,China,Developer,Zhongliang,China-Shanghai
-xu_xin,Xu Xin,徐新,Male,1966.0,China,Investments,Capitaltoday,Shanghai-Shanghai
+xu_xin,Xu Xin,,,,,Investments,Capitaltoday,
 xu_xin_2,Xu Xin,徐昕,Female,,China,Semiconductors,Changchuan Technology Co,Zhejiang-Hangzhou
-xu_xin_3,Xu Xin,,,,,Investments,Capitaltoday,
+xu_xin_3,Xu Xin,徐新,Male,1966.0,China,Investments,Capitaltoday,Shanghai-Shanghai
 xu_xin_4,Xu Xin,,,,,Investments,Capitaltoday,
 xu_xiong,Xu Xiong,,,,,Education,Eastern Pioneer,
-xu_xudong,Xu Xudong,徐旭东,Male,1970.0,China,Automobile & Auto Components,XuSheng Auto Technology,Zhejiang-Ningbo
+xu_xudong,Xu Xudong,徐旭东,Male,1970.0,China,Financial Services,Far Eastern,Chinese Taipei-New Taipei
+xu_xudong_2,Xu Xudong,徐旭东,Male,1970.0,China,Financial Services ,Far Eastern ,ChineseTaipei-New Taipei
+xu_xudong_3,Xu Xudong,徐旭东,Male,1970.0,China,Automobile & Auto Components,XuSheng Auto Technology,Zhejiang-Ningbo
 xu_xudong_xu_ruotong,Xu Xudong & Xu Ruotong,,,,,Automobile parts,XuSheng Auto Technology,
 xu_yangtian,Xu Yangtian,许仰天,Male,1984.0,China,Retail,Shein,Guangdong-Guangzhou
 xu_yanming,Xu Yanming,徐延铭,Male,1966.0,China,Batteries,Cosmx,China-Zhuhai
@@ -5599,10 +5603,10 @@ yeh_kuo_i,Yeh Kuo-I,叶国一,Male,1941.0,Taiwan,Consumer Goods,Inventec,Taiwan-
 yen_chen_lilian,Yen Chen Lilian,严陈莉莲,Female,1965.0,Taiwan,Automobile & Auto Components,Yulon,Taiwan-New Taipei
 yeoh_tiong_lay,Yeoh Tiong Lay & family,,,,,Construction,Ytl Corporation,
 yepern_chen,Yepern Chen,Yepern Chen,Male,,Cambodia,Media & Entertainment,NagaCorp,Cambodia--
-yeung_kin_man,Yeung Kin Man,,,,,Manufacturing,Biel Crystal Manufactory,
-yeung_kin_man_2,Yeung Kin Man,杨建文,Male,,Hong Kong,Industrial Products,Biel Crystal Manufactory,Hong Kong-Hong Kong
-yeung_kin_man_3,Yeung Kin Man,杨建文,Male,1953.0,Hong Kong,Industrial Products,Cngr,China-Hunan-Changsha
-yeung_kin_man_4,Yeung Kin Man & Family,,,,,Manufacturing,Biel Crystal Manufactory,
+yeung_kin_man,Yeung Kin Man & Family,,,,,Manufacturing,Biel Crystal Manufactory,
+yeung_kin_man_2,Yeung Kin Man,,,,,Manufacturing,Biel Crystal Manufactory,
+yeung_kin_man_3,Yeung Kin Man,杨建文,Male,,Hong Kong,Industrial Products,Biel Crystal Manufactory,Hong Kong-Hong Kong
+yeung_kin_man_4,Yeung Kin Man,杨建文,Male,1953.0,Hong Kong,Industrial Products,Cngr,China-Hunan-Changsha
 yi_dasheng,Yi Dasheng,易大盛,Male,1961.0,China,Retail,Fuxing,Hunan-Changsha
 yi_rubo,Yi Rubo,易如波,Male,1976.0,China,Real Estate,Zhongall,China-Chongqing
 yi_xianzhong,Yi Xianzhong,易贤忠,Male,1959.0,China,Healthcare,Bio-Thera,Guangdong-Guangzhou
@@ -5752,10 +5756,10 @@ zhang_jian,Zhang Jian,张剑,Male,1969.0,China,Automobile & Auto Components,Aima
 zhang_jianguo,Zhang Jianguo,张建国,Male,1963.0,China,Energy,Jovo Energy,Guangdong-Guangzhou
 zhang_jianqun,Zhang Jianqun,张剑,Male,1963.0,,Automobile & Auto Components,Aima,China-Tianjin
 zhang_jimin,Zhang Jimin,张积敏,Male,1963.0,,Industrial Products,Tsingshan,Zhejiang-Wenzhou
-zhang_jin,Zhang Jin,张劲,Male,1971.0,China,Investments,Cedar,Guangdong-Guangzhou
+zhang_jin,Zhang Jin,,,,,"Investment, real estate, automobile",Junhua,
 zhang_jin_2,Zhang Jin,张静,Female,,China,Investments,Maoye,Guangdong-Shenzhen
 zhang_jin_3,Zhang Jin,,,,,Investment、 real estate、 automobile,Junhua,
-zhang_jin_4,Zhang Jin,,,,,"Investment, real estate, automobile",Junhua,
+zhang_jin_4,Zhang Jin,张劲,Male,1971.0,China,Investments,Cedar,Guangdong-Guangzhou
 zhang_jindong,Zhang Jindong,张近东,Male,1963.0,China,Retail,Suning,China-Jiangsu-Nanjing
 zhang_jinfang,Zhang Jinfang,张晋芳,Male,1985.0,China,Semiconductors,Chipone,China-Beijing
 zhang_jingguo,Zhang Jingguo,张敬国,Male,1963.0,,Estate Holding,Zensun,China-Zhengzhou
@@ -5764,11 +5768,11 @@ zhang_jun,Zhang Jun,张峻,Male,,China,Financial Services,Funde,Guangdong-Shenzh
 zhang_kaiyuan,Zhang Kaiyuan & Family,,,,,Environment protection,Zhang Kaiyuan & family,
 zhang_kangli,Zhang Kangli,张康黎,Male,1981.0,China,Developer,Suning Universal,China-Nanjing
 zhang_keqiang,Zhang Keqiang,张克强,Male,1960.0,China,Investments,Huamei,Guangdong-Guangzhou
-zhang_lei,Zhang Lei,张磊,Male,1972.0,Hong Kong,Investments,Hillhouse Capital,USA-New York
-zhang_lei_2,Zhang Lei,张雷,Male,1962.0,China,Energy,Envision,Jiangsu-Wuxi
-zhang_lei_3,Zhang Lei,,,,,Investments,Hillhouse,
-zhang_lei_4,Zhang Lei,张雷,Male,1976.0,China,Energy,Envision,China-Jiangsu-Wuxi
-zhang_lei_5,Zhang Lei,,,,,Investments,Hillhouse Capital,
+zhang_lei,Zhang Lei,张雷,Male,1976.0,China,Energy,Envision,China-Jiangsu-Wuxi
+zhang_lei_2,Zhang Lei,,,,,Investments,Hillhouse Capital,
+zhang_lei_3,Zhang Lei,张磊,Male,1972.0,Hong Kong,Investments,Hillhouse Capital,USA-New York
+zhang_lei_4,Zhang Lei,张雷,Male,1962.0,China,Energy,Envision,Jiangsu-Wuxi
+zhang_lei_5,Zhang Lei,,,,,Investments,Hillhouse,
 zhang_li,Zhang Li,张力,Male,1953.0,China,Investments,R & F,Guangdong-Guangzhou
 zhang_li_zhang_liang,Zhang Li & Zhang Liang,,,,,"Real Estate, Mining",R&F,
 zhang_liang,Zhang Liang,张量,Male,1982.0,China,Investments,R & F,Guangdong-Guangzhou
@@ -5812,6 +5816,7 @@ zhang_xincheng,Zhang Xincheng,张新程,Male,1991.0,China,Investments,Forchn,Chi
 zhang_xinghai,Zhang Xinghai,张兴海,Male,1963.0,China,Automobile & Auto Components,Xiaokang,Chongqing-Chongqing
 zhang_xinghai_yan_min,Zhang Xinghai & Yan Min,,,,,Automobiles & Auto Components,Xiaokang ,
 zhang_xingli,Zhang Xingli,张兴明,Male,1957.0,China,Automobile & Auto Components,Xiaokang,Chongqing-Chongqing
+zhang_xingli_2,Zhang Xingli,张兴明,Male,1957.0,China,Automobile & Auto Components,Xiaokang,Chongqing-Chongqing
 zhang_xingmin,Zhang Xingmin,张兴礼,Male,1957.0,China,Automobile & Auto Components,Xiaokang,China-Chongqing
 zhang_xiugen,Zhang Xiugen,张秀根,Male,,China,Automobiles & Auto Components,Hawtai Motor,Beijing-Beijing
 zhang_xiugen_zhang_hongliang,Zhang Xiugen & Zhang Hongliang,,,,,Automobiles & Auto Components,Hawtai,
@@ -5913,10 +5918,10 @@ zhou_guodi,Zhou Guodi,周国娣,Female,,China,Healthcare,Jumpcan,Jiangsu-Taizhou
 zhou_guohui,Zhou Guohui,周国辉,Male,1965.0,China,Transportation & Logistics,Eternal Asia,China-Guangdong-Shenzhen
 zhou_hongyi,Zhou Hongyi,周鸿祎,Male,1970.0,China,Software & Services,360 Security Technology,Beijing-Beijing
 zhou_huasong,Zhou Huasong,周华松,Male,1966.0,,Machinery,Solex High-tech Industries,China-Xiamen
-zhou_jian,Zhou Jian,周剑,Male,1976.0,China,Consumer Goods,UBtech,China-Guangdong-Shenzhen
-zhou_jian_2,Zhou Jian,,,,,IT,UB Tech,
-zhou_jian_3,Zhou Jian,周剑,Male,1976.0,,Industrial Products,Maxwell,China-Jiangsu-Suzhou
-zhou_jian_4,Zhou Jian,,,,,IT,UB Tech,
+zhou_jian,Zhou Jian,,,,,IT,UB Tech,
+zhou_jian_2,Zhou Jian,周剑,Male,1976.0,China,Consumer Goods,UBtech,China-Guangdong-Shenzhen
+zhou_jian_3,Zhou Jian,,,,,IT,UB Tech,
+zhou_jian_4,Zhou Jian,周剑,Male,1976.0,,Industrial Products,Maxwell,China-Jiangsu-Suzhou
 zhou_jianping,Zhou Jianping,周建平,Male,1961.0,China,Consumer Goods,Heilan,Jiangsu-Wuxi
 zhou_jingliang,Zhou Jingliang,周敬良,Male,1950.0,China,Food & Beverages,Ganten,Guangdong-Shenzhen
 zhou_jinhui,Zhou Jinhui,周金辉,Male,,China,Developer,Sinobo,China-Beijing
