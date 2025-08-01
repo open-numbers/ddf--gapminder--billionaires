@@ -1,16 +1,18 @@
 import pandas as pd
 import os
+import datetime
+
+
+# Reference date is 2025-04-01. we assume this is the release date for latest forbes
+# change it when new data comes.
+reference_date = datetime.datetime(2025, 4, 1)
 
 
 def transform_forbes_data(source_dir, output_dir):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    all_files = [
-        os.path.join(source_dir, f)
-        for f in os.listdir(source_dir)
-        if f.endswith(".csv")
-    ]
+    all_files = [os.path.join(source_dir, f) for f in os.listdir(source_dir) if f.endswith(".csv")]
     all_files.sort()
 
     datapoints_list = []
@@ -34,11 +36,21 @@ def transform_forbes_data(source_dir, output_dir):
 
             person_id = str(row["person"]).replace("-", "_")
 
-            datapoints_list.append(
-                {"person": person_id, "year": year, "worth": row["worth"]}
-            )
+            # Convert worth from millions to billions
+            worth_in_billions = row["worth"] / 1000
+
+            datapoints_list.append({"person": person_id, "year": year, "worth": worth_in_billions})
 
             image_uri = row.get("imageUri", "")
+
+            # Calculate birth year from age (if age is available)
+            age = row.get("age", "")
+            birth_year = None
+            if age and not pd.isna(age):
+                try:
+                    birth_year = reference_date.year - int(age)
+                except (ValueError, TypeError):
+                    birth_year = None
 
             # Overwrite with the latest data. Since files are sorted by year,
             # this will keep the data from the last year a person appears.
@@ -47,6 +59,7 @@ def transform_forbes_data(source_dir, output_dir):
                 "name": row.get("name", ""),
                 "last_name": row.get("lastName", ""),
                 "age": row.get("age", ""),
+                "birth_year": birth_year,
                 "gender": row.get("gender", ""),
                 "country": row.get("country", ""),
                 "source": row.get("source", ""),
@@ -66,9 +79,7 @@ def transform_forbes_data(source_dir, output_dir):
         os.path.join(output_dir, "ddf--datapoints--worth--by--person--year.csv"),
         index=False,
     )
-    entities_df.to_csv(
-        os.path.join(output_dir, "ddf--entities--person.csv"), index=False
-    )
+    entities_df.to_csv(os.path.join(output_dir, "ddf--entities--person.csv"), index=False)
 
 
 if __name__ == "__main__":
