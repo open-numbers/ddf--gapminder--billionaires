@@ -44,8 +44,8 @@ class NameMatcher:
             print(f"Error loading data: {e}")
 
     def get_wealth_data(self, person_id: str, source: str) -> Dict[str, Any]:
-        """Get latest wealth data for a person from the last 3 years."""
-        wealth_data = {"latest_wealth": None, "wealth_years": []}
+        """Get average wealth data for a person from the last 3 years."""
+        wealth_data = {"average_wealth": None, "wealth_years": []}
 
         try:
             if source == "hurun":
@@ -67,9 +67,9 @@ class NameMatcher:
                     wealth_data["wealth_years"] = person_wealth[
                         ["year", "worth" if source == "forbes" else "wealth"]
                     ].to_dict("records")
-                    wealth_data["latest_wealth"] = person_wealth.iloc[0][
-                        "worth" if source == "forbes" else "wealth"
-                    ]
+                    # Calculate average wealth
+                    wealth_column = "worth" if source == "forbes" else "wealth"
+                    wealth_data["average_wealth"] = person_wealth[wealth_column].mean()
         except Exception as e:
             print(f"Error loading wealth data: {e}")
 
@@ -113,7 +113,7 @@ class NameMatcher:
                         "industry": person_row.get("industry", None),
                         "company": person_row.get("company", None),
                         "title": person_row.get("title", None),
-                        # "latest_wealth": wealth_data["latest_wealth"],
+                        "average_wealth": wealth_data["average_wealth"],
                         "wealth_history": wealth_data["wealth_years"],
                     }
                 )
@@ -145,7 +145,7 @@ class NameMatcher:
                         "industry": person_row.get("industry", None),
                         "company": person_row.get("company", None),
                         "title": person_row.get("title", None),
-                        # "latest_wealth": wealth_data["latest_wealth"],
+                        "average_wealth": wealth_data["average_wealth"],
                         "wealth_history": wealth_data["wealth_years"],
                     }
                 )

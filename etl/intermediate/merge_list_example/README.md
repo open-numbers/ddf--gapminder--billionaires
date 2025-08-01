@@ -29,7 +29,17 @@ As per the methodology document, we:
    - Maps both Hurun entities ("zong_qinghou" and "zong_qinghou_family") to this unified ID
    - Maps the Forbes entity ("zong_qinghou") to this unified ID
 
-## Data Discrepancies Noted
+When looking up the matches we should consider these criteria (sorted by importance):
+
+1. name similarity
+2. company / industry
+3. birth year
+4. country
+5. wealth
+
+1 and 2 are most reliable to decide if 2 entries are the same. But sometimes the naming convention differs between lists (see below note). In case if we can not found a name in a list, we should think one more step and see if there are naming convention issue involved.
+
+### Data Discrepancies Noted
 
 While not included in the ID mapping file itself, we observed these discrepancies:
 - Birth year difference (1945 in Hurun vs 1948 in Forbes)
@@ -38,7 +48,7 @@ While not included in the ID mapping file itself, we observed these discrepancie
   - For Elon Musk (2023-2025): Hurun reports $157-420 billion vs Forbes $180-342 billion
 - The family entity in Hurun contains earlier wealth data (2014-2016) than the individual entity
 
-## Name Variations Between Lists
+### Name Variations Between Lists
 
 A significant challenge identified is name variations between the two lists, particularly for Chinese billionaires:
 - The same person appears as "Jack Ma" in Forbes but as "Ma Yun" in Hurun
