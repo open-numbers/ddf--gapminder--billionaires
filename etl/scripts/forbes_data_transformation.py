@@ -3,9 +3,9 @@ import os
 import datetime
 
 
-# Reference date is 2025-04-01. we assume this is the release date for latest forbes
-# change it when new data comes.
-reference_date = datetime.datetime(2025, 4, 1)
+# Reference date is April 1 of the current year.
+# We assume this is the release date for latest forbes.
+reference_date = datetime.datetime(datetime.datetime.now().year, 4, 1)
 
 # Function to convert gender from M/F to Male/Female
 def convert_gender(gender):
@@ -57,7 +57,7 @@ def transform_forbes_data(source_dir, output_dir):
             birth_year = None
             if age and not pd.isna(age):
                 try:
-                    birth_year = reference_date.year - int(age)
+                    birth_year = year - int(age)
                 except (ValueError, TypeError):
                     birth_year = None
 
@@ -67,7 +67,7 @@ def transform_forbes_data(source_dir, output_dir):
                 "person": person_id,
                 "name": row.get("name", ""),
                 "last_name": row.get("lastName", ""),
-                "age": row.get("age", ""),
+                "age": reference_date.year - birth_year if birth_year else row.get("age", ""),
                 "birth_year": birth_year,
                 "gender": convert_gender(row.get("gender", "")),
                 "country": row.get("country", ""),

@@ -362,7 +362,7 @@ def standardize_person_name_id(hurun_data):
     return transformed_data
 
 
-def get_birth_year(df):
+def get_birth_year(df, year):
     """Extract birth year from various columns."""
     if "hs_Character_Birthday" in df.columns:
 
@@ -387,9 +387,7 @@ def get_birth_year(df):
                 return np.nan
             try:
                 age = int(row["hs_Character_Age"])
-                # Use the year from the dataframe if available, otherwise assume current processing year
-                year = getattr(row, "year", 2020)  # fallback year
-                return int(year) - age
+                return year - age
             except ValueError:
                 return np.nan
 
@@ -405,7 +403,7 @@ def add_birth_year_column(transformed_data):
 
     for year, df in transformed_data.items():
         if "birth_year" not in df.columns:
-            df["birth_year"] = get_birth_year(df)
+            df["birth_year"] = get_birth_year(df, year)
 
     return transformed_data
 
@@ -529,16 +527,17 @@ def create_unified_dataset(transformed_data):
 
     # Combine data from all years
     all_data = []
-    for _, df in sorted(transformed_data.items()):
+    for year, df in sorted(transformed_data.items()):
         year_df = df.copy()
 
         # Ensure all key columns exist
         for col in key_columns:
             if col not in year_df.columns:
                 year_df[col] = np.nan
+        year_df["year"] = year
 
         # Extract birth year
-        year_df["birth_year"] = get_birth_year(year_df)
+        year_df["birth_year"] = get_birth_year(year_df, year)
 
         # Set placeholder birth years (1900) to NA as they're likely not accurate
         year_df.loc[year_df["birth_year"] == 1900, "birth_year"] = np.nan
