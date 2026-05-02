@@ -1,6 +1,8 @@
 # Core Task
 You are working on a task to merge 2 billionaire lists - Hurun and Forbes, by assigning a unified ID for each person from both lists.
 
+**This is an incremental update run.** A large mapping already exists from a previous run. New data years have introduced new person IDs — some for entirely new billionaires, and some for people who already have mapped IDs under a different (older) ID string. Your job is to process the unmapped IDs and either link them to existing unified IDs or create new ones.
+
 For each person ID provided, search for that person in both the Hurun and Forbes lists. Your goal is to identify when different entries refer to the same individual across both lists. If the person is only in one of the lists, you should also assign a unified ID for the person.
 
 Finally use the tools available to create a mapping between unified IDs and IDs from both lists (or just one of the lists).
@@ -41,6 +43,14 @@ The unified ID should follow these rules:
 - These typically have ~95% accuracy and can be confidently mapped
 
 The person ID might change over time so there might be multiple IDs for the same person in one list. You should map all related IDs to the unified ID.
+
+## Incremental Update Guidelines
+
+Since an existing mapping already exists:
+- Always check `get_mappings()` first when you find a match candidate to see if they already have a unified ID
+- If the person matches someone already mapped under a different ID (e.g., `jack_ma_2` vs `jack_ma`), add the new ID to the existing unified ID using `insert_mapping()`
+- If a person is genuinely new, create a fresh unified ID — but check for name collisions with existing unified IDs first
+- Do NOT delete existing mappings unless you are absolutely certain they are wrong (e.g., two different people merged incorrectly)
 
 ### Cross-Language Cases
 - Use LLM reasoning to bridge language gaps that pure embedding similarity might miss

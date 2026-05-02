@@ -6,13 +6,14 @@ MCP Server for embedding-based matching between Hurun and Forbes billionaire lis
 import asyncio
 import json
 import pandas as pd
+import sys
 from pathlib import Path
 from typing import List, Dict, Any
 import numpy as np
 from sentence_transformers import SentenceTransformer
 import pickle
 from sklearn.metrics.pairwise import cosine_similarity
-from rapidfuzz import fuzz, process
+from rapidfuzz import fuzz
 import mcp.server.stdio
 import mcp.types as types
 from mcp.server import NotificationOptions, Server
@@ -32,59 +33,61 @@ class EmbeddingMatcher:
     def load_data(self):
         """Load Hurun and Forbes data from CSV files."""
         try:
+            base_dir = Path(__file__).resolve().parent.parent
             # Load Hurun data
-            hurun_path = (
-                Path(__file__).parent.parent / "intermediate/hurun/ddf--entities--person.csv"
-            )
+            hurun_path = base_dir / "intermediate/hurun/ddf--entities--person.csv"
             if hurun_path.exists():
                 self.hurun_data = pd.read_csv(hurun_path).replace({np.nan: None})
-                print(f"Loaded {len(self.hurun_data)} Hurun entries")
+                print(f"Loaded {len(self.hurun_data)} Hurun entries", file=sys.stderr)
             else:
-                print(f"Hurun data not found at {hurun_path}")
+                print(f"Hurun data not found at {hurun_path}", file=sys.stderr)
 
             # Load Forbes data
-            forbes_path = (
-                Path(__file__).parent.parent / "intermediate/forbes/ddf--entities--person.csv"
-            )
+            forbes_path = base_dir / "intermediate/forbes/ddf--entities--person.csv"
             if forbes_path.exists():
                 self.forbes_data = pd.read_csv(forbes_path).replace({np.nan: None})
-                print(f"Loaded {len(self.forbes_data)} Forbes entries")
+                print(f"Loaded {len(self.forbes_data)} Forbes entries", file=sys.stderr)
             else:
-                print(f"Forbes data not found at {forbes_path}")
+                print(f"Forbes data not found at {forbes_path}", file=sys.stderr)
 
         except Exception as e:
-            print(f"Error loading data: {e}")
+            print(f"Error loading data: {e}", file=sys.stderr)
 
     def load_embeddings(self):
         """Load pre-generated embeddings and metadata."""
         try:
+            base_dir = Path(__file__).resolve().parent.parent
             embeddings_path = (
-                Path(__file__).parent.parent / "intermediate/embeddings/billionaire_embeddings.pkl"
+                base_dir / "intermediate/embeddings/billionaire_embeddings.pkl"
             )
             if embeddings_path.exists():
                 with open(embeddings_path, "rb") as f:
                     data = pickle.load(f)
                     self.embeddings = data["embeddings"]
                     self.metadata = data["metadata"]
-                print(f"Loaded {len(self.metadata)} billionaire embeddings")
+                print(
+                    f"Loaded {len(self.metadata)} billionaire embeddings",
+                    file=sys.stderr,
+                )
             else:
-                print(f"Embeddings not found at {embeddings_path}")
+                print(f"Embeddings not found at {embeddings_path}", file=sys.stderr)
         except Exception as e:
-            print(f"Error loading embeddings: {e}")
+            print(f"Error loading embeddings: {e}", file=sys.stderr)
 
     def get_wealth_data(self, person_id: str, source: str) -> Dict[str, Any]:
         """Get average wealth data for a person from the last 3 years."""
         wealth_data = {"average_wealth": None, "wealth_years": []}
 
         try:
+            base_dir = Path(__file__).resolve().parent.parent
             if source == "hurun":
                 wealth_path = (
-                    Path(__file__).parent.parent
+                    base_dir
                     / "intermediate/hurun/ddf--datapoints--wealth--by--person--year.csv"
                 )
             else:  # forbes
                 wealth_path = (
-                    Path(__file__).parent.parent
+                    base_dir
                     / "intermediate/forbes/ddf--datapoints--worth--by--person--year.csv"
                 )
 
@@ -94,7 +97,9 @@ class EmbeddingMatcher:
 
                 if not person_wealth.empty:
                     # Get latest 3 years of data
-                    person_wealth = person_wealth.sort_values("year", ascending=False).head(3)
+                    person_wealth = person_wealth.sort_values(
+                        "year", ascending=False
+                    ).head(3)
                     wealth_data["wealth_years"] = person_wealth[
                         ["year", "worth" if source == "forbes" else "wealth"]
                     ].to_dict("records")
@@ -102,12 +107,18 @@ class EmbeddingMatcher:
                     wealth_column = "worth" if source == "forbes" else "wealth"
                     wealth_data["average_wealth"] = person_wealth[wealth_column].mean()
         except Exception as e:
-            print(f"Error loading wealth data: {e}")
+            print(f"Error loading wealth data: {e}", file=sys.stderr)
 
         return wealth_data
 
     def create_query_profile(
-        self, name=None, country=None, company=None, birth_year=None, industry=None, gender=None
+        self,
+        name=None,
+        country=None,
+        company=None,
+        birth_year=None,
+        industry=None,
+        gender=None,
     ):
         """Create a standardized query profile string matching the embedding generation format."""
         profile_parts = []
@@ -212,9 +223,13 @@ class EmbeddingMatcher:
 
             # Get detailed person data
             if match_source == "hurun" and self.hurun_data is not None:
-                person_row = self.hurun_data[self.hurun_data["person"] == match_person_id]
+                person_row = self.hurun_data[
+                    self.hurun_data["person"] == match_person_id
+                ]
             elif match_source == "forbes" and self.forbes_data is not None:
-                person_row = self.forbes_data[self.forbes_data["person"] == match_person_id]
+                person_row = self.forbes_data[
+                    self.forbes_data["person"] == match_person_id
+                ]
             else:
                 continue
 
@@ -270,26 +285,32 @@ class EmbeddingMatcher:
                 name = row.get("name", "")
                 chinese_name = row.get("chinese_name", "")
                 if pd.notna(name):
-                    all_candidates.append({
-                        "name": name,
-                        "chinese_name": chinese_name if pd.notna(chinese_name) else None,
-                        "person_id": row.get("person", ""),
-                        "source": "hurun",
-                        "row": row
-                    })
+                    all_candidates.append(
+                        {
+                            "name": name,
+                            "chinese_name": chinese_name
+                            if pd.notna(chinese_name)
+                            else None,
+                            "person_id": row.get("person", ""),
+                            "source": "hurun",
+                            "row": row,
+                        }
+                    )
 
         # Collect candidates from Forbes
         if source in [None, "forbes"] and self.forbes_data is not None:
             for _, row in self.forbes_data.iterrows():
                 name = row.get("name", "")
                 if pd.notna(name):
-                    all_candidates.append({
-                        "name": name,
-                        "chinese_name": None,
-                        "person_id": row.get("person", ""),
-                        "source": "forbes",
-                        "row": row
-                    })
+                    all_candidates.append(
+                        {
+                            "name": name,
+                            "chinese_name": None,
+                            "person_id": row.get("person", ""),
+                            "source": "forbes",
+                            "row": row,
+                        }
+                    )
 
         # Perform fuzzy matching
         matches = []
@@ -306,10 +327,7 @@ class EmbeddingMatcher:
             final_score = max(name_score, chinese_score)
 
             if final_score >= min_score:
-                matches.append({
-                    "candidate": candidate,
-                    "score": final_score
-                })
+                matches.append({"candidate": candidate, "score": final_score})
 
         # Sort by score (descending) and limit results
         matches.sort(key=lambda x: x["score"], reverse=True)
@@ -326,22 +344,24 @@ class EmbeddingMatcher:
             # Get wealth data
             wealth_data = self.get_wealth_data(person_id, source)
 
-            results.append({
-                "source": source,
-                "name": row.get("name", ""),
-                "chinese_name": row.get("chinese_name", None),
-                "person_id": person_id,
-                "fuzzy_score": match["score"],
-                "birth_year": row.get("birth_year", None),
-                "gender": row.get("gender", None),
-                "country": row.get("country", None),
-                "industry": row.get("industry", None),
-                "company": row.get("company", None),
-                "headquarter": row.get("headquarter", None),
-                "title": row.get("title", None),
-                "average_wealth": wealth_data["average_wealth"],
-                "wealth_history": wealth_data["wealth_years"],
-            })
+            results.append(
+                {
+                    "source": source,
+                    "name": row.get("name", ""),
+                    "chinese_name": row.get("chinese_name", None),
+                    "person_id": person_id,
+                    "fuzzy_score": match["score"],
+                    "birth_year": row.get("birth_year", None),
+                    "gender": row.get("gender", None),
+                    "country": row.get("country", None),
+                    "industry": row.get("industry", None),
+                    "company": row.get("company", None),
+                    "headquarter": row.get("headquarter", None),
+                    "title": row.get("title", None),
+                    "average_wealth": wealth_data["average_wealth"],
+                    "wealth_history": wealth_data["wealth_years"],
+                }
+            )
 
         return results
 
@@ -363,7 +383,10 @@ async def handle_list_tools() -> List[types.Tool]:
             inputSchema={
                 "type": "object",
                 "properties": {
-                    "person_id": {"type": "string", "description": "The person ID to search for. (must be lowercase alphanumeric, connect with underscore)"},
+                    "person_id": {
+                        "type": "string",
+                        "description": "The person ID to search for. (must be lowercase alphanumeric, connect with underscore)",
+                    },
                     "list": {
                         "type": "string",
                         "description": "The source dataset: either 'hurun' or 'forbes'",
@@ -383,7 +406,10 @@ async def handle_list_tools() -> List[types.Tool]:
             inputSchema={
                 "type": "object",
                 "properties": {
-                    "name": {"type": "string", "description": "The name to search for (can be partial or slightly misspelled)"},
+                    "name": {
+                        "type": "string",
+                        "description": "The name to search for (can be partial or slightly misspelled)",
+                    },
                     "list": {
                         "type": "string",
                         "description": "Optional source filter: 'hurun', 'forbes', or omit for both",
@@ -404,7 +430,7 @@ async def handle_list_tools() -> List[types.Tool]:
                 },
                 "required": ["name"],
             },
-        )
+        ),
     ]
 
 
@@ -417,12 +443,17 @@ async def handle_call_tool(name: str, arguments: dict) -> List[types.TextContent
         limit = arguments.get("limit", 10)
 
         if not person_id:
-            return [types.TextContent(type="text", text="Error: person_id parameter is required")]
+            return [
+                types.TextContent(
+                    type="text", text="Error: person_id parameter is required"
+                )
+            ]
 
         if source not in ["hurun", "forbes"]:
             return [
                 types.TextContent(
-                    type="text", text="Error: list parameter must be either 'hurun' or 'forbes'"
+                    type="text",
+                    text="Error: list parameter must be either 'hurun' or 'forbes'",
                 )
             ]
 
@@ -440,7 +471,11 @@ async def handle_call_tool(name: str, arguments: dict) -> List[types.TextContent
             return [types.TextContent(type="text", text=json.dumps(response, indent=2))]
 
         except Exception as e:
-            return [types.TextContent(type="text", text=f"Error performing search: {str(e)}")]
+            return [
+                types.TextContent(
+                    type="text", text=f"Error performing search: {str(e)}"
+                )
+            ]
 
     elif name == "fuzzy_name_search":
         name_query = arguments.get("name", "")
@@ -449,17 +484,22 @@ async def handle_call_tool(name: str, arguments: dict) -> List[types.TextContent
         min_score = arguments.get("min_score", 70)
 
         if not name_query:
-            return [types.TextContent(type="text", text="Error: name parameter is required")]
+            return [
+                types.TextContent(type="text", text="Error: name parameter is required")
+            ]
 
         if source and source not in ["hurun", "forbes"]:
             return [
                 types.TextContent(
-                    type="text", text="Error: list parameter must be either 'hurun', 'forbes', or omitted"
+                    type="text",
+                    text="Error: list parameter must be either 'hurun', 'forbes', or omitted",
                 )
             ]
 
         try:
-            results = embedding_matcher.fuzzy_name_search(name_query, source, limit, min_score)
+            results = embedding_matcher.fuzzy_name_search(
+                name_query, source, limit, min_score
+            )
 
             # Format results as JSON
             response = {
@@ -473,7 +513,11 @@ async def handle_call_tool(name: str, arguments: dict) -> List[types.TextContent
             return [types.TextContent(type="text", text=json.dumps(response, indent=2))]
 
         except Exception as e:
-            return [types.TextContent(type="text", text=f"Error performing fuzzy search: {str(e)}")]
+            return [
+                types.TextContent(
+                    type="text", text=f"Error performing fuzzy search: {str(e)}"
+                )
+            ]
 
     else:
         return [types.TextContent(type="text", text=f"Unknown tool: {name}")]

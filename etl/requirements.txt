@@ -1,3 +1,4 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
 # Unified ETL + MCP dependencies
 
 # Core data processing
@@ -8,6 +9,7 @@ numpy
 mcp
 
 # Embeddings and similarity
+torch
 sentence-transformers
 scikit-learn
 

@@ -7,12 +7,23 @@ import json
 import pandas as pd
 import random
 import os
-from agents import Agent, RunContextWrapper, Runner, function_tool
+from agents import (
+    Agent,
+    RunContextWrapper,
+    Runner,
+    function_tool,
+    set_default_openai_api,
+    set_default_openai_client,
+    set_tracing_disabled,
+)
 from agents.exceptions import MaxTurnsExceeded
 from agents.mcp import MCPServerStdio
-from pydantic import BaseModel
+from openai import AsyncOpenAI
 from typing import List, Tuple, Dict
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass
+
+
+set_tracing_disabled(disabled=True)
 
 
 def load_agent_instructions():
@@ -44,11 +55,15 @@ class IDMapping:
 
 # function call to get current mapping
 @function_tool
-def get_mappings(wrapper: RunContextWrapper[IDMapping], key: str | None) -> List[IDMappingItem]:
+def get_mappings(
+    wrapper: RunContextWrapper[IDMapping], key: str | None = None
+) -> List[IDMappingItem]:
     """if key (a unified person ID) is provided, only return the mapping for the key. Otherwise return the entire list"""
     if key:
         # Filter to only return the mapping for the specified unified_person_id
-        return [item for item in wrapper.context.mapping if item.unified_person_id == key]
+        return [
+            item for item in wrapper.context.mapping if item.unified_person_id == key
+        ]
     return wrapper.context.mapping
 
 
@@ -57,19 +72,23 @@ def get_mappings(wrapper: RunContextWrapper[IDMapping], key: str | None) -> List
 def insert_mapping(
     wrapper: RunContextWrapper[IDMapping],
     unified_person_id: str,
-    hurun_id: str | None,
-    forbes_id: str | None,
+    hurun_id: str | None = None,
+    forbes_id: str | None = None,
 ) -> str:
     """insert a mapping and return a message about if record inserted successfully. Also update the reverse mapping."""
     # Check if hurun_id is already mapped to a different unified_person_id
     if hurun_id:
-        existing_hurun_mapping = wrapper.context.reverse_mapping.get(("hurun", hurun_id))
+        existing_hurun_mapping = wrapper.context.reverse_mapping.get(
+            ("hurun", hurun_id)
+        )
         if existing_hurun_mapping and existing_hurun_mapping != unified_person_id:
             return f"Error: hurun_id {hurun_id} is already mapped to {existing_hurun_mapping}, cannot map to {unified_person_id}"
 
     # Check if forbes_id is already mapped to a different unified_person_id
     if forbes_id:
-        existing_forbes_mapping = wrapper.context.reverse_mapping.get(("forbes", forbes_id))
+        existing_forbes_mapping = wrapper.context.reverse_mapping.get(
+            ("forbes", forbes_id)
+        )
         if existing_forbes_mapping and existing_forbes_mapping != unified_person_id:
             return f"Error: forbes_id {forbes_id} is already mapped to {existing_forbes_mapping}, cannot map to {unified_person_id}"
 
@@ -97,7 +116,9 @@ def insert_mapping(
         forbes_ids = [forbes_id] if forbes_id else []
 
         new_item = IDMappingItem(
-            unified_person_id=unified_person_id, hurun_ids=hurun_ids, forbes_ids=forbes_ids
+            unified_person_id=unified_person_id,
+            hurun_ids=hurun_ids,
+            forbes_ids=forbes_ids,
         )
 
         wrapper.context.mapping.append(new_item)
@@ -112,7 +133,9 @@ def insert_mapping(
 
 
 @function_tool
-def delete_mapping(wrapper: RunContextWrapper[IDMapping], unified_person_id: str) -> str:
+def delete_mapping(
+    wrapper: RunContextWrapper[IDMapping], unified_person_id: str
+) -> str:
     """delete a mapping by unified_person_id and remove all associated reverse mappings."""
     # Find the mapping item to delete
     item_to_delete = None
@@ -143,6 +166,40 @@ def delete_mapping(wrapper: RunContextWrapper[IDMapping], unified_person_id: str
     return f"Successfully deleted mapping for unified_person_id {unified_person_id} and all associated reverse mappings"
 
 
+def load_mapping_from_json(filename: str = "mapping.json") -> IDMapping:
+    """Load an existing mapping from a JSON file."""
+    if not os.path.exists(filename):
+        print(f"No existing mapping found at {filename}, starting fresh.")
+        return IDMapping(mapping=[], reverse_mapping={})
+
+    with open(filename, "r", encoding="utf-8") as f:
+        mapping_data = json.load(f)
+
+    mapping_list = [
+        IDMappingItem(
+            unified_person_id=item["unified_person_id"],
+            hurun_ids=item["hurun_ids"],
+            forbes_ids=item["forbes_ids"],
+        )
+        for item in mapping_data
+    ]
+
+    # Rebuild reverse mapping
+    reverse = {}
+    for item in mapping_list:
+        for hid in item.hurun_ids:
+            reverse[("hurun", hid)] = item.unified_person_id
+        for fid in item.forbes_ids:
+            reverse[("forbes", fid)] = item.unified_person_id
+
+    print(
+        f"Loaded {len(mapping_list)} mappings from {filename} "
+        f"({sum(1 for k in reverse if k[0] == 'hurun')} hurun, "
+        f"{sum(1 for k in reverse if k[0] == 'forbes')} forbes IDs)"
+    )
+    return IDMapping(mapping=mapping_list, reverse_mapping=reverse)
+
+
 def save_mapping_to_json(mapping: IDMapping, filename: str = "mapping.json"):
     """Save the mapping to a JSON file."""
     # Convert dataclasses to dictionaries for JSON serialization
@@ -162,25 +219,49 @@ def save_mapping_to_json(mapping: IDMapping, filename: str = "mapping.json"):
 
 
 async def main():
+    project_root = os.path.abspath(
+        os.path.join(os.path.dirname(__file__), "..", "..", "..")
+    )
+    venv_python = os.path.join(project_root, ".venv", "bin", "python")
+    mcp_server_script = os.path.abspath(
+        os.path.join(os.path.dirname(__file__), "..", "mcp_name_matcher.py")
+    )
+
     async with MCPServerStdio(
         params={
-            "command": "/home/semio/src/work/gapminder/datasets/repo/github.com/open-numbers/.venv/bin/python",
-            "args": [
-                "/home/semio/src/work/gapminder/datasets/repo/github.com/open-numbers/ddf--gapminder--billionaires/etl/scripts/mcp_name_matcher.py"
-            ],
+            "command": venv_python,
+            "args": [mcp_server_script],
         },
         client_session_timeout_seconds=60,
     ) as billionaire_server:
-        mapping = IDMapping(mapping=[], reverse_mapping={})
+        mapping = load_mapping_from_json(
+            os.path.join(
+                os.path.dirname(__file__),
+                "..",
+                "..",
+                "intermediate",
+                "mapping.json",
+            )
+        )
         # Load agent instructions from file
         instructions = load_agent_instructions()
+
+        print("Using DeepSeek API (deepseek-v4-pro)")
+        # Use DeepSeek API (OpenAI-compatible)
+        deepseek_client = AsyncOpenAI(
+            base_url="https://api.deepseek.com",
+            api_key=os.environ.get("DEEPSEEK_API_KEY"),
+        )
+        set_default_openai_client(deepseek_client)
+        # Use chat/completions endpoint (not Responses API)
+        set_default_openai_api("chat_completions")
 
         agent = Agent[IDMapping](
             name="billionaire-mapping-agent",
             instructions=instructions,
             mcp_servers=[billionaire_server],
             tools=[get_mappings, insert_mapping, delete_mapping],
-            model="gpt-4.1-2025-04-14",
+            model="deepseek-v4-pro",
         )
 
         # Load both Hurun and Forbes person data
@@ -235,14 +316,21 @@ async def main():
             list_type, person_id = entities_to_check.pop(0)
             print(f"Processing {list_type} entity: {person_id}")
 
-            # Check if already mapped
-            existing_mapping = mapping.reverse_mapping.get((person_id, list_type))
+            # Check if already mapped (reverse_mapping key is (list_type, person_id))
+            existing_mapping = mapping.reverse_mapping.get((list_type, person_id))
             if existing_mapping:
                 print(f"  Already mapped to {existing_mapping}, skipping")
                 continue
 
-            # Query agent to create mapping
-            query = f"create mapping by searching {person_id} from {list_type}."
+            # Query agent to create mapping (this is an incremental update run)
+            query = (
+                f"This is an incremental update with new data. "
+                f"Search for {person_id} from the {list_type} list. "
+                f"This person may already have a mapping under a different ID "
+                f"(IDs can change between data releases), or may be entirely new. "
+                f"Use get_mappings() and search tools to determine the correct "
+                f"unified ID, then insert the mapping."
+            )
             try:
                 result = await Runner.run(agent, query, context=mapping, max_turns=20)
             except MaxTurnsExceeded:
@@ -276,14 +364,26 @@ async def main():
 
             # Save progress periodically
             if iteration % 50 == 0:
-                save_mapping_to_json(mapping, f"temp/mapping_progress_iter_{iteration}.json")
+                save_mapping_to_json(
+                    mapping,
+                    os.path.join(
+                        os.path.dirname(__file__),
+                        "..",
+                        "..",
+                        "intermediate",
+                        f"mapping_progress_iter_{iteration}.json",
+                    ),
+                )
 
         print("\n=== Processing Complete ===")
         print(f"Total iterations: {iteration}")
         print(f"Final mapping count: {len(mapping.mapping)}")
 
         # Save final mapping to JSON file
-        save_mapping_to_json(mapping)
+        mapping_path = os.path.join(
+            os.path.dirname(__file__), "..", "..", "intermediate", "mapping.json"
+        )
+        save_mapping_to_json(mapping, mapping_path)
 
 
 if __name__ == "__main__":
